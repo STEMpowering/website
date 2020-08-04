@@ -2051,6 +2051,7 @@ input, select, textarea {
 
 				.dropotron li > a:hover, .dropotron li > span:hover {
 					background: #eee;
+					color: #696969;
 				}
 
 			.dropotron li.active > a, .dropotron li.active > span {
