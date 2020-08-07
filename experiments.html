@@ -40,7 +40,21 @@
 				background: transparent;
 			}
 		</style>
+		<script>
+			// send info to server when link pressed
+			const sendInfo = function(event) {
+				alert('help');
+			}
+			const init = function(event) {
+				let aug1 = document.getElementById('aug1');
+
+				aug1.addEventListener('click', sendInfo);
+			};
+
+			window.addEventListener('DOMContentLoaded', init);
+		</script>
 	</head>
+
 	<body class="is-preload left-sidebar">
 		<div id="page-wrapper">
 
@@ -94,18 +108,6 @@
 											</ul>
 										</section>
 
-										<!-- Template with Find out more button
-										<section>
-											<h3>Subheading</h3>
-											<p>Phasellus quam turpis, feugiat sit amet ornare in, hendrerit in lectus.
-											Praesent semper mod quis eget mi. Etiam eu ante risus. Aliquam erat volutpat.
-											Aliquam luctus et mattis lectus sit amet pulvinar. Nam turpis nisi
-											consequat etiam.</p>
-											<footer>
-												<a href="#" class="button icon solid fa-info-circle">Find out more</a>
-											</footer>
-										</section> -->
-
 								</div>
 							</div>
 							<div class="col-8 col-12-medium imp-medium">
@@ -126,18 +128,11 @@
 
 											<h3 id="exp20-08"> August 2020 </h3>
 											<ul>
-												<li> <a href="assets/experiment_pdfs/August Exp. 1 Manual.pdf">What's in your Night Sky?</a> </li>
+												<li> <a href="#" id='aug1'>What's in your Night Sky?</a> </li>
 												<li> Acid Base Chemistry </li>
 												<li> Ice Cream Making Using Science </li>
 												<li> Take Flight and Make Your Own Plan </li>
 											</ul>
-
-											<!-- <h3><a name="exp20-07">July 2020</a></h3>
-											<p>some information AHHHHHH ------   some information AHHHHHH ------
-												some information AHHHHHH ------------   some information AHHHHHH ------
-												some information AHHHHHH ------   some information AHHHHHH ------
-												some information AHHHHHH ------   </p>
-											-->
 
 										</article>
 

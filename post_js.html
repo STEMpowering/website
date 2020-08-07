@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <script>
+    const sendPost = function (event) {
+      let data = {
+        body: document.getElementById('body').value
+      };
+
+      let url = 'post_test.php';
+      let fetchInfo = {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json'
+        },
+        body: JSON.stringify(data)
+      };
+
+      fetch(url, fetchInfo);
+    };
+
+    const init = function(e) {
+      //let butt = document.getElementById('subbtn');
+      let butt = document.getElementById('subbtn');
+
+      butt.addEventListener('click', sendPost);
+    }
+
+
+    window.addEventListener('DOMContentLoaded', init);
+  </script>
+</head>
+
+<body>
+  <form action="post_test.php" method="POST">
+    <label for='body'>Put some text here: </label>
+    <textarea name="body" id='body'></textarea>
+    <input type='button' value="Lets do this shit" id='subbtn'>
+  </form>
+</body>
+</html>
