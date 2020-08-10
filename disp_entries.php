@@ -9,7 +9,7 @@
     padding: 2%;
     display: inline-block;
     color: #00ff00;
-    background-color: #000044;
+    background-color: #000040;
   }
   .email {
     margin-left: 15%;
