@@ -72,7 +72,7 @@
       color: white;
       font-size: 2em;
       opacity: 0.75;
-      margin: 1em 0em 0em 1.2em;
+      margin: 1em 0em 0em 2em;
       margin-top: 1.5em;
       float: left;
     }
@@ -104,7 +104,7 @@
   <div class='blocky'>
     <span class='big-stat' id='total'><div>Total Requests</div><div class='num' id='totalNum'>45</div></span>
     <span class='big-stat'><div>Today</div><div class='num' id='todayNum'>5</div></span>
-    <span class='big-stat'><div>This week</div><div class='num' id='weekNum'>10</div></span>
+    <!-- <span class='big-stat'><div>This week</div><div class='num' id='weekNum'>10</div></span> -->
     <span class='big-stat'><div>This month</div><div class='num' id='monthNum'>20</div></span>
   </div>
 
@@ -127,6 +127,11 @@
     fetch(url, payload)
     .then(resp => resp.json())
     .then((data) => {
+      document.getElementById('totalNum').innerHTML = data.length;
+      let todayCount = 0;
+      let weekCount = 0;
+      let monthCount = 0;
+
       data.forEach((item, index) => {
         let newEntry = document.createElement('TR');
 
@@ -142,8 +147,23 @@
         id.innerHTML = item.id;
         newEntry.appendChild(id);
 
+        var today = new Date();
+        var formatMonth = ("0" + (today.getMonth()+1)).slice(-2);
+        today = today.getFullYear()+'-'+formatMonth+'-'+today.getDate();
+
+        let date = item.time.slice(0, 10);
+        if (date == today) {
+          todayCount++;
+        }
+        if (date.slice(0, 7) == today.slice(0, 7)) {
+          monthCount++;
+        }
+
         document.getElementById('all-emails').appendChild(newEntry);
       });
+
+      document.getElementById('todayNum').innerHTML = todayCount;
+      document.getElementById('monthNum').innerHTML = monthCount;
      });
 
 
