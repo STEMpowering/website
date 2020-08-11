@@ -93,6 +93,10 @@
     th {
       padding: 0.2em;
     }
+
+    #emailChart {
+      margin-top: 1em;
+    }
   </style>
 </head>
 <body>
@@ -116,9 +120,14 @@
     </tr>
   </table>
 
-  <input id='logout' type='button' value='Logout' style='border-radius: 5px; margin-top: 3em; font-size: 1.3em;'>
+  <canvas id="emailChart"></canvas>
+
+  <input id='logout' type='button' value='Logout' style='display: block; margin: auto; border-radius: 5px; margin-top: 3em; margin-bottom: 3em; font-size: 1.3em;'>
 
   <script>
+    // email count for months in last year (from month today minus one for last year)
+    let chartData = [1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0];
+
     // request data from server to get our email entries
     let url = 'get_stats.php'
     let payload = {
@@ -147,9 +156,13 @@
         id.innerHTML = item.id;
         newEntry.appendChild(id);
 
+        // stupid formatting to read the sql date format
         var today = new Date();
-        var formatMonth = ("0" + (today.getMonth()+1)).slice(-2);
-        today = today.getFullYear()+'-'+formatMonth+'-'+today.getDate();
+        let yrT = today.getFullYear();
+        let mT = today.getMonth();
+
+        var formatMonth = ("0" + (mT+1)).slice(-2);
+        today = yrT +'-'+ formatMonth +'-'+today.getDate();
 
         let date = item.time.slice(0, 10);
         if (date == today) {
@@ -157,6 +170,24 @@
         }
         if (date.slice(0, 7) == today.slice(0, 7)) {
           monthCount++;
+        }
+
+        // get the year for month sorting
+        let year = parseInt(date.slice(0, 4));
+        //alert(year.toString() + ' ' + yrT.toString());
+
+        if (year >= (yrT - 1)) {
+
+          let month = parseInt(date.slice(5, 7), 10);
+
+          if (year == (yrT - 1) && (month >= mT + 1)) {
+            month -= (mT - 1);
+            chartData[month] += 1;
+          } else if (year == yrT && (month <= mT)) {
+            month += 12 - mT;
+            chartData[month] += 1;
+          }
+
         }
 
         document.getElementById('all-emails').appendChild(newEntry);
@@ -184,6 +215,53 @@
       .then(resp => resp.text())
       .then((text) => { window.location.href = 'stats_login.php'; });
     });
+  </script>
+
+  <!-- Charting script -->
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script>
+  <script>
+  let months = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'];
+  let date = new Date();
+  let monthI = date.getMonth();
+  let labels = months.slice(0, monthI+1);
+  // insert previous ones at beginning
+  let newMonths = months.slice(monthI+1).reverse();
+  newMonths.forEach(function(item, index) {
+    labels.unshift(item);
+  });
+
+  /*chartData.forEach(function(item, index) {
+    alert(item);
+  });*/
+
+  var ctx = document.getElementById('emailChart').getContext('2d');
+  var chart = new Chart(ctx, {
+      // The type of chart we want to create
+      type: 'bar',
+
+      // The data for our dataset
+      data: {
+          labels: labels,
+          datasets: [{
+              backgroundColor: 'rgb(255, 99, 132)',
+              borderColor: 'rgb(255, 99, 132)',
+              data: chartData
+          }]
+      },
+
+      // Configuration options go here
+      options:
+      { legend: { display: false },
+      scales: {
+        yAxes: [{
+            ticks: {
+                //max: 5,
+                //min: 0,
+                stepSize: 1
+            }
+        }]
+    } }
+  });
   </script>
 </body>
 </html>
