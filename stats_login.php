@@ -1,6 +1,10 @@
 <?php
   session_start();
 
+  if ($_SESSION['auth']) {
+    header('Location: stats.php');
+  }
+
   // check if authentication request
   if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     // check if its json :(
@@ -8,9 +12,14 @@
       $crap = trim(file_get_contents('php://input'));
       $json = json_decode($crap);
 
-      if (auth($json->user, $json->pass)) {
+      if ($json->log == 'in' && auth($json->user, $json->pass)) { // trying to log in
         $_SESSION['auth'] = true;
         echo('stats.php');
+      } else if ($json->log == 'out') { // trying to log out
+        unset($_SESSION['auth']);
+        session_destroy();
+        echo('stats_login.php');
+        exit();
       } else {
         echo('invalid');
       }
@@ -88,6 +97,7 @@
         let pass = document.getElementById('passIn').value;
 
         let data = {
+          log: 'in',
           user: user,
           pass: pass
         };

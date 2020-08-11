@@ -108,19 +108,62 @@
     <span class='big-stat'><div>This month</div><div class='num' id='monthNum'>20</div></span>
   </div>
 
-  <table>
+  <table id='all-emails'>
     <tr class='thead'>
       <th>Time</th>
       <th>Email</th>
       <th>ID</th>
     </tr>
-    <tr>
-      <td>1934</td>
-      <td>canada@unitedstates.england</td>
-      <td>42069696969</td>
-    </tr>
   </table>
 
-  <input type='button' value='Logout' style='border-radius: 5px; margin-top: 3em; font-size: 1.3em;'>
+  <input id='logout' type='button' value='Logout' style='border-radius: 5px; margin-top: 3em; font-size: 1.3em;'>
+
+  <script>
+    // request data from server to get our email entries
+    let url = 'get_stats.php'
+    let payload = {
+      method: 'POST'
+    };
+    fetch(url, payload)
+    .then(resp => resp.json())
+    .then((data) => {
+      data.forEach((item, index) => {
+        let newEntry = document.createElement('TR');
+
+        let time = document.createElement('TD');
+        time.innerHTML = item.time;
+        newEntry.appendChild(time);
+
+        let email = document.createElement('TD');
+        email.innerHTML = item.email;
+        newEntry.appendChild(email);
+
+        let id = document.createElement('TD');
+        id.innerHTML = item.id;
+        newEntry.appendChild(id);
+
+        document.getElementById('all-emails').appendChild(newEntry);
+      });
+     });
+
+
+     // event listener for logging out
+     document.getElementById('logout').addEventListener('click', function(event) {
+      let url = 'stats_login.php';
+      let data = {
+        log: 'out'
+      };
+      let payload = {
+        method: 'POST',
+        headers: {
+          'Content-Type' : 'application/json'
+        },
+        body: JSON.stringify(data)
+      };
+      fetch(url, payload)
+      .then(resp => resp.text())
+      .then((text) => { window.location.href = 'stats_login.php'; });
+    });
+  </script>
 </body>
 </html>
