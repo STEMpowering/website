@@ -39,8 +39,109 @@
 			table thead {
 				background: transparent;
 			}
+
+			/* modal style */
+			#emailBtn {
+				background-color: #f44336;
+				margin-top: 0.6em;
+				float: right;
+				padding: 1em 0.75em;
+				font-size: 1.2em;
+			}
+			#emailBtn:hover {
+				background-color: #fa5c50;
+			}
+			#emailDes {
+				margin-bottom: 1.5em;
+			}
 		</style>
+		<script>
+			// file name to download on click from the server
+			var file_download = '';
+
+			// send info to server when link pressed
+			const emailHandle = function(event) {
+				let emailIn = document.getElementById('emailIn');
+				if (validateEmail(emailIn.value)) {
+					document.getElementById('emailError').style.display = 'none';
+				} else {
+					document.getElementById('emailError').style.display = 'block';
+					return;
+				}
+				// submit email into sql if successful
+				let filename = 'experiment.pdf'; // default name of the file when downloaded
+				let url = 'post_email.php';
+				let body = {
+					email: emailIn.value,
+					time: new Date().toISOString().slice(0, 19).replace('T', ' '),
+					file: file_download
+				};
+				let payload = {
+					method: 'POST',
+					body: JSON.stringify(body),
+					headers: {
+						'Content-Type': 'application/json'
+					}
+				};
+				fetch(url, payload)
+				.then((response) => {
+					let dispos = response.headers.get('Content-Disposition');
+					if (dispos != null) {
+						// get the filename
+						let pos = dispos.search('filename=');
+						filename = dispos.slice(pos + 'filename='.length);
+					}
+					return response.blob();
+				}).then(blob => downloadBlob(blob, filename));
+
+				$.modal.close();
+			}
+			// on click for requesting email
+			const modal_click = function(filename) {
+				$('#email_modal').modal({
+					clickClose: false,
+			    fadeDuration: 150
+			  });
+				file_download = filename;
+			};
+
+			const init = function(event) {
+				let emailBtn = document.getElementById('emailBtn');
+
+				emailBtn.addEventListener('click', emailHandle);
+			};
+
+			window.addEventListener('DOMContentLoaded', init);
+
+			// true if arg is an email string
+			function validateEmail(emailTest){
+        var reg = /^([A-Za-z0-9_\-\.])+\@([A-Za-z0-9_\-\.])+\.([A-Za-z]{2,4})$/;
+        return reg.test(emailTest);
+			}
+			// download blob on client pc
+			function downloadBlob(blob, filename) {
+				let url = URL.createObjectURL(blob);
+				// create download link that we can trigger to download
+				const a = document.createElement('a');
+
+				a.href = url;
+				a.download = filename || 'download';
+
+				const clickHandler = () => {
+			    setTimeout(() => {
+			      URL.revokeObjectURL(url);
+			      this.removeEventListener('click', clickHandler);
+			    }, 150);
+			  };
+
+				a.addEventListener('click', clickHandler, false);
+
+				// trigger the download
+				a.click();
+			}
+		</script>
 	</head>
+
 	<body class="is-preload left-sidebar">
 		<div id="page-wrapper">
 
@@ -94,18 +195,6 @@
 											</ul>
 										</section>
 
-										<!-- Template with Find out more button
-										<section>
-											<h3>Subheading</h3>
-											<p>Phasellus quam turpis, feugiat sit amet ornare in, hendrerit in lectus.
-											Praesent semper mod quis eget mi. Etiam eu ante risus. Aliquam erat volutpat.
-											Aliquam luctus et mattis lectus sit amet pulvinar. Nam turpis nisi
-											consequat etiam.</p>
-											<footer>
-												<a href="#" class="button icon solid fa-info-circle">Find out more</a>
-											</footer>
-										</section> -->
-
 								</div>
 							</div>
 							<div class="col-8 col-12-medium imp-medium">
@@ -126,18 +215,24 @@
 
 											<h3 id="exp20-08"> August 2020 </h3>
 											<ul>
-												<li> <a href="assets/experiment_pdfs/Week_1.pdf">What's in your Night Sky?</a> </li>
+												<li> <a onclick='modal_click("aug exp 1.pdf")'>What's in your Night Sky?</a> </li>
 												<li> Acid Base Chemistry </li>
 												<li> Ice Cream Making Using Science </li>
 												<li> Take Flight and Make Your Own Plan </li>
 											</ul>
 
-											<!-- <h3><a name="exp20-07">July 2020</a></h3>
-											<p>some information AHHHHHH ------   some information AHHHHHH ------
-												some information AHHHHHH ------------   some information AHHHHHH ------
-												some information AHHHHHH ------   some information AHHHHHH ------
-												some information AHHHHHH ------   </p>
-											-->
+											<!-- Modal for asking for email before download -->
+											<div id='email_modal' class='modal' style='display: none;'>
+												<div style='padding-left: 1em; padding-right: 1em;'>
+												<img src="images/logo.png" alt="" style='margin-left: 7em;'>
+												<h3 id='emailDes'> Enter your email and get your download! </h3>
+												<form onkeydown="return event.key != 'Enter';">
+													<input type='text' id='emailIn' placeholder="Email">
+													<p style='color: red; display: none;' id='emailError'> Please enter a valid email address </p>
+													<input type='button' id='emailBtn' value='Download!'>
+												</form>
+												</div>
+											</div>
 
 										</article>
 
@@ -151,7 +246,7 @@
 					<div id="footer-wrapper">
 						<footer id="footer" class="container">
 							<div class="row">
-								
+
 								<div class="col-3 col-6-medium col-12-small">
 
 									<!-- Contact -->
@@ -194,6 +289,10 @@
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
+
+			<!-- jQuery Modal - by kylefox :) -->
+			<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.js"></script>
+			<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.css" />
 
 	</body>
 </html>
