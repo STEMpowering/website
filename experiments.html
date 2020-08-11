@@ -99,6 +99,7 @@
 			// on click for requesting email
 			const modal_click = function(filename) {
 				$('#email_modal').modal({
+					clickClose: false,
 			    fadeDuration: 150
 			  });
 				file_download = filename;
@@ -226,7 +227,7 @@
 												<img src="images/logo.png" alt="" style='margin-left: 7em;'>
 												<h3 id='emailDes'> Enter your email and get your download! </h3>
 												<form onkeydown="return event.key != 'Enter';">
-													<input type='text' id='emailIn'>
+													<input type='text' id='emailIn' placeholder="Email">
 													<p style='color: red; display: none;' id='emailError'> Please enter a valid email address </p>
 													<input type='button' id='emailBtn' value='Download!'>
 												</form>

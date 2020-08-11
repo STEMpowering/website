@@ -26,7 +26,7 @@
   }
   $conn = $ret->conn;
 
-  $idk = $conn->prepare('SELECT * FROM emails;');
+  $idk = $conn->prepare('SELECT * FROM emails ORDER BY time DESC;');
   if (!$idk->execute()) {
     exit('Failure in sql command');
   }
