@@ -38,7 +38,7 @@
     table {
       width: 100%;
       text-align: center;
-      margin-top: 2em;
+      margin-top: 3em;
       border-spacing: 1px;
       border-style: solid;
       border-radius: 10px;
@@ -71,9 +71,9 @@
       padding: 0.1em 2em 0.1em 0.3em;
       color: white;
       font-size: 2em;
-      opacity: 0.75;
+      opacity: 1;
       margin: 1em 0em 0em 2em;
-      margin-top: 1.5em;
+      margin-top: 1.6em;
       float: left;
     }
     .big-stat:hover {
@@ -92,6 +92,10 @@
     }
     th {
       padding: 0.2em;
+    }
+
+    #emailChart {
+      margin-top: 4em;
     }
   </style>
 </head>
@@ -116,74 +120,13 @@
     </tr>
   </table>
 
-  <input id='logout' type='button' value='Logout' style='border-radius: 5px; margin-top: 3em; font-size: 1.3em;'>
+  <canvas id="emailChart"></canvas>
 
-  <script>
-    // request data from server to get our email entries
-    let url = 'get_stats.php'
-    let payload = {
-      method: 'POST'
-    };
-    fetch(url, payload)
-    .then(resp => resp.json())
-    .then((data) => {
-      document.getElementById('totalNum').innerHTML = data.length;
-      let todayCount = 0;
-      let weekCount = 0;
-      let monthCount = 0;
+  <input id='logout' type='button' value='Logout' style='display: block; margin: auto; border-radius: 5px; margin-top: 3em; margin-bottom: 3em; font-size: 1.3em;'>
 
-      data.forEach((item, index) => {
-        let newEntry = document.createElement('TR');
-
-        let time = document.createElement('TD');
-        time.innerHTML = item.time;
-        newEntry.appendChild(time);
-
-        let email = document.createElement('TD');
-        email.innerHTML = item.email;
-        newEntry.appendChild(email);
-
-        let id = document.createElement('TD');
-        id.innerHTML = item.id;
-        newEntry.appendChild(id);
-
-        var today = new Date();
-        var formatMonth = ("0" + (today.getMonth()+1)).slice(-2);
-        today = today.getFullYear()+'-'+formatMonth+'-'+today.getDate();
-
-        let date = item.time.slice(0, 10);
-        if (date == today) {
-          todayCount++;
-        }
-        if (date.slice(0, 7) == today.slice(0, 7)) {
-          monthCount++;
-        }
-
-        document.getElementById('all-emails').appendChild(newEntry);
-      });
-
-      document.getElementById('todayNum').innerHTML = todayCount;
-      document.getElementById('monthNum').innerHTML = monthCount;
-     });
-
-
-     // event listener for logging out
-     document.getElementById('logout').addEventListener('click', function(event) {
-      let url = 'stats_login.php';
-      let data = {
-        log: 'out'
-      };
-      let payload = {
-        method: 'POST',
-        headers: {
-          'Content-Type' : 'application/json'
-        },
-        body: JSON.stringify(data)
-      };
-      fetch(url, payload)
-      .then(resp => resp.text())
-      .then((text) => { window.location.href = 'stats_login.php'; });
-    });
-  </script>
+  <!-- Charting script -->
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script>
+  <!-- JS to load data -->
+  <script src='assets/js/stats.js'> </script>
 </body>
 </html>
