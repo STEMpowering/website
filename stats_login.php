@@ -27,8 +27,20 @@
     }
   }
 
+  // check username and password against the admin hashes
   function auth($user, $pass) {
-    return ($user == 'user' && $pass == 'pass');
+    $upath = 'assets/credentials/userhash'; $ppath = 'assets/credentials/passhash';
+    $ufile = fopen($upath, 'r');
+    $pfile = fopen($ppath, 'r');
+
+    $uhash = fread($ufile, filesize($upath));
+    $phash = fread($pfile, filesize($ppath));
+
+    fclose($ufile); fclose($pfile);
+
+    $uverify = password_verify($user, $uhash);
+    $pverify = password_verify($pass, $phash);
+    return $uverify && $pverify;
   }
 ?>
 <!DOCTYPE html>
