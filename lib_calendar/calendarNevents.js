@@ -18,7 +18,7 @@ document.addEventListener('DOMContentLoaded', function() {
       },
       {
         title: 'Acid Base Chemistry',
-        backgroundColor: '#aaaaaa',
+        backgroundColor: '#c800ff',
         url: '#exp20-08',
         start: '2020-08-10',
         end: '2020-08-15' // set this to be the day immediately after you want the event to occupy
