@@ -38,7 +38,7 @@
     table {
       width: 100%;
       text-align: center;
-      margin-top: 2em;
+      margin-top: 3em;
       border-spacing: 1px;
       border-style: solid;
       border-radius: 10px;
@@ -71,9 +71,9 @@
       padding: 0.1em 2em 0.1em 0.3em;
       color: white;
       font-size: 2em;
-      opacity: 0.75;
+      opacity: 1;
       margin: 1em 0em 0em 2em;
-      margin-top: 1.5em;
+      margin-top: 1.6em;
       float: left;
     }
     .big-stat:hover {
@@ -95,7 +95,7 @@
     }
 
     #emailChart {
-      margin-top: 1em;
+      margin-top: 4em;
     }
   </style>
 </head>
@@ -124,9 +124,11 @@
 
   <input id='logout' type='button' value='Logout' style='display: block; margin: auto; border-radius: 5px; margin-top: 3em; margin-bottom: 3em; font-size: 1.3em;'>
 
+  <!-- Charting script -->
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script>
   <script>
     // email count for months in last year (from month today minus one for last year)
-    let chartData = [1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0];
+    let chartData = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0];
 
     // request data from server to get our email entries
     let url = 'get_stats.php'
@@ -173,30 +175,35 @@
         }
 
         // get the year for month sorting
-        let year = parseInt(date.slice(0, 4));
+        let year = parseInt(date.slice(0, 4), 10);
         //alert(year.toString() + ' ' + yrT.toString());
 
         if (year >= (yrT - 1)) {
 
           let month = parseInt(date.slice(5, 7), 10);
 
-          if (year == (yrT - 1) && (month >= mT + 1)) {
-            month -= (mT - 1);
+          if (year == (yrT - 1) && (month >= (mT + 2))) {
+            month -= (mT + 2);
             chartData[month] += 1;
-          } else if (year == yrT && (month <= mT)) {
-            month += 12 - mT;
+          } else if (year == yrT && (month <= (mT + 1))) {
+            month += 12 - (mT + 2);
             chartData[month] += 1;
           }
+
+          //document.getElementById('out').innerHTML += month;
+          //document.getElementById('out').innerHTML += '  ';
 
         }
 
         document.getElementById('all-emails').appendChild(newEntry);
+
       });
 
       document.getElementById('todayNum').innerHTML = todayCount;
       document.getElementById('monthNum').innerHTML = monthCount;
-     });
 
+      chartSetup();
+     });
 
      // event listener for logging out
      document.getElementById('logout').addEventListener('click', function(event) {
@@ -215,53 +222,55 @@
       .then(resp => resp.text())
       .then((text) => { window.location.href = 'stats_login.php'; });
     });
-  </script>
 
-  <!-- Charting script -->
-  <script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script>
-  <script>
-  let months = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'];
-  let date = new Date();
-  let monthI = date.getMonth();
-  let labels = months.slice(0, monthI+1);
-  // insert previous ones at beginning
-  let newMonths = months.slice(monthI+1).reverse();
-  newMonths.forEach(function(item, index) {
-    labels.unshift(item);
-  });
+    function chartSetup() {
+      // chart setup
+      let months = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'];
+      let date = new Date();
+      let monthI = date.getMonth();
+      let labels = months.slice(0, monthI+1);
+      // insert previous ones at beginning
+      let newMonths = months.slice(monthI+1).reverse();
+      newMonths.forEach(function(item, index) {
+        labels.unshift(item);
+      });
 
-  /*chartData.forEach(function(item, index) {
-    alert(item);
-  });*/
+      var ctx = document.getElementById('emailChart').getContext('2d');
+      var chart = new Chart(ctx, {
+          // The type of chart we want to create
+          type: 'bar',
 
-  var ctx = document.getElementById('emailChart').getContext('2d');
-  var chart = new Chart(ctx, {
-      // The type of chart we want to create
-      type: 'bar',
+          // The data for our dataset
+          data: {
+              labels: labels,
+              datasets: [{
+                  backgroundColor: 'rgb(255, 0, 123)',//'rgb(255, 99, 132)',
+                  borderColor: 'rgb(255, 99, 132)',
+                  data: chartData
+              }]
+          },
 
-      // The data for our dataset
-      data: {
-          labels: labels,
-          datasets: [{
-              backgroundColor: 'rgb(255, 99, 132)',
-              borderColor: 'rgb(255, 99, 132)',
-              data: chartData
-          }]
-      },
-
-      // Configuration options go here
-      options:
-      { legend: { display: false },
-      scales: {
-        yAxes: [{
-            ticks: {
-                //max: 5,
-                //min: 0,
-                stepSize: 1
-            }
-        }]
-    } }
-  });
+          // Configuration options go here
+          options:
+          {
+            legend: { display: false },
+            scales: {
+              yAxes: [{
+                  ticks: {
+                      //max: 5,
+                      min: 0,
+                      //stepSize: 1
+                      precision: 0
+                  },
+                  scaleLabel: {
+                    display: true, labelString: 'Emails', fontColor: '#000'
+                  }
+              }]
+            },
+            title: { display: true, text: 'Year in review', fontColor: '#000', fontSize: 18 }
+          }
+      });
+    }
   </script>
 </body>
 </html>
