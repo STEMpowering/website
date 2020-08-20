@@ -4,6 +4,9 @@ Main website for stempowering.ca. All info about us is on there.
 Downloads for experiments, donations too, blah blah.
 Also there's an email recording system for when users want to download experiments.
 
+Emails are stored on a database, and can only be viewed with the statistics credentials.
+These credentials are hashed here, so good luck reading these emails ;).
+
 Based on the Verti template, info below.
 
 ## Original Website Template Info
