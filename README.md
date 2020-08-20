@@ -1,3 +1,13 @@
+# STEMPOWERING Website
+
+Main website for stempowering.ca. All info about us is on there.
+Downloads for experiments, donations too, blah blah.
+Also there's an email recording system for when users want to download experiments.
+
+Based on the Verti template, info below.
+
+## Original Website Template Info
+
 Verti by HTML5 UP
 html5up.net | @ajlkn
 Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
