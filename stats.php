@@ -20,10 +20,10 @@
   </div>
 
   <div class='blocky'>
-    <span class='big-stat' id='total'><div>Total Requests</div><div class='num' id='totalNum'>45</div></span>
-    <span class='big-stat'><div>Today</div><div class='num' id='todayNum'>5</div></span>
+    <span class='big-stat' id='total'><div>Total Requests</div><div class='num' id='totalNum'>0</div></span>
+    <span class='big-stat'><div>Today</div><div class='num' id='todayNum'>0</div></span>
     <!-- <span class='big-stat'><div>This week</div><div class='num' id='weekNum'>10</div></span> -->
-    <span class='big-stat'><div>This month</div><div class='num' id='monthNum'>20</div></span>
+    <span class='big-stat'><div>This month</div><div class='num' id='monthNum'>0</div></span>
   </div>
 
   <table id='all-emails'>

@@ -25,14 +25,14 @@ document.addEventListener('DOMContentLoaded', function() {
       },
       {
         title: 'Ice Cream Making Using Science',
-        backgroundColor: '#aaaaaa',
+        backgroundColor: '#c800ff',
         url: '#exp20-08',
         start: '2020-08-17',
         end: '2020-08-22' // set this to be the day immediately after you want the event to occupy
       },
       {
         title: 'Take Flight and Make Your Own Plan',
-        backgroundColor: '#aaaaaa',
+        backgroundColor: '#c800ff',
         url: '#exp20-08',
         start: '2020-08-24',
         end: '2020-08-29' // set this to be the day immediately after you want the event to occupy
@@ -42,3 +42,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
   calendar.render();
  });
+
+
+ // colours for showing active events: inactive: #aaaaaa
+ //                                      active: #c800ff
