@@ -1,6 +1,6 @@
 <?php
   $host = 'localhost';
-  $dbname = 'times';
-  $username = 'root';
-  $password = 'mysql';
+  $dbname = 'vijaydat_stempowering';
+  $username = 'vijaydat_spweb';
+  $password = 'pass4stempowering';
 ?>
