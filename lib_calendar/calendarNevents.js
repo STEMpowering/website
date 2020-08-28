@@ -36,6 +36,20 @@ document.addEventListener('DOMContentLoaded', function() {
         url: '#exp20-08',
         start: '2020-08-24',
         end: '2020-08-29' // set this to be the day immediately after you want the event to occupy
+      },
+      {
+        title: 'Learn What Makes Boats Float!',
+        backgroundColor: '#c800ff',
+        url: '#exp20-09',
+        start: '2020-08-31',
+        end: '2020-09-05' // set this to be the day immediately after you want the event to occupy
+      },
+      {
+        title: 'Black Holes, At Home!',
+        backgroundColor: '#aaaaaa',
+        url: '#exp20-09',
+        start: '2020-09-14',
+        end: '2020-09-19' // set this to be the day immediately after you want the event to occupy
       }
     ]
   } );
