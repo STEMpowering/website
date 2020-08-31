@@ -1,0 +1,80 @@
+gdjs.Lesson_326_32_45_32Series_32vs_46_32Parallel_32CircuitCode = {};
+gdjs.Lesson_326_32_45_32Series_32vs_46_32Parallel_32CircuitCode.GDNewObjectObjects1= [];
+gdjs.Lesson_326_32_45_32Series_32vs_46_32Parallel_32CircuitCode.GDNewObjectObjects2= [];
+gdjs.Lesson_326_32_45_32Series_32vs_46_32Parallel_32CircuitCode.GDTextObjects1= [];
+gdjs.Lesson_326_32_45_32Series_32vs_46_32Parallel_32CircuitCode.GDTextObjects2= [];
+gdjs.Lesson_326_32_45_32Series_32vs_46_32Parallel_32CircuitCode.GDTitleObjects1= [];
+gdjs.Lesson_326_32_45_32Series_32vs_46_32Parallel_32CircuitCode.GDTitleObjects2= [];
+gdjs.Lesson_326_32_45_32Series_32vs_46_32Parallel_32CircuitCode.GDNextObjects1= [];
+gdjs.Lesson_326_32_45_32Series_32vs_46_32Parallel_32CircuitCode.GDNextObjects2= [];
+gdjs.Lesson_326_32_45_32Series_32vs_46_32Parallel_32CircuitCode.GDBackObjects1= [];
+gdjs.Lesson_326_32_45_32Series_32vs_46_32Parallel_32CircuitCode.GDBackObjects2= [];
+
+gdjs.Lesson_326_32_45_32Series_32vs_46_32Parallel_32CircuitCode.conditionTrue_0 = {val:false};
+gdjs.Lesson_326_32_45_32Series_32vs_46_32Parallel_32CircuitCode.condition0IsTrue_0 = {val:false};
+gdjs.Lesson_326_32_45_32Series_32vs_46_32Parallel_32CircuitCode.condition1IsTrue_0 = {val:false};
+gdjs.Lesson_326_32_45_32Series_32vs_46_32Parallel_32CircuitCode.condition2IsTrue_0 = {val:false};
+
+
+gdjs.Lesson_326_32_45_32Series_32vs_46_32Parallel_32CircuitCode.mapOfGDgdjs_46Lesson_95326_9532_9545_9532Series_9532vs_9546_9532Parallel_9532CircuitCode_46GDNextObjects1Objects = Hashtable.newFrom({"Next": gdjs.Lesson_326_32_45_32Series_32vs_46_32Parallel_32CircuitCode.GDNextObjects1});gdjs.Lesson_326_32_45_32Series_32vs_46_32Parallel_32CircuitCode.mapOfGDgdjs_46Lesson_95326_9532_9545_9532Series_9532vs_9546_9532Parallel_9532CircuitCode_46GDBackObjects1Objects = Hashtable.newFrom({"Back": gdjs.Lesson_326_32_45_32Series_32vs_46_32Parallel_32CircuitCode.GDBackObjects1});gdjs.Lesson_326_32_45_32Series_32vs_46_32Parallel_32CircuitCode.eventsList0 = function(runtimeScene) {
+
+{
+
+gdjs.Lesson_326_32_45_32Series_32vs_46_32Parallel_32CircuitCode.GDNextObjects1.createFrom(runtimeScene.getObjects("Next"));
+
+gdjs.Lesson_326_32_45_32Series_32vs_46_32Parallel_32CircuitCode.condition0IsTrue_0.val = false;
+gdjs.Lesson_326_32_45_32Series_32vs_46_32Parallel_32CircuitCode.condition1IsTrue_0.val = false;
+{
+gdjs.Lesson_326_32_45_32Series_32vs_46_32Parallel_32CircuitCode.condition0IsTrue_0.val = gdjs.evtTools.input.cursorOnObject(gdjs.Lesson_326_32_45_32Series_32vs_46_32Parallel_32CircuitCode.mapOfGDgdjs_46Lesson_95326_9532_9545_9532Series_9532vs_9546_9532Parallel_9532CircuitCode_46GDNextObjects1Objects, runtimeScene, true, false);
+}if ( gdjs.Lesson_326_32_45_32Series_32vs_46_32Parallel_32CircuitCode.condition0IsTrue_0.val ) {
+{
+gdjs.Lesson_326_32_45_32Series_32vs_46_32Parallel_32CircuitCode.condition1IsTrue_0.val = gdjs.evtTools.input.isMouseButtonReleased(runtimeScene, "Left");
+}}
+if (gdjs.Lesson_326_32_45_32Series_32vs_46_32Parallel_32CircuitCode.condition1IsTrue_0.val) {
+{gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "All Lessons", false);
+}}
+
+}
+
+
+{
+
+gdjs.Lesson_326_32_45_32Series_32vs_46_32Parallel_32CircuitCode.GDBackObjects1.createFrom(runtimeScene.getObjects("Back"));
+
+gdjs.Lesson_326_32_45_32Series_32vs_46_32Parallel_32CircuitCode.condition0IsTrue_0.val = false;
+gdjs.Lesson_326_32_45_32Series_32vs_46_32Parallel_32CircuitCode.condition1IsTrue_0.val = false;
+{
+gdjs.Lesson_326_32_45_32Series_32vs_46_32Parallel_32CircuitCode.condition0IsTrue_0.val = gdjs.evtTools.input.cursorOnObject(gdjs.Lesson_326_32_45_32Series_32vs_46_32Parallel_32CircuitCode.mapOfGDgdjs_46Lesson_95326_9532_9545_9532Series_9532vs_9546_9532Parallel_9532CircuitCode_46GDBackObjects1Objects, runtimeScene, true, false);
+}if ( gdjs.Lesson_326_32_45_32Series_32vs_46_32Parallel_32CircuitCode.condition0IsTrue_0.val ) {
+{
+gdjs.Lesson_326_32_45_32Series_32vs_46_32Parallel_32CircuitCode.condition1IsTrue_0.val = gdjs.evtTools.input.isMouseButtonReleased(runtimeScene, "Left");
+}}
+if (gdjs.Lesson_326_32_45_32Series_32vs_46_32Parallel_32CircuitCode.condition1IsTrue_0.val) {
+{gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "Lesson 6 - Parallel", false);
+}}
+
+}
+
+
+};
+
+gdjs.Lesson_326_32_45_32Series_32vs_46_32Parallel_32CircuitCode.func = function(runtimeScene) {
+runtimeScene.getOnceTriggers().startNewFrame();
+
+gdjs.Lesson_326_32_45_32Series_32vs_46_32Parallel_32CircuitCode.GDNewObjectObjects1.length = 0;
+gdjs.Lesson_326_32_45_32Series_32vs_46_32Parallel_32CircuitCode.GDNewObjectObjects2.length = 0;
+gdjs.Lesson_326_32_45_32Series_32vs_46_32Parallel_32CircuitCode.GDTextObjects1.length = 0;
+gdjs.Lesson_326_32_45_32Series_32vs_46_32Parallel_32CircuitCode.GDTextObjects2.length = 0;
+gdjs.Lesson_326_32_45_32Series_32vs_46_32Parallel_32CircuitCode.GDTitleObjects1.length = 0;
+gdjs.Lesson_326_32_45_32Series_32vs_46_32Parallel_32CircuitCode.GDTitleObjects2.length = 0;
+gdjs.Lesson_326_32_45_32Series_32vs_46_32Parallel_32CircuitCode.GDNextObjects1.length = 0;
+gdjs.Lesson_326_32_45_32Series_32vs_46_32Parallel_32CircuitCode.GDNextObjects2.length = 0;
+gdjs.Lesson_326_32_45_32Series_32vs_46_32Parallel_32CircuitCode.GDBackObjects1.length = 0;
+gdjs.Lesson_326_32_45_32Series_32vs_46_32Parallel_32CircuitCode.GDBackObjects2.length = 0;
+
+gdjs.Lesson_326_32_45_32Series_32vs_46_32Parallel_32CircuitCode.eventsList0(runtimeScene);
+return;
+
+}
+
+gdjs['Lesson_326_32_45_32Series_32vs_46_32Parallel_32CircuitCode'] = gdjs.Lesson_326_32_45_32Series_32vs_46_32Parallel_32CircuitCode;
