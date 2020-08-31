@@ -1,0 +1,2514 @@
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode = {};
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDGridObjects1= [];
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDGridObjects2= [];
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDGridObjects3= [];
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDLine2Objects1= [];
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDLine2Objects2= [];
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDLine2Objects3= [];
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDLine3Objects1= [];
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDLine3Objects2= [];
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDLine3Objects3= [];
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDLine4Objects1= [];
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDLine4Objects2= [];
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDLine4Objects3= [];
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDLine5Objects1= [];
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDLine5Objects2= [];
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDLine5Objects3= [];
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDLine6Objects1= [];
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDLine6Objects2= [];
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDLine6Objects3= [];
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDLine7Objects1= [];
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDLine7Objects2= [];
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDLine7Objects3= [];
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDLine8Objects1= [];
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDLine8Objects2= [];
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDLine8Objects3= [];
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDLine9Objects1= [];
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDLine9Objects2= [];
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDLine9Objects3= [];
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDLine10Objects1= [];
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDLine10Objects2= [];
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDLine10Objects3= [];
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDLine11Objects1= [];
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDLine11Objects2= [];
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDLine11Objects3= [];
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDLine12Objects1= [];
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDLine12Objects2= [];
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDLine12Objects3= [];
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDLine13Objects1= [];
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDLine13Objects2= [];
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDLine13Objects3= [];
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDLine14Objects1= [];
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDLine14Objects2= [];
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDLine14Objects3= [];
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDLine15Objects1= [];
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDLine15Objects2= [];
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDLine15Objects3= [];
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDLine16Objects1= [];
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDLine16Objects2= [];
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDLine16Objects3= [];
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDLine17Objects1= [];
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDLine17Objects2= [];
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDLine17Objects3= [];
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDLine18Objects1= [];
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDLine18Objects2= [];
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDLine18Objects3= [];
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDLine19Objects1= [];
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDLine19Objects2= [];
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDLine19Objects3= [];
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDLine20Objects1= [];
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDLine20Objects2= [];
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDLine20Objects3= [];
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDLine21Objects1= [];
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDLine21Objects2= [];
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDLine21Objects3= [];
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDLine22Objects1= [];
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDLine22Objects2= [];
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDLine22Objects3= [];
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDLine23Objects1= [];
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDLine23Objects2= [];
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDLine23Objects3= [];
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDLine24Objects1= [];
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDLine24Objects2= [];
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDLine24Objects3= [];
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDLine25Objects1= [];
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDLine25Objects2= [];
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDLine25Objects3= [];
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDLine26Objects1= [];
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDLine26Objects2= [];
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDLine26Objects3= [];
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDLine27Objects1= [];
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDLine27Objects2= [];
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDLine27Objects3= [];
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDLine28Objects1= [];
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDLine28Objects2= [];
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDLine28Objects3= [];
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDLine29Objects1= [];
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDLine29Objects2= [];
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDLine29Objects3= [];
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDLine30Objects1= [];
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDLine30Objects2= [];
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDLine30Objects3= [];
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDLineObjects1= [];
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDLineObjects2= [];
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDLineObjects3= [];
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDV_95Line2Objects1= [];
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDV_95Line2Objects2= [];
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDV_95Line2Objects3= [];
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDV_95Line3Objects1= [];
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDV_95Line3Objects2= [];
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDV_95Line3Objects3= [];
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDV_95Line4Objects1= [];
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDV_95Line4Objects2= [];
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDV_95Line4Objects3= [];
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDV_95Line5Objects1= [];
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDV_95Line5Objects2= [];
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDV_95Line5Objects3= [];
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDV_95Line6Objects1= [];
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDV_95Line6Objects2= [];
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDV_95Line6Objects3= [];
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDV_95Line7Objects1= [];
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDV_95Line7Objects2= [];
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDV_95Line7Objects3= [];
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDV_95Line8Objects1= [];
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDV_95Line8Objects2= [];
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDV_95Line8Objects3= [];
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDV_95Line9Objects1= [];
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDV_95Line9Objects2= [];
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDV_95Line9Objects3= [];
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDV_95Line10Objects1= [];
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDV_95Line10Objects2= [];
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDV_95Line10Objects3= [];
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDV_95Line11Objects1= [];
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDV_95Line11Objects2= [];
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDV_95Line11Objects3= [];
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDV_95Line12Objects1= [];
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDV_95Line12Objects2= [];
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDV_95Line12Objects3= [];
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDV_95Line13Objects1= [];
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDV_95Line13Objects2= [];
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDV_95Line13Objects3= [];
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDV_95Line14Objects1= [];
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDV_95Line14Objects2= [];
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDV_95Line14Objects3= [];
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDV_95Line15Objects1= [];
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDV_95Line15Objects2= [];
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDV_95Line15Objects3= [];
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDV_95Line16Objects1= [];
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDV_95Line16Objects2= [];
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDV_95Line16Objects3= [];
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDV_95Line17Objects1= [];
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDV_95Line17Objects2= [];
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDV_95Line17Objects3= [];
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDV_95Line18Objects1= [];
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDV_95Line18Objects2= [];
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDV_95Line18Objects3= [];
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDV_95Line19Objects1= [];
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDV_95Line19Objects2= [];
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDV_95Line19Objects3= [];
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDV_95Line20Objects1= [];
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDV_95Line20Objects2= [];
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDV_95Line20Objects3= [];
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDV_95Line21Objects1= [];
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDV_95Line21Objects2= [];
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDV_95Line21Objects3= [];
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDV_95Line22Objects1= [];
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDV_95Line22Objects2= [];
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDV_95Line22Objects3= [];
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDV_95Line23Objects1= [];
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDV_95Line23Objects2= [];
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDV_95Line23Objects3= [];
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDV_95Line24Objects1= [];
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDV_95Line24Objects2= [];
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDV_95Line24Objects3= [];
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDV_95Line25Objects1= [];
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDV_95Line25Objects2= [];
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDV_95Line25Objects3= [];
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDV_95Line26Objects1= [];
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDV_95Line26Objects2= [];
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDV_95Line26Objects3= [];
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDV_95Line27Objects1= [];
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDV_95Line27Objects2= [];
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDV_95Line27Objects3= [];
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDV_95Line28Objects1= [];
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDV_95Line28Objects2= [];
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDV_95Line28Objects3= [];
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDV_95Line29Objects1= [];
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDV_95Line29Objects2= [];
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDV_95Line29Objects3= [];
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDV_95Line30Objects1= [];
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDV_95Line30Objects2= [];
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDV_95Line30Objects3= [];
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDV_95LineObjects1= [];
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDV_95LineObjects2= [];
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDV_95LineObjects3= [];
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDLightbulbObjects1= [];
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDLightbulbObjects2= [];
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDLightbulbObjects3= [];
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDBatteryObjects1= [];
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDBatteryObjects2= [];
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDBatteryObjects3= [];
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDWireObjects1= [];
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDWireObjects2= [];
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDWireObjects3= [];
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDLessonsTitleObjects1= [];
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDLessonsTitleObjects2= [];
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDLessonsTitleObjects3= [];
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDBackgroundObjects1= [];
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDBackgroundObjects2= [];
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDBackgroundObjects3= [];
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDBlockObjects1= [];
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDBlockObjects2= [];
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDBlockObjects3= [];
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDBackObjects1= [];
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDBackObjects2= [];
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDBackObjects3= [];
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDNextLessonObjects1= [];
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDNextLessonObjects2= [];
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDNextLessonObjects3= [];
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDAllLessonsObjects1= [];
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDAllLessonsObjects2= [];
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDAllLessonsObjects3= [];
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDTagObjects1= [];
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDTagObjects2= [];
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDTagObjects3= [];
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDWireBoxObjects1= [];
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDWireBoxObjects2= [];
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDWireBoxObjects3= [];
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDSwitchObjects1= [];
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDSwitchObjects2= [];
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDSwitchObjects3= [];
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDrandomObjects1= [];
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDrandomObjects2= [];
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDrandomObjects3= [];
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDResistor2Objects1= [];
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDResistor2Objects2= [];
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDResistor2Objects3= [];
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDResistorObjects1= [];
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDResistorObjects2= [];
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDResistorObjects3= [];
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDHintObjects1= [];
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDHintObjects2= [];
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDHintObjects3= [];
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDResistorsTitleObjects1= [];
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDResistorsTitleObjects2= [];
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDResistorsTitleObjects3= [];
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDWiresTitleObjects1= [];
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDWiresTitleObjects2= [];
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDWiresTitleObjects3= [];
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDLightbulbTitleObjects1= [];
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDLightbulbTitleObjects2= [];
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDLightbulbTitleObjects3= [];
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDSwitchTitleObjects1= [];
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDSwitchTitleObjects2= [];
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDSwitchTitleObjects3= [];
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDBatteryTitleObjects1= [];
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDBatteryTitleObjects2= [];
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDBatteryTitleObjects3= [];
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDConductorBoxObjects1= [];
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDConductorBoxObjects2= [];
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDConductorBoxObjects3= [];
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDInsulatorBoxObjects1= [];
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDInsulatorBoxObjects2= [];
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDInsulatorBoxObjects3= [];
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDCopperObjects1= [];
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDCopperObjects2= [];
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDCopperObjects3= [];
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDAluminumObjects1= [];
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDAluminumObjects2= [];
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDAluminumObjects3= [];
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDBrassObjects1= [];
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDBrassObjects2= [];
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDBrassObjects3= [];
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDGoldObjects1= [];
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDGoldObjects2= [];
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDGoldObjects3= [];
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDDiamondObjects1= [];
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDDiamondObjects2= [];
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDDiamondObjects3= [];
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDPlasticObjects1= [];
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDPlasticObjects2= [];
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDPlasticObjects3= [];
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDCorkObjects1= [];
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDCorkObjects2= [];
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDCorkObjects3= [];
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDGlassObjects1= [];
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDGlassObjects2= [];
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDGlassObjects3= [];
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDConductorTitleObjects1= [];
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDConductorTitleObjects2= [];
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDConductorTitleObjects3= [];
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDInsulatorTitleObjects1= [];
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDInsulatorTitleObjects2= [];
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDInsulatorTitleObjects3= [];
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDCopperPennyObjects1= [];
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDCopperPennyObjects2= [];
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDCopperPennyObjects3= [];
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDAluminumCanObjects1= [];
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDAluminumCanObjects2= [];
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDAluminumCanObjects3= [];
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDBrassKeyObjects1= [];
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDBrassKeyObjects2= [];
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDBrassKeyObjects3= [];
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDDiamondTitleObjects1= [];
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDDiamondTitleObjects2= [];
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDDiamondTitleObjects3= [];
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDWaterBottleObjects1= [];
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDWaterBottleObjects2= [];
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDWaterBottleObjects3= [];
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDGoldBarObjects1= [];
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDGoldBarObjects2= [];
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDGoldBarObjects3= [];
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDCorkTitleObjects1= [];
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDCorkTitleObjects2= [];
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDCorkTitleObjects3= [];
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDGlassCupObjects1= [];
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDGlassCupObjects2= [];
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDGlassCupObjects3= [];
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDLandingZoneObjects1= [];
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDLandingZoneObjects2= [];
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDLandingZoneObjects3= [];
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDneutralizeObjects1= [];
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDneutralizeObjects2= [];
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDneutralizeObjects3= [];
+
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.conditionTrue_0 = {val:false};
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.condition0IsTrue_0 = {val:false};
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.condition1IsTrue_0 = {val:false};
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.condition2IsTrue_0 = {val:false};
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.condition3IsTrue_0 = {val:false};
+
+
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.mapOfGDgdjs_46Lesson_95324_9532_9545_9532Conductors_9532_9538_9532InsulatorsCode_46GDneutralizeObjects1Objects = Hashtable.newFrom({"neutralize": gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDneutralizeObjects1});gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.mapOfGDgdjs_46Lesson_95324_9532_9545_9532Conductors_9532_9538_9532InsulatorsCode_46GDLandingZoneObjects1Objects = Hashtable.newFrom({"LandingZone": gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDLandingZoneObjects1});gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.mapOfGDgdjs_46Lesson_95324_9532_9545_9532Conductors_9532_9538_9532InsulatorsCode_46GDBackObjects1Objects = Hashtable.newFrom({"Back": gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDBackObjects1});gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.mapOfGDgdjs_46Lesson_95324_9532_9545_9532Conductors_9532_9538_9532InsulatorsCode_46GDAllLessonsObjects1Objects = Hashtable.newFrom({"AllLessons": gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDAllLessonsObjects1});gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.mapOfGDgdjs_46Lesson_95324_9532_9545_9532Conductors_9532_9538_9532InsulatorsCode_46GDNextLessonObjects1Objects = Hashtable.newFrom({"NextLesson": gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDNextLessonObjects1});gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.mapOfGDgdjs_46Lesson_95324_9532_9545_9532Conductors_9532_9538_9532InsulatorsCode_46GDCopperObjects1Objects = Hashtable.newFrom({"Copper": gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDCopperObjects1});gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.mapOfGDgdjs_46Lesson_95324_9532_9545_9532Conductors_9532_9538_9532InsulatorsCode_46GDLandingZoneObjects1Objects = Hashtable.newFrom({"LandingZone": gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDLandingZoneObjects1});gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.mapOfGDgdjs_46Lesson_95324_9532_9545_9532Conductors_9532_9538_9532InsulatorsCode_46GDCopperObjects2Objects = Hashtable.newFrom({"Copper": gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDCopperObjects2});gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.mapOfGDgdjs_46Lesson_95324_9532_9545_9532Conductors_9532_9538_9532InsulatorsCode_46GDDiamondObjects2Objects = Hashtable.newFrom({"Diamond": gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDDiamondObjects2});gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.mapOfGDgdjs_46Lesson_95324_9532_9545_9532Conductors_9532_9538_9532InsulatorsCode_46GDCopperObjects2Objects = Hashtable.newFrom({"Copper": gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDCopperObjects2});gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.mapOfGDgdjs_46Lesson_95324_9532_9545_9532Conductors_9532_9538_9532InsulatorsCode_46GDCorkObjects2Objects = Hashtable.newFrom({"Cork": gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDCorkObjects2});gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.mapOfGDgdjs_46Lesson_95324_9532_9545_9532Conductors_9532_9538_9532InsulatorsCode_46GDCopperObjects2Objects = Hashtable.newFrom({"Copper": gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDCopperObjects2});gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.mapOfGDgdjs_46Lesson_95324_9532_9545_9532Conductors_9532_9538_9532InsulatorsCode_46GDPlasticObjects2Objects = Hashtable.newFrom({"Plastic": gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDPlasticObjects2});gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.mapOfGDgdjs_46Lesson_95324_9532_9545_9532Conductors_9532_9538_9532InsulatorsCode_46GDCopperObjects2Objects = Hashtable.newFrom({"Copper": gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDCopperObjects2});gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.mapOfGDgdjs_46Lesson_95324_9532_9545_9532Conductors_9532_9538_9532InsulatorsCode_46GDBrassObjects2Objects = Hashtable.newFrom({"Brass": gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDBrassObjects2});gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.mapOfGDgdjs_46Lesson_95324_9532_9545_9532Conductors_9532_9538_9532InsulatorsCode_46GDCopperObjects2Objects = Hashtable.newFrom({"Copper": gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDCopperObjects2});gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.mapOfGDgdjs_46Lesson_95324_9532_9545_9532Conductors_9532_9538_9532InsulatorsCode_46GDGlassObjects2Objects = Hashtable.newFrom({"Glass": gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDGlassObjects2});gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.mapOfGDgdjs_46Lesson_95324_9532_9545_9532Conductors_9532_9538_9532InsulatorsCode_46GDCopperObjects2Objects = Hashtable.newFrom({"Copper": gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDCopperObjects2});gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.mapOfGDgdjs_46Lesson_95324_9532_9545_9532Conductors_9532_9538_9532InsulatorsCode_46GDGoldObjects2Objects = Hashtable.newFrom({"Gold": gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDGoldObjects2});gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.mapOfGDgdjs_46Lesson_95324_9532_9545_9532Conductors_9532_9538_9532InsulatorsCode_46GDCopperObjects1Objects = Hashtable.newFrom({"Copper": gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDCopperObjects1});gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.mapOfGDgdjs_46Lesson_95324_9532_9545_9532Conductors_9532_9538_9532InsulatorsCode_46GDAluminumObjects1Objects = Hashtable.newFrom({"Aluminum": gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDAluminumObjects1});gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.eventsList0 = function(runtimeScene) {
+
+{
+
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDCopperObjects2.createFrom(gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDCopperObjects1);
+
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDDiamondObjects2.createFrom(runtimeScene.getObjects("Diamond"));
+
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.condition0IsTrue_0.val = false;
+{
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.condition0IsTrue_0.val = gdjs.evtTools.object.hitBoxesCollisionTest(gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.mapOfGDgdjs_46Lesson_95324_9532_9545_9532Conductors_9532_9538_9532InsulatorsCode_46GDCopperObjects2Objects, gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.mapOfGDgdjs_46Lesson_95324_9532_9545_9532Conductors_9532_9538_9532InsulatorsCode_46GDDiamondObjects2Objects, false, runtimeScene, false);
+}if (gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.condition0IsTrue_0.val) {
+/* Reuse gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDDiamondObjects2 */
+{for(var i = 0, len = gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDDiamondObjects2.length ;i < len;++i) {
+    gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDDiamondObjects2[i].setPosition(700,263);
+}
+}}
+
+}
+
+
+{
+
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDCopperObjects2.createFrom(gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDCopperObjects1);
+
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDCorkObjects2.createFrom(runtimeScene.getObjects("Cork"));
+
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.condition0IsTrue_0.val = false;
+{
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.condition0IsTrue_0.val = gdjs.evtTools.object.hitBoxesCollisionTest(gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.mapOfGDgdjs_46Lesson_95324_9532_9545_9532Conductors_9532_9538_9532InsulatorsCode_46GDCopperObjects2Objects, gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.mapOfGDgdjs_46Lesson_95324_9532_9545_9532Conductors_9532_9538_9532InsulatorsCode_46GDCorkObjects2Objects, false, runtimeScene, false);
+}if (gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.condition0IsTrue_0.val) {
+/* Reuse gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDCorkObjects2 */
+{for(var i = 0, len = gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDCorkObjects2.length ;i < len;++i) {
+    gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDCorkObjects2[i].setPosition(490,279);
+}
+}}
+
+}
+
+
+{
+
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDCopperObjects2.createFrom(gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDCopperObjects1);
+
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDPlasticObjects2.createFrom(runtimeScene.getObjects("Plastic"));
+
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.condition0IsTrue_0.val = false;
+{
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.condition0IsTrue_0.val = gdjs.evtTools.object.hitBoxesCollisionTest(gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.mapOfGDgdjs_46Lesson_95324_9532_9545_9532Conductors_9532_9538_9532InsulatorsCode_46GDCopperObjects2Objects, gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.mapOfGDgdjs_46Lesson_95324_9532_9545_9532Conductors_9532_9538_9532InsulatorsCode_46GDPlasticObjects2Objects, false, runtimeScene, false);
+}if (gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.condition0IsTrue_0.val) {
+/* Reuse gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDPlasticObjects2 */
+{for(var i = 0, len = gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDPlasticObjects2.length ;i < len;++i) {
+    gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDPlasticObjects2[i].setPosition(707,343);
+}
+}}
+
+}
+
+
+{
+
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDBrassObjects2.createFrom(runtimeScene.getObjects("Brass"));
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDCopperObjects2.createFrom(gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDCopperObjects1);
+
+
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.condition0IsTrue_0.val = false;
+{
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.condition0IsTrue_0.val = gdjs.evtTools.object.hitBoxesCollisionTest(gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.mapOfGDgdjs_46Lesson_95324_9532_9545_9532Conductors_9532_9538_9532InsulatorsCode_46GDCopperObjects2Objects, gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.mapOfGDgdjs_46Lesson_95324_9532_9545_9532Conductors_9532_9538_9532InsulatorsCode_46GDBrassObjects2Objects, false, runtimeScene, false);
+}if (gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.condition0IsTrue_0.val) {
+/* Reuse gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDBrassObjects2 */
+{for(var i = 0, len = gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDBrassObjects2.length ;i < len;++i) {
+    gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDBrassObjects2[i].setPosition(586,303);
+}
+}}
+
+}
+
+
+{
+
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDCopperObjects2.createFrom(gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDCopperObjects1);
+
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDGlassObjects2.createFrom(runtimeScene.getObjects("Glass"));
+
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.condition0IsTrue_0.val = false;
+{
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.condition0IsTrue_0.val = gdjs.evtTools.object.hitBoxesCollisionTest(gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.mapOfGDgdjs_46Lesson_95324_9532_9545_9532Conductors_9532_9538_9532InsulatorsCode_46GDCopperObjects2Objects, gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.mapOfGDgdjs_46Lesson_95324_9532_9545_9532Conductors_9532_9538_9532InsulatorsCode_46GDGlassObjects2Objects, false, runtimeScene, false);
+}if (gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.condition0IsTrue_0.val) {
+/* Reuse gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDGlassObjects2 */
+{for(var i = 0, len = gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDGlassObjects2.length ;i < len;++i) {
+    gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDGlassObjects2[i].setPosition(373,279);
+}
+}}
+
+}
+
+
+{
+
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDCopperObjects2.createFrom(gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDCopperObjects1);
+
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDGoldObjects2.createFrom(runtimeScene.getObjects("Gold"));
+
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.condition0IsTrue_0.val = false;
+{
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.condition0IsTrue_0.val = gdjs.evtTools.object.hitBoxesCollisionTest(gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.mapOfGDgdjs_46Lesson_95324_9532_9545_9532Conductors_9532_9538_9532InsulatorsCode_46GDCopperObjects2Objects, gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.mapOfGDgdjs_46Lesson_95324_9532_9545_9532Conductors_9532_9538_9532InsulatorsCode_46GDGoldObjects2Objects, false, runtimeScene, false);
+}if (gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.condition0IsTrue_0.val) {
+/* Reuse gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDGoldObjects2 */
+{for(var i = 0, len = gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDGoldObjects2.length ;i < len;++i) {
+    gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDGoldObjects2[i].setPosition(573,389);
+}
+}}
+
+}
+
+
+{
+
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDAluminumObjects1.createFrom(runtimeScene.getObjects("Aluminum"));
+/* Reuse gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDCopperObjects1 */
+
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.condition0IsTrue_0.val = false;
+{
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.condition0IsTrue_0.val = gdjs.evtTools.object.hitBoxesCollisionTest(gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.mapOfGDgdjs_46Lesson_95324_9532_9545_9532Conductors_9532_9538_9532InsulatorsCode_46GDCopperObjects1Objects, gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.mapOfGDgdjs_46Lesson_95324_9532_9545_9532Conductors_9532_9538_9532InsulatorsCode_46GDAluminumObjects1Objects, false, runtimeScene, false);
+}if (gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.condition0IsTrue_0.val) {
+/* Reuse gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDAluminumObjects1 */
+{for(var i = 0, len = gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDAluminumObjects1.length ;i < len;++i) {
+    gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDAluminumObjects1[i].setPosition(333,359);
+}
+}}
+
+}
+
+
+};gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.eventsList1 = function(runtimeScene) {
+
+{
+
+
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.eventsList0(runtimeScene);
+}
+
+
+};gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.mapOfGDgdjs_46Lesson_95324_9532_9545_9532Conductors_9532_9538_9532InsulatorsCode_46GDAluminumObjects1Objects = Hashtable.newFrom({"Aluminum": gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDAluminumObjects1});gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.mapOfGDgdjs_46Lesson_95324_9532_9545_9532Conductors_9532_9538_9532InsulatorsCode_46GDLandingZoneObjects1Objects = Hashtable.newFrom({"LandingZone": gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDLandingZoneObjects1});gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.mapOfGDgdjs_46Lesson_95324_9532_9545_9532Conductors_9532_9538_9532InsulatorsCode_46GDAluminumObjects2Objects = Hashtable.newFrom({"Aluminum": gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDAluminumObjects2});gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.mapOfGDgdjs_46Lesson_95324_9532_9545_9532Conductors_9532_9538_9532InsulatorsCode_46GDCorkObjects2Objects = Hashtable.newFrom({"Cork": gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDCorkObjects2});gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.mapOfGDgdjs_46Lesson_95324_9532_9545_9532Conductors_9532_9538_9532InsulatorsCode_46GDAluminumObjects2Objects = Hashtable.newFrom({"Aluminum": gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDAluminumObjects2});gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.mapOfGDgdjs_46Lesson_95324_9532_9545_9532Conductors_9532_9538_9532InsulatorsCode_46GDGoldObjects2Objects = Hashtable.newFrom({"Gold": gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDGoldObjects2});gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.mapOfGDgdjs_46Lesson_95324_9532_9545_9532Conductors_9532_9538_9532InsulatorsCode_46GDAluminumObjects2Objects = Hashtable.newFrom({"Aluminum": gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDAluminumObjects2});gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.mapOfGDgdjs_46Lesson_95324_9532_9545_9532Conductors_9532_9538_9532InsulatorsCode_46GDGlassObjects2Objects = Hashtable.newFrom({"Glass": gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDGlassObjects2});gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.mapOfGDgdjs_46Lesson_95324_9532_9545_9532Conductors_9532_9538_9532InsulatorsCode_46GDAluminumObjects2Objects = Hashtable.newFrom({"Aluminum": gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDAluminumObjects2});gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.mapOfGDgdjs_46Lesson_95324_9532_9545_9532Conductors_9532_9538_9532InsulatorsCode_46GDDiamondObjects2Objects = Hashtable.newFrom({"Diamond": gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDDiamondObjects2});gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.mapOfGDgdjs_46Lesson_95324_9532_9545_9532Conductors_9532_9538_9532InsulatorsCode_46GDAluminumObjects2Objects = Hashtable.newFrom({"Aluminum": gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDAluminumObjects2});gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.mapOfGDgdjs_46Lesson_95324_9532_9545_9532Conductors_9532_9538_9532InsulatorsCode_46GDCopperObjects2Objects = Hashtable.newFrom({"Copper": gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDCopperObjects2});gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.mapOfGDgdjs_46Lesson_95324_9532_9545_9532Conductors_9532_9538_9532InsulatorsCode_46GDAluminumObjects2Objects = Hashtable.newFrom({"Aluminum": gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDAluminumObjects2});gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.mapOfGDgdjs_46Lesson_95324_9532_9545_9532Conductors_9532_9538_9532InsulatorsCode_46GDBrassObjects2Objects = Hashtable.newFrom({"Brass": gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDBrassObjects2});gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.mapOfGDgdjs_46Lesson_95324_9532_9545_9532Conductors_9532_9538_9532InsulatorsCode_46GDAluminumObjects1Objects = Hashtable.newFrom({"Aluminum": gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDAluminumObjects1});gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.mapOfGDgdjs_46Lesson_95324_9532_9545_9532Conductors_9532_9538_9532InsulatorsCode_46GDPlasticObjects1Objects = Hashtable.newFrom({"Plastic": gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDPlasticObjects1});gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.eventsList2 = function(runtimeScene) {
+
+{
+
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDAluminumObjects2.createFrom(gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDAluminumObjects1);
+
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDCorkObjects2.createFrom(runtimeScene.getObjects("Cork"));
+
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.condition0IsTrue_0.val = false;
+{
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.condition0IsTrue_0.val = gdjs.evtTools.object.hitBoxesCollisionTest(gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.mapOfGDgdjs_46Lesson_95324_9532_9545_9532Conductors_9532_9538_9532InsulatorsCode_46GDAluminumObjects2Objects, gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.mapOfGDgdjs_46Lesson_95324_9532_9545_9532Conductors_9532_9538_9532InsulatorsCode_46GDCorkObjects2Objects, false, runtimeScene, false);
+}if (gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.condition0IsTrue_0.val) {
+/* Reuse gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDCorkObjects2 */
+{for(var i = 0, len = gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDCorkObjects2.length ;i < len;++i) {
+    gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDCorkObjects2[i].setPosition(490,279);
+}
+}}
+
+}
+
+
+{
+
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDAluminumObjects2.createFrom(gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDAluminumObjects1);
+
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDGoldObjects2.createFrom(runtimeScene.getObjects("Gold"));
+
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.condition0IsTrue_0.val = false;
+{
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.condition0IsTrue_0.val = gdjs.evtTools.object.hitBoxesCollisionTest(gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.mapOfGDgdjs_46Lesson_95324_9532_9545_9532Conductors_9532_9538_9532InsulatorsCode_46GDAluminumObjects2Objects, gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.mapOfGDgdjs_46Lesson_95324_9532_9545_9532Conductors_9532_9538_9532InsulatorsCode_46GDGoldObjects2Objects, false, runtimeScene, false);
+}if (gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.condition0IsTrue_0.val) {
+/* Reuse gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDGoldObjects2 */
+{for(var i = 0, len = gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDGoldObjects2.length ;i < len;++i) {
+    gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDGoldObjects2[i].setPosition(573,389);
+}
+}}
+
+}
+
+
+{
+
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDAluminumObjects2.createFrom(gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDAluminumObjects1);
+
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDGlassObjects2.createFrom(runtimeScene.getObjects("Glass"));
+
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.condition0IsTrue_0.val = false;
+{
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.condition0IsTrue_0.val = gdjs.evtTools.object.hitBoxesCollisionTest(gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.mapOfGDgdjs_46Lesson_95324_9532_9545_9532Conductors_9532_9538_9532InsulatorsCode_46GDAluminumObjects2Objects, gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.mapOfGDgdjs_46Lesson_95324_9532_9545_9532Conductors_9532_9538_9532InsulatorsCode_46GDGlassObjects2Objects, false, runtimeScene, false);
+}if (gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.condition0IsTrue_0.val) {
+/* Reuse gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDGlassObjects2 */
+{for(var i = 0, len = gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDGlassObjects2.length ;i < len;++i) {
+    gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDGlassObjects2[i].setPosition(373,279);
+}
+}}
+
+}
+
+
+{
+
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDAluminumObjects2.createFrom(gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDAluminumObjects1);
+
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDDiamondObjects2.createFrom(runtimeScene.getObjects("Diamond"));
+
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.condition0IsTrue_0.val = false;
+{
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.condition0IsTrue_0.val = gdjs.evtTools.object.hitBoxesCollisionTest(gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.mapOfGDgdjs_46Lesson_95324_9532_9545_9532Conductors_9532_9538_9532InsulatorsCode_46GDAluminumObjects2Objects, gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.mapOfGDgdjs_46Lesson_95324_9532_9545_9532Conductors_9532_9538_9532InsulatorsCode_46GDDiamondObjects2Objects, false, runtimeScene, false);
+}if (gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.condition0IsTrue_0.val) {
+/* Reuse gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDDiamondObjects2 */
+{for(var i = 0, len = gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDDiamondObjects2.length ;i < len;++i) {
+    gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDDiamondObjects2[i].setPosition(700,263);
+}
+}}
+
+}
+
+
+{
+
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDAluminumObjects2.createFrom(gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDAluminumObjects1);
+
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDCopperObjects2.createFrom(runtimeScene.getObjects("Copper"));
+
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.condition0IsTrue_0.val = false;
+{
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.condition0IsTrue_0.val = gdjs.evtTools.object.hitBoxesCollisionTest(gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.mapOfGDgdjs_46Lesson_95324_9532_9545_9532Conductors_9532_9538_9532InsulatorsCode_46GDAluminumObjects2Objects, gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.mapOfGDgdjs_46Lesson_95324_9532_9545_9532Conductors_9532_9538_9532InsulatorsCode_46GDCopperObjects2Objects, false, runtimeScene, false);
+}if (gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.condition0IsTrue_0.val) {
+/* Reuse gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDCopperObjects2 */
+{for(var i = 0, len = gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDCopperObjects2.length ;i < len;++i) {
+    gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDCopperObjects2[i].setPosition(468,371);
+}
+}}
+
+}
+
+
+{
+
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDAluminumObjects2.createFrom(gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDAluminumObjects1);
+
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDBrassObjects2.createFrom(runtimeScene.getObjects("Brass"));
+
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.condition0IsTrue_0.val = false;
+{
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.condition0IsTrue_0.val = gdjs.evtTools.object.hitBoxesCollisionTest(gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.mapOfGDgdjs_46Lesson_95324_9532_9545_9532Conductors_9532_9538_9532InsulatorsCode_46GDAluminumObjects2Objects, gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.mapOfGDgdjs_46Lesson_95324_9532_9545_9532Conductors_9532_9538_9532InsulatorsCode_46GDBrassObjects2Objects, false, runtimeScene, false);
+}if (gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.condition0IsTrue_0.val) {
+/* Reuse gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDBrassObjects2 */
+{for(var i = 0, len = gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDBrassObjects2.length ;i < len;++i) {
+    gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDBrassObjects2[i].setPosition(586,303);
+}
+}}
+
+}
+
+
+{
+
+/* Reuse gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDAluminumObjects1 */
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDPlasticObjects1.createFrom(runtimeScene.getObjects("Plastic"));
+
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.condition0IsTrue_0.val = false;
+{
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.condition0IsTrue_0.val = gdjs.evtTools.object.hitBoxesCollisionTest(gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.mapOfGDgdjs_46Lesson_95324_9532_9545_9532Conductors_9532_9538_9532InsulatorsCode_46GDAluminumObjects1Objects, gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.mapOfGDgdjs_46Lesson_95324_9532_9545_9532Conductors_9532_9538_9532InsulatorsCode_46GDPlasticObjects1Objects, false, runtimeScene, false);
+}if (gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.condition0IsTrue_0.val) {
+/* Reuse gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDPlasticObjects1 */
+{for(var i = 0, len = gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDPlasticObjects1.length ;i < len;++i) {
+    gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDPlasticObjects1[i].setPosition(707,343);
+}
+}}
+
+}
+
+
+};gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.eventsList3 = function(runtimeScene) {
+
+{
+
+
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.eventsList2(runtimeScene);
+}
+
+
+};gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.mapOfGDgdjs_46Lesson_95324_9532_9545_9532Conductors_9532_9538_9532InsulatorsCode_46GDGoldObjects1Objects = Hashtable.newFrom({"Gold": gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDGoldObjects1});gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.mapOfGDgdjs_46Lesson_95324_9532_9545_9532Conductors_9532_9538_9532InsulatorsCode_46GDLandingZoneObjects1Objects = Hashtable.newFrom({"LandingZone": gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDLandingZoneObjects1});gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.mapOfGDgdjs_46Lesson_95324_9532_9545_9532Conductors_9532_9538_9532InsulatorsCode_46GDGoldObjects2Objects = Hashtable.newFrom({"Gold": gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDGoldObjects2});gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.mapOfGDgdjs_46Lesson_95324_9532_9545_9532Conductors_9532_9538_9532InsulatorsCode_46GDCorkObjects2Objects = Hashtable.newFrom({"Cork": gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDCorkObjects2});gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.mapOfGDgdjs_46Lesson_95324_9532_9545_9532Conductors_9532_9538_9532InsulatorsCode_46GDGoldObjects2Objects = Hashtable.newFrom({"Gold": gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDGoldObjects2});gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.mapOfGDgdjs_46Lesson_95324_9532_9545_9532Conductors_9532_9538_9532InsulatorsCode_46GDDiamondObjects2Objects = Hashtable.newFrom({"Diamond": gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDDiamondObjects2});gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.mapOfGDgdjs_46Lesson_95324_9532_9545_9532Conductors_9532_9538_9532InsulatorsCode_46GDGoldObjects2Objects = Hashtable.newFrom({"Gold": gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDGoldObjects2});gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.mapOfGDgdjs_46Lesson_95324_9532_9545_9532Conductors_9532_9538_9532InsulatorsCode_46GDCopperObjects2Objects = Hashtable.newFrom({"Copper": gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDCopperObjects2});gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.mapOfGDgdjs_46Lesson_95324_9532_9545_9532Conductors_9532_9538_9532InsulatorsCode_46GDGoldObjects2Objects = Hashtable.newFrom({"Gold": gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDGoldObjects2});gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.mapOfGDgdjs_46Lesson_95324_9532_9545_9532Conductors_9532_9538_9532InsulatorsCode_46GDBrassObjects2Objects = Hashtable.newFrom({"Brass": gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDBrassObjects2});gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.mapOfGDgdjs_46Lesson_95324_9532_9545_9532Conductors_9532_9538_9532InsulatorsCode_46GDGoldObjects2Objects = Hashtable.newFrom({"Gold": gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDGoldObjects2});gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.mapOfGDgdjs_46Lesson_95324_9532_9545_9532Conductors_9532_9538_9532InsulatorsCode_46GDPlasticObjects2Objects = Hashtable.newFrom({"Plastic": gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDPlasticObjects2});gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.mapOfGDgdjs_46Lesson_95324_9532_9545_9532Conductors_9532_9538_9532InsulatorsCode_46GDGoldObjects2Objects = Hashtable.newFrom({"Gold": gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDGoldObjects2});gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.mapOfGDgdjs_46Lesson_95324_9532_9545_9532Conductors_9532_9538_9532InsulatorsCode_46GDAluminumObjects2Objects = Hashtable.newFrom({"Aluminum": gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDAluminumObjects2});gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.mapOfGDgdjs_46Lesson_95324_9532_9545_9532Conductors_9532_9538_9532InsulatorsCode_46GDGoldObjects1Objects = Hashtable.newFrom({"Gold": gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDGoldObjects1});gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.mapOfGDgdjs_46Lesson_95324_9532_9545_9532Conductors_9532_9538_9532InsulatorsCode_46GDGlassObjects1Objects = Hashtable.newFrom({"Glass": gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDGlassObjects1});gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.eventsList4 = function(runtimeScene) {
+
+{
+
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDCorkObjects2.createFrom(runtimeScene.getObjects("Cork"));
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDGoldObjects2.createFrom(gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDGoldObjects1);
+
+
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.condition0IsTrue_0.val = false;
+{
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.condition0IsTrue_0.val = gdjs.evtTools.object.hitBoxesCollisionTest(gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.mapOfGDgdjs_46Lesson_95324_9532_9545_9532Conductors_9532_9538_9532InsulatorsCode_46GDGoldObjects2Objects, gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.mapOfGDgdjs_46Lesson_95324_9532_9545_9532Conductors_9532_9538_9532InsulatorsCode_46GDCorkObjects2Objects, false, runtimeScene, false);
+}if (gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.condition0IsTrue_0.val) {
+/* Reuse gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDCorkObjects2 */
+{for(var i = 0, len = gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDCorkObjects2.length ;i < len;++i) {
+    gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDCorkObjects2[i].setPosition(490,279);
+}
+}}
+
+}
+
+
+{
+
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDDiamondObjects2.createFrom(runtimeScene.getObjects("Diamond"));
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDGoldObjects2.createFrom(gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDGoldObjects1);
+
+
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.condition0IsTrue_0.val = false;
+{
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.condition0IsTrue_0.val = gdjs.evtTools.object.hitBoxesCollisionTest(gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.mapOfGDgdjs_46Lesson_95324_9532_9545_9532Conductors_9532_9538_9532InsulatorsCode_46GDGoldObjects2Objects, gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.mapOfGDgdjs_46Lesson_95324_9532_9545_9532Conductors_9532_9538_9532InsulatorsCode_46GDDiamondObjects2Objects, false, runtimeScene, false);
+}if (gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.condition0IsTrue_0.val) {
+/* Reuse gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDDiamondObjects2 */
+{for(var i = 0, len = gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDDiamondObjects2.length ;i < len;++i) {
+    gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDDiamondObjects2[i].setPosition(700,263);
+}
+}}
+
+}
+
+
+{
+
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDCopperObjects2.createFrom(runtimeScene.getObjects("Copper"));
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDGoldObjects2.createFrom(gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDGoldObjects1);
+
+
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.condition0IsTrue_0.val = false;
+{
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.condition0IsTrue_0.val = gdjs.evtTools.object.hitBoxesCollisionTest(gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.mapOfGDgdjs_46Lesson_95324_9532_9545_9532Conductors_9532_9538_9532InsulatorsCode_46GDGoldObjects2Objects, gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.mapOfGDgdjs_46Lesson_95324_9532_9545_9532Conductors_9532_9538_9532InsulatorsCode_46GDCopperObjects2Objects, false, runtimeScene, false);
+}if (gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.condition0IsTrue_0.val) {
+/* Reuse gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDCopperObjects2 */
+{for(var i = 0, len = gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDCopperObjects2.length ;i < len;++i) {
+    gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDCopperObjects2[i].setPosition(468,371);
+}
+}}
+
+}
+
+
+{
+
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDBrassObjects2.createFrom(runtimeScene.getObjects("Brass"));
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDGoldObjects2.createFrom(gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDGoldObjects1);
+
+
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.condition0IsTrue_0.val = false;
+{
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.condition0IsTrue_0.val = gdjs.evtTools.object.hitBoxesCollisionTest(gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.mapOfGDgdjs_46Lesson_95324_9532_9545_9532Conductors_9532_9538_9532InsulatorsCode_46GDGoldObjects2Objects, gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.mapOfGDgdjs_46Lesson_95324_9532_9545_9532Conductors_9532_9538_9532InsulatorsCode_46GDBrassObjects2Objects, false, runtimeScene, false);
+}if (gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.condition0IsTrue_0.val) {
+/* Reuse gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDBrassObjects2 */
+{for(var i = 0, len = gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDBrassObjects2.length ;i < len;++i) {
+    gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDBrassObjects2[i].setPosition(586,303);
+}
+}}
+
+}
+
+
+{
+
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDGoldObjects2.createFrom(gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDGoldObjects1);
+
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDPlasticObjects2.createFrom(runtimeScene.getObjects("Plastic"));
+
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.condition0IsTrue_0.val = false;
+{
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.condition0IsTrue_0.val = gdjs.evtTools.object.hitBoxesCollisionTest(gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.mapOfGDgdjs_46Lesson_95324_9532_9545_9532Conductors_9532_9538_9532InsulatorsCode_46GDGoldObjects2Objects, gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.mapOfGDgdjs_46Lesson_95324_9532_9545_9532Conductors_9532_9538_9532InsulatorsCode_46GDPlasticObjects2Objects, false, runtimeScene, false);
+}if (gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.condition0IsTrue_0.val) {
+/* Reuse gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDPlasticObjects2 */
+{for(var i = 0, len = gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDPlasticObjects2.length ;i < len;++i) {
+    gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDPlasticObjects2[i].setPosition(707,343);
+}
+}}
+
+}
+
+
+{
+
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDAluminumObjects2.createFrom(runtimeScene.getObjects("Aluminum"));
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDGoldObjects2.createFrom(gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDGoldObjects1);
+
+
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.condition0IsTrue_0.val = false;
+{
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.condition0IsTrue_0.val = gdjs.evtTools.object.hitBoxesCollisionTest(gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.mapOfGDgdjs_46Lesson_95324_9532_9545_9532Conductors_9532_9538_9532InsulatorsCode_46GDGoldObjects2Objects, gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.mapOfGDgdjs_46Lesson_95324_9532_9545_9532Conductors_9532_9538_9532InsulatorsCode_46GDAluminumObjects2Objects, false, runtimeScene, false);
+}if (gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.condition0IsTrue_0.val) {
+/* Reuse gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDAluminumObjects2 */
+{for(var i = 0, len = gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDAluminumObjects2.length ;i < len;++i) {
+    gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDAluminumObjects2[i].setPosition(333,359);
+}
+}}
+
+}
+
+
+{
+
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDGlassObjects1.createFrom(runtimeScene.getObjects("Glass"));
+/* Reuse gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDGoldObjects1 */
+
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.condition0IsTrue_0.val = false;
+{
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.condition0IsTrue_0.val = gdjs.evtTools.object.hitBoxesCollisionTest(gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.mapOfGDgdjs_46Lesson_95324_9532_9545_9532Conductors_9532_9538_9532InsulatorsCode_46GDGoldObjects1Objects, gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.mapOfGDgdjs_46Lesson_95324_9532_9545_9532Conductors_9532_9538_9532InsulatorsCode_46GDGlassObjects1Objects, false, runtimeScene, false);
+}if (gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.condition0IsTrue_0.val) {
+/* Reuse gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDGlassObjects1 */
+{for(var i = 0, len = gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDGlassObjects1.length ;i < len;++i) {
+    gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDGlassObjects1[i].setPosition(373,279);
+}
+}}
+
+}
+
+
+};gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.eventsList5 = function(runtimeScene) {
+
+{
+
+
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.eventsList4(runtimeScene);
+}
+
+
+};gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.mapOfGDgdjs_46Lesson_95324_9532_9545_9532Conductors_9532_9538_9532InsulatorsCode_46GDDiamondObjects1Objects = Hashtable.newFrom({"Diamond": gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDDiamondObjects1});gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.mapOfGDgdjs_46Lesson_95324_9532_9545_9532Conductors_9532_9538_9532InsulatorsCode_46GDLandingZoneObjects1Objects = Hashtable.newFrom({"LandingZone": gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDLandingZoneObjects1});gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.mapOfGDgdjs_46Lesson_95324_9532_9545_9532Conductors_9532_9538_9532InsulatorsCode_46GDDiamondObjects2Objects = Hashtable.newFrom({"Diamond": gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDDiamondObjects2});gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.mapOfGDgdjs_46Lesson_95324_9532_9545_9532Conductors_9532_9538_9532InsulatorsCode_46GDCorkObjects2Objects = Hashtable.newFrom({"Cork": gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDCorkObjects2});gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.mapOfGDgdjs_46Lesson_95324_9532_9545_9532Conductors_9532_9538_9532InsulatorsCode_46GDDiamondObjects2Objects = Hashtable.newFrom({"Diamond": gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDDiamondObjects2});gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.mapOfGDgdjs_46Lesson_95324_9532_9545_9532Conductors_9532_9538_9532InsulatorsCode_46GDPlasticObjects2Objects = Hashtable.newFrom({"Plastic": gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDPlasticObjects2});gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.mapOfGDgdjs_46Lesson_95324_9532_9545_9532Conductors_9532_9538_9532InsulatorsCode_46GDDiamondObjects2Objects = Hashtable.newFrom({"Diamond": gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDDiamondObjects2});gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.mapOfGDgdjs_46Lesson_95324_9532_9545_9532Conductors_9532_9538_9532InsulatorsCode_46GDGlassObjects2Objects = Hashtable.newFrom({"Glass": gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDGlassObjects2});gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.mapOfGDgdjs_46Lesson_95324_9532_9545_9532Conductors_9532_9538_9532InsulatorsCode_46GDDiamondObjects2Objects = Hashtable.newFrom({"Diamond": gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDDiamondObjects2});gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.mapOfGDgdjs_46Lesson_95324_9532_9545_9532Conductors_9532_9538_9532InsulatorsCode_46GDAluminumObjects2Objects = Hashtable.newFrom({"Aluminum": gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDAluminumObjects2});gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.mapOfGDgdjs_46Lesson_95324_9532_9545_9532Conductors_9532_9538_9532InsulatorsCode_46GDDiamondObjects2Objects = Hashtable.newFrom({"Diamond": gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDDiamondObjects2});gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.mapOfGDgdjs_46Lesson_95324_9532_9545_9532Conductors_9532_9538_9532InsulatorsCode_46GDGoldObjects2Objects = Hashtable.newFrom({"Gold": gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDGoldObjects2});gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.mapOfGDgdjs_46Lesson_95324_9532_9545_9532Conductors_9532_9538_9532InsulatorsCode_46GDDiamondObjects2Objects = Hashtable.newFrom({"Diamond": gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDDiamondObjects2});gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.mapOfGDgdjs_46Lesson_95324_9532_9545_9532Conductors_9532_9538_9532InsulatorsCode_46GDCopperObjects2Objects = Hashtable.newFrom({"Copper": gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDCopperObjects2});gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.mapOfGDgdjs_46Lesson_95324_9532_9545_9532Conductors_9532_9538_9532InsulatorsCode_46GDDiamondObjects1Objects = Hashtable.newFrom({"Diamond": gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDDiamondObjects1});gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.mapOfGDgdjs_46Lesson_95324_9532_9545_9532Conductors_9532_9538_9532InsulatorsCode_46GDBrassObjects1Objects = Hashtable.newFrom({"Brass": gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDBrassObjects1});gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.eventsList6 = function(runtimeScene) {
+
+{
+
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDCorkObjects2.createFrom(runtimeScene.getObjects("Cork"));
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDDiamondObjects2.createFrom(gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDDiamondObjects1);
+
+
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.condition0IsTrue_0.val = false;
+{
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.condition0IsTrue_0.val = gdjs.evtTools.object.hitBoxesCollisionTest(gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.mapOfGDgdjs_46Lesson_95324_9532_9545_9532Conductors_9532_9538_9532InsulatorsCode_46GDDiamondObjects2Objects, gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.mapOfGDgdjs_46Lesson_95324_9532_9545_9532Conductors_9532_9538_9532InsulatorsCode_46GDCorkObjects2Objects, false, runtimeScene, false);
+}if (gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.condition0IsTrue_0.val) {
+/* Reuse gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDCorkObjects2 */
+{for(var i = 0, len = gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDCorkObjects2.length ;i < len;++i) {
+    gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDCorkObjects2[i].setPosition(490,279);
+}
+}}
+
+}
+
+
+{
+
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDDiamondObjects2.createFrom(gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDDiamondObjects1);
+
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDPlasticObjects2.createFrom(runtimeScene.getObjects("Plastic"));
+
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.condition0IsTrue_0.val = false;
+{
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.condition0IsTrue_0.val = gdjs.evtTools.object.hitBoxesCollisionTest(gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.mapOfGDgdjs_46Lesson_95324_9532_9545_9532Conductors_9532_9538_9532InsulatorsCode_46GDDiamondObjects2Objects, gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.mapOfGDgdjs_46Lesson_95324_9532_9545_9532Conductors_9532_9538_9532InsulatorsCode_46GDPlasticObjects2Objects, false, runtimeScene, false);
+}if (gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.condition0IsTrue_0.val) {
+/* Reuse gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDPlasticObjects2 */
+{for(var i = 0, len = gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDPlasticObjects2.length ;i < len;++i) {
+    gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDPlasticObjects2[i].setPosition(707,343);
+}
+}}
+
+}
+
+
+{
+
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDDiamondObjects2.createFrom(gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDDiamondObjects1);
+
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDGlassObjects2.createFrom(runtimeScene.getObjects("Glass"));
+
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.condition0IsTrue_0.val = false;
+{
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.condition0IsTrue_0.val = gdjs.evtTools.object.hitBoxesCollisionTest(gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.mapOfGDgdjs_46Lesson_95324_9532_9545_9532Conductors_9532_9538_9532InsulatorsCode_46GDDiamondObjects2Objects, gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.mapOfGDgdjs_46Lesson_95324_9532_9545_9532Conductors_9532_9538_9532InsulatorsCode_46GDGlassObjects2Objects, false, runtimeScene, false);
+}if (gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.condition0IsTrue_0.val) {
+/* Reuse gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDGlassObjects2 */
+{for(var i = 0, len = gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDGlassObjects2.length ;i < len;++i) {
+    gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDGlassObjects2[i].setPosition(373,279);
+}
+}}
+
+}
+
+
+{
+
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDAluminumObjects2.createFrom(runtimeScene.getObjects("Aluminum"));
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDDiamondObjects2.createFrom(gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDDiamondObjects1);
+
+
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.condition0IsTrue_0.val = false;
+{
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.condition0IsTrue_0.val = gdjs.evtTools.object.hitBoxesCollisionTest(gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.mapOfGDgdjs_46Lesson_95324_9532_9545_9532Conductors_9532_9538_9532InsulatorsCode_46GDDiamondObjects2Objects, gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.mapOfGDgdjs_46Lesson_95324_9532_9545_9532Conductors_9532_9538_9532InsulatorsCode_46GDAluminumObjects2Objects, false, runtimeScene, false);
+}if (gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.condition0IsTrue_0.val) {
+/* Reuse gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDAluminumObjects2 */
+{for(var i = 0, len = gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDAluminumObjects2.length ;i < len;++i) {
+    gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDAluminumObjects2[i].setPosition(333,359);
+}
+}}
+
+}
+
+
+{
+
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDDiamondObjects2.createFrom(gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDDiamondObjects1);
+
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDGoldObjects2.createFrom(runtimeScene.getObjects("Gold"));
+
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.condition0IsTrue_0.val = false;
+{
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.condition0IsTrue_0.val = gdjs.evtTools.object.hitBoxesCollisionTest(gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.mapOfGDgdjs_46Lesson_95324_9532_9545_9532Conductors_9532_9538_9532InsulatorsCode_46GDDiamondObjects2Objects, gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.mapOfGDgdjs_46Lesson_95324_9532_9545_9532Conductors_9532_9538_9532InsulatorsCode_46GDGoldObjects2Objects, false, runtimeScene, false);
+}if (gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.condition0IsTrue_0.val) {
+/* Reuse gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDGoldObjects2 */
+{for(var i = 0, len = gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDGoldObjects2.length ;i < len;++i) {
+    gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDGoldObjects2[i].setPosition(573,389);
+}
+}}
+
+}
+
+
+{
+
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDCopperObjects2.createFrom(runtimeScene.getObjects("Copper"));
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDDiamondObjects2.createFrom(gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDDiamondObjects1);
+
+
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.condition0IsTrue_0.val = false;
+{
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.condition0IsTrue_0.val = gdjs.evtTools.object.hitBoxesCollisionTest(gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.mapOfGDgdjs_46Lesson_95324_9532_9545_9532Conductors_9532_9538_9532InsulatorsCode_46GDDiamondObjects2Objects, gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.mapOfGDgdjs_46Lesson_95324_9532_9545_9532Conductors_9532_9538_9532InsulatorsCode_46GDCopperObjects2Objects, false, runtimeScene, false);
+}if (gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.condition0IsTrue_0.val) {
+/* Reuse gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDCopperObjects2 */
+{for(var i = 0, len = gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDCopperObjects2.length ;i < len;++i) {
+    gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDCopperObjects2[i].setPosition(468,371);
+}
+}}
+
+}
+
+
+{
+
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDBrassObjects1.createFrom(runtimeScene.getObjects("Brass"));
+/* Reuse gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDDiamondObjects1 */
+
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.condition0IsTrue_0.val = false;
+{
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.condition0IsTrue_0.val = gdjs.evtTools.object.hitBoxesCollisionTest(gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.mapOfGDgdjs_46Lesson_95324_9532_9545_9532Conductors_9532_9538_9532InsulatorsCode_46GDDiamondObjects1Objects, gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.mapOfGDgdjs_46Lesson_95324_9532_9545_9532Conductors_9532_9538_9532InsulatorsCode_46GDBrassObjects1Objects, false, runtimeScene, false);
+}if (gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.condition0IsTrue_0.val) {
+/* Reuse gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDBrassObjects1 */
+{for(var i = 0, len = gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDBrassObjects1.length ;i < len;++i) {
+    gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDBrassObjects1[i].setPosition(586,303);
+}
+}}
+
+}
+
+
+};gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.eventsList7 = function(runtimeScene) {
+
+{
+
+
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.eventsList6(runtimeScene);
+}
+
+
+};gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.mapOfGDgdjs_46Lesson_95324_9532_9545_9532Conductors_9532_9538_9532InsulatorsCode_46GDPlasticObjects1Objects = Hashtable.newFrom({"Plastic": gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDPlasticObjects1});gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.mapOfGDgdjs_46Lesson_95324_9532_9545_9532Conductors_9532_9538_9532InsulatorsCode_46GDLandingZoneObjects1Objects = Hashtable.newFrom({"LandingZone": gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDLandingZoneObjects1});gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.mapOfGDgdjs_46Lesson_95324_9532_9545_9532Conductors_9532_9538_9532InsulatorsCode_46GDPlasticObjects2Objects = Hashtable.newFrom({"Plastic": gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDPlasticObjects2});gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.mapOfGDgdjs_46Lesson_95324_9532_9545_9532Conductors_9532_9538_9532InsulatorsCode_46GDAluminumObjects2Objects = Hashtable.newFrom({"Aluminum": gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDAluminumObjects2});gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.mapOfGDgdjs_46Lesson_95324_9532_9545_9532Conductors_9532_9538_9532InsulatorsCode_46GDPlasticObjects2Objects = Hashtable.newFrom({"Plastic": gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDPlasticObjects2});gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.mapOfGDgdjs_46Lesson_95324_9532_9545_9532Conductors_9532_9538_9532InsulatorsCode_46GDCopperObjects2Objects = Hashtable.newFrom({"Copper": gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDCopperObjects2});gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.mapOfGDgdjs_46Lesson_95324_9532_9545_9532Conductors_9532_9538_9532InsulatorsCode_46GDPlasticObjects2Objects = Hashtable.newFrom({"Plastic": gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDPlasticObjects2});gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.mapOfGDgdjs_46Lesson_95324_9532_9545_9532Conductors_9532_9538_9532InsulatorsCode_46GDBrassObjects2Objects = Hashtable.newFrom({"Brass": gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDBrassObjects2});gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.mapOfGDgdjs_46Lesson_95324_9532_9545_9532Conductors_9532_9538_9532InsulatorsCode_46GDPlasticObjects2Objects = Hashtable.newFrom({"Plastic": gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDPlasticObjects2});gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.mapOfGDgdjs_46Lesson_95324_9532_9545_9532Conductors_9532_9538_9532InsulatorsCode_46GDDiamondObjects2Objects = Hashtable.newFrom({"Diamond": gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDDiamondObjects2});gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.mapOfGDgdjs_46Lesson_95324_9532_9545_9532Conductors_9532_9538_9532InsulatorsCode_46GDPlasticObjects2Objects = Hashtable.newFrom({"Plastic": gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDPlasticObjects2});gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.mapOfGDgdjs_46Lesson_95324_9532_9545_9532Conductors_9532_9538_9532InsulatorsCode_46GDGoldObjects2Objects = Hashtable.newFrom({"Gold": gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDGoldObjects2});gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.mapOfGDgdjs_46Lesson_95324_9532_9545_9532Conductors_9532_9538_9532InsulatorsCode_46GDPlasticObjects2Objects = Hashtable.newFrom({"Plastic": gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDPlasticObjects2});gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.mapOfGDgdjs_46Lesson_95324_9532_9545_9532Conductors_9532_9538_9532InsulatorsCode_46GDCorkObjects2Objects = Hashtable.newFrom({"Cork": gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDCorkObjects2});gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.mapOfGDgdjs_46Lesson_95324_9532_9545_9532Conductors_9532_9538_9532InsulatorsCode_46GDPlasticObjects1Objects = Hashtable.newFrom({"Plastic": gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDPlasticObjects1});gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.mapOfGDgdjs_46Lesson_95324_9532_9545_9532Conductors_9532_9538_9532InsulatorsCode_46GDGlassObjects1Objects = Hashtable.newFrom({"Glass": gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDGlassObjects1});gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.eventsList8 = function(runtimeScene) {
+
+{
+
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDAluminumObjects2.createFrom(runtimeScene.getObjects("Aluminum"));
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDPlasticObjects2.createFrom(gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDPlasticObjects1);
+
+
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.condition0IsTrue_0.val = false;
+{
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.condition0IsTrue_0.val = gdjs.evtTools.object.hitBoxesCollisionTest(gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.mapOfGDgdjs_46Lesson_95324_9532_9545_9532Conductors_9532_9538_9532InsulatorsCode_46GDPlasticObjects2Objects, gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.mapOfGDgdjs_46Lesson_95324_9532_9545_9532Conductors_9532_9538_9532InsulatorsCode_46GDAluminumObjects2Objects, false, runtimeScene, false);
+}if (gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.condition0IsTrue_0.val) {
+/* Reuse gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDAluminumObjects2 */
+{for(var i = 0, len = gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDAluminumObjects2.length ;i < len;++i) {
+    gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDAluminumObjects2[i].setPosition(333,359);
+}
+}}
+
+}
+
+
+{
+
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDCopperObjects2.createFrom(runtimeScene.getObjects("Copper"));
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDPlasticObjects2.createFrom(gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDPlasticObjects1);
+
+
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.condition0IsTrue_0.val = false;
+{
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.condition0IsTrue_0.val = gdjs.evtTools.object.hitBoxesCollisionTest(gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.mapOfGDgdjs_46Lesson_95324_9532_9545_9532Conductors_9532_9538_9532InsulatorsCode_46GDPlasticObjects2Objects, gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.mapOfGDgdjs_46Lesson_95324_9532_9545_9532Conductors_9532_9538_9532InsulatorsCode_46GDCopperObjects2Objects, false, runtimeScene, false);
+}if (gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.condition0IsTrue_0.val) {
+/* Reuse gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDCopperObjects2 */
+{for(var i = 0, len = gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDCopperObjects2.length ;i < len;++i) {
+    gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDCopperObjects2[i].setPosition(468,371);
+}
+}}
+
+}
+
+
+{
+
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDBrassObjects2.createFrom(runtimeScene.getObjects("Brass"));
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDPlasticObjects2.createFrom(gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDPlasticObjects1);
+
+
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.condition0IsTrue_0.val = false;
+{
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.condition0IsTrue_0.val = gdjs.evtTools.object.hitBoxesCollisionTest(gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.mapOfGDgdjs_46Lesson_95324_9532_9545_9532Conductors_9532_9538_9532InsulatorsCode_46GDPlasticObjects2Objects, gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.mapOfGDgdjs_46Lesson_95324_9532_9545_9532Conductors_9532_9538_9532InsulatorsCode_46GDBrassObjects2Objects, false, runtimeScene, false);
+}if (gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.condition0IsTrue_0.val) {
+/* Reuse gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDBrassObjects2 */
+{for(var i = 0, len = gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDBrassObjects2.length ;i < len;++i) {
+    gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDBrassObjects2[i].setPosition(586,303);
+}
+}}
+
+}
+
+
+{
+
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDDiamondObjects2.createFrom(runtimeScene.getObjects("Diamond"));
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDPlasticObjects2.createFrom(gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDPlasticObjects1);
+
+
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.condition0IsTrue_0.val = false;
+{
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.condition0IsTrue_0.val = gdjs.evtTools.object.hitBoxesCollisionTest(gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.mapOfGDgdjs_46Lesson_95324_9532_9545_9532Conductors_9532_9538_9532InsulatorsCode_46GDPlasticObjects2Objects, gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.mapOfGDgdjs_46Lesson_95324_9532_9545_9532Conductors_9532_9538_9532InsulatorsCode_46GDDiamondObjects2Objects, false, runtimeScene, false);
+}if (gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.condition0IsTrue_0.val) {
+/* Reuse gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDDiamondObjects2 */
+{for(var i = 0, len = gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDDiamondObjects2.length ;i < len;++i) {
+    gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDDiamondObjects2[i].setPosition(700,263);
+}
+}}
+
+}
+
+
+{
+
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDGoldObjects2.createFrom(runtimeScene.getObjects("Gold"));
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDPlasticObjects2.createFrom(gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDPlasticObjects1);
+
+
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.condition0IsTrue_0.val = false;
+{
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.condition0IsTrue_0.val = gdjs.evtTools.object.hitBoxesCollisionTest(gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.mapOfGDgdjs_46Lesson_95324_9532_9545_9532Conductors_9532_9538_9532InsulatorsCode_46GDPlasticObjects2Objects, gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.mapOfGDgdjs_46Lesson_95324_9532_9545_9532Conductors_9532_9538_9532InsulatorsCode_46GDGoldObjects2Objects, false, runtimeScene, false);
+}if (gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.condition0IsTrue_0.val) {
+/* Reuse gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDGoldObjects2 */
+{for(var i = 0, len = gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDGoldObjects2.length ;i < len;++i) {
+    gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDGoldObjects2[i].setPosition(573,389);
+}
+}}
+
+}
+
+
+{
+
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDCorkObjects2.createFrom(runtimeScene.getObjects("Cork"));
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDPlasticObjects2.createFrom(gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDPlasticObjects1);
+
+
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.condition0IsTrue_0.val = false;
+{
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.condition0IsTrue_0.val = gdjs.evtTools.object.hitBoxesCollisionTest(gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.mapOfGDgdjs_46Lesson_95324_9532_9545_9532Conductors_9532_9538_9532InsulatorsCode_46GDPlasticObjects2Objects, gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.mapOfGDgdjs_46Lesson_95324_9532_9545_9532Conductors_9532_9538_9532InsulatorsCode_46GDCorkObjects2Objects, false, runtimeScene, false);
+}if (gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.condition0IsTrue_0.val) {
+/* Reuse gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDCorkObjects2 */
+{for(var i = 0, len = gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDCorkObjects2.length ;i < len;++i) {
+    gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDCorkObjects2[i].setPosition(490,279);
+}
+}}
+
+}
+
+
+{
+
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDGlassObjects1.createFrom(runtimeScene.getObjects("Glass"));
+/* Reuse gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDPlasticObjects1 */
+
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.condition0IsTrue_0.val = false;
+{
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.condition0IsTrue_0.val = gdjs.evtTools.object.hitBoxesCollisionTest(gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.mapOfGDgdjs_46Lesson_95324_9532_9545_9532Conductors_9532_9538_9532InsulatorsCode_46GDPlasticObjects1Objects, gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.mapOfGDgdjs_46Lesson_95324_9532_9545_9532Conductors_9532_9538_9532InsulatorsCode_46GDGlassObjects1Objects, false, runtimeScene, false);
+}if (gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.condition0IsTrue_0.val) {
+/* Reuse gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDGlassObjects1 */
+{for(var i = 0, len = gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDGlassObjects1.length ;i < len;++i) {
+    gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDGlassObjects1[i].setPosition(373,279);
+}
+}}
+
+}
+
+
+};gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.eventsList9 = function(runtimeScene) {
+
+{
+
+
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.eventsList8(runtimeScene);
+}
+
+
+};gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.mapOfGDgdjs_46Lesson_95324_9532_9545_9532Conductors_9532_9538_9532InsulatorsCode_46GDCorkObjects1Objects = Hashtable.newFrom({"Cork": gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDCorkObjects1});gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.mapOfGDgdjs_46Lesson_95324_9532_9545_9532Conductors_9532_9538_9532InsulatorsCode_46GDLandingZoneObjects1Objects = Hashtable.newFrom({"LandingZone": gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDLandingZoneObjects1});gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.mapOfGDgdjs_46Lesson_95324_9532_9545_9532Conductors_9532_9538_9532InsulatorsCode_46GDCorkObjects2Objects = Hashtable.newFrom({"Cork": gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDCorkObjects2});gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.mapOfGDgdjs_46Lesson_95324_9532_9545_9532Conductors_9532_9538_9532InsulatorsCode_46GDAluminumObjects2Objects = Hashtable.newFrom({"Aluminum": gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDAluminumObjects2});gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.mapOfGDgdjs_46Lesson_95324_9532_9545_9532Conductors_9532_9538_9532InsulatorsCode_46GDCorkObjects2Objects = Hashtable.newFrom({"Cork": gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDCorkObjects2});gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.mapOfGDgdjs_46Lesson_95324_9532_9545_9532Conductors_9532_9538_9532InsulatorsCode_46GDBrassObjects2Objects = Hashtable.newFrom({"Brass": gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDBrassObjects2});gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.mapOfGDgdjs_46Lesson_95324_9532_9545_9532Conductors_9532_9538_9532InsulatorsCode_46GDCorkObjects2Objects = Hashtable.newFrom({"Cork": gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDCorkObjects2});gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.mapOfGDgdjs_46Lesson_95324_9532_9545_9532Conductors_9532_9538_9532InsulatorsCode_46GDPlasticObjects2Objects = Hashtable.newFrom({"Plastic": gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDPlasticObjects2});gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.mapOfGDgdjs_46Lesson_95324_9532_9545_9532Conductors_9532_9538_9532InsulatorsCode_46GDCorkObjects2Objects = Hashtable.newFrom({"Cork": gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDCorkObjects2});gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.mapOfGDgdjs_46Lesson_95324_9532_9545_9532Conductors_9532_9538_9532InsulatorsCode_46GDGoldObjects2Objects = Hashtable.newFrom({"Gold": gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDGoldObjects2});gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.mapOfGDgdjs_46Lesson_95324_9532_9545_9532Conductors_9532_9538_9532InsulatorsCode_46GDCorkObjects2Objects = Hashtable.newFrom({"Cork": gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDCorkObjects2});gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.mapOfGDgdjs_46Lesson_95324_9532_9545_9532Conductors_9532_9538_9532InsulatorsCode_46GDGlassObjects2Objects = Hashtable.newFrom({"Glass": gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDGlassObjects2});gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.mapOfGDgdjs_46Lesson_95324_9532_9545_9532Conductors_9532_9538_9532InsulatorsCode_46GDCorkObjects2Objects = Hashtable.newFrom({"Cork": gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDCorkObjects2});gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.mapOfGDgdjs_46Lesson_95324_9532_9545_9532Conductors_9532_9538_9532InsulatorsCode_46GDCopperObjects2Objects = Hashtable.newFrom({"Copper": gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDCopperObjects2});gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.mapOfGDgdjs_46Lesson_95324_9532_9545_9532Conductors_9532_9538_9532InsulatorsCode_46GDCorkObjects1Objects = Hashtable.newFrom({"Cork": gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDCorkObjects1});gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.mapOfGDgdjs_46Lesson_95324_9532_9545_9532Conductors_9532_9538_9532InsulatorsCode_46GDDiamondObjects1Objects = Hashtable.newFrom({"Diamond": gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDDiamondObjects1});gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.eventsList10 = function(runtimeScene) {
+
+{
+
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDAluminumObjects2.createFrom(runtimeScene.getObjects("Aluminum"));
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDCorkObjects2.createFrom(gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDCorkObjects1);
+
+
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.condition0IsTrue_0.val = false;
+{
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.condition0IsTrue_0.val = gdjs.evtTools.object.hitBoxesCollisionTest(gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.mapOfGDgdjs_46Lesson_95324_9532_9545_9532Conductors_9532_9538_9532InsulatorsCode_46GDCorkObjects2Objects, gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.mapOfGDgdjs_46Lesson_95324_9532_9545_9532Conductors_9532_9538_9532InsulatorsCode_46GDAluminumObjects2Objects, false, runtimeScene, false);
+}if (gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.condition0IsTrue_0.val) {
+/* Reuse gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDAluminumObjects2 */
+{for(var i = 0, len = gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDAluminumObjects2.length ;i < len;++i) {
+    gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDAluminumObjects2[i].setPosition(333,359);
+}
+}}
+
+}
+
+
+{
+
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDBrassObjects2.createFrom(runtimeScene.getObjects("Brass"));
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDCorkObjects2.createFrom(gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDCorkObjects1);
+
+
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.condition0IsTrue_0.val = false;
+{
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.condition0IsTrue_0.val = gdjs.evtTools.object.hitBoxesCollisionTest(gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.mapOfGDgdjs_46Lesson_95324_9532_9545_9532Conductors_9532_9538_9532InsulatorsCode_46GDCorkObjects2Objects, gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.mapOfGDgdjs_46Lesson_95324_9532_9545_9532Conductors_9532_9538_9532InsulatorsCode_46GDBrassObjects2Objects, false, runtimeScene, false);
+}if (gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.condition0IsTrue_0.val) {
+/* Reuse gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDBrassObjects2 */
+{for(var i = 0, len = gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDBrassObjects2.length ;i < len;++i) {
+    gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDBrassObjects2[i].setPosition(586,303);
+}
+}}
+
+}
+
+
+{
+
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDCorkObjects2.createFrom(gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDCorkObjects1);
+
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDPlasticObjects2.createFrom(runtimeScene.getObjects("Plastic"));
+
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.condition0IsTrue_0.val = false;
+{
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.condition0IsTrue_0.val = gdjs.evtTools.object.hitBoxesCollisionTest(gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.mapOfGDgdjs_46Lesson_95324_9532_9545_9532Conductors_9532_9538_9532InsulatorsCode_46GDCorkObjects2Objects, gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.mapOfGDgdjs_46Lesson_95324_9532_9545_9532Conductors_9532_9538_9532InsulatorsCode_46GDPlasticObjects2Objects, false, runtimeScene, false);
+}if (gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.condition0IsTrue_0.val) {
+/* Reuse gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDPlasticObjects2 */
+{for(var i = 0, len = gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDPlasticObjects2.length ;i < len;++i) {
+    gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDPlasticObjects2[i].setPosition(707,343);
+}
+}}
+
+}
+
+
+{
+
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDCorkObjects2.createFrom(gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDCorkObjects1);
+
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDGoldObjects2.createFrom(runtimeScene.getObjects("Gold"));
+
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.condition0IsTrue_0.val = false;
+{
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.condition0IsTrue_0.val = gdjs.evtTools.object.hitBoxesCollisionTest(gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.mapOfGDgdjs_46Lesson_95324_9532_9545_9532Conductors_9532_9538_9532InsulatorsCode_46GDCorkObjects2Objects, gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.mapOfGDgdjs_46Lesson_95324_9532_9545_9532Conductors_9532_9538_9532InsulatorsCode_46GDGoldObjects2Objects, false, runtimeScene, false);
+}if (gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.condition0IsTrue_0.val) {
+/* Reuse gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDGoldObjects2 */
+{for(var i = 0, len = gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDGoldObjects2.length ;i < len;++i) {
+    gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDGoldObjects2[i].setPosition(573,389);
+}
+}}
+
+}
+
+
+{
+
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDCorkObjects2.createFrom(gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDCorkObjects1);
+
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDGlassObjects2.createFrom(runtimeScene.getObjects("Glass"));
+
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.condition0IsTrue_0.val = false;
+{
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.condition0IsTrue_0.val = gdjs.evtTools.object.hitBoxesCollisionTest(gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.mapOfGDgdjs_46Lesson_95324_9532_9545_9532Conductors_9532_9538_9532InsulatorsCode_46GDCorkObjects2Objects, gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.mapOfGDgdjs_46Lesson_95324_9532_9545_9532Conductors_9532_9538_9532InsulatorsCode_46GDGlassObjects2Objects, false, runtimeScene, false);
+}if (gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.condition0IsTrue_0.val) {
+/* Reuse gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDGlassObjects2 */
+{for(var i = 0, len = gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDGlassObjects2.length ;i < len;++i) {
+    gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDGlassObjects2[i].setPosition(373,279);
+}
+}}
+
+}
+
+
+{
+
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDCopperObjects2.createFrom(runtimeScene.getObjects("Copper"));
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDCorkObjects2.createFrom(gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDCorkObjects1);
+
+
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.condition0IsTrue_0.val = false;
+{
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.condition0IsTrue_0.val = gdjs.evtTools.object.hitBoxesCollisionTest(gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.mapOfGDgdjs_46Lesson_95324_9532_9545_9532Conductors_9532_9538_9532InsulatorsCode_46GDCorkObjects2Objects, gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.mapOfGDgdjs_46Lesson_95324_9532_9545_9532Conductors_9532_9538_9532InsulatorsCode_46GDCopperObjects2Objects, false, runtimeScene, false);
+}if (gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.condition0IsTrue_0.val) {
+/* Reuse gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDCopperObjects2 */
+{for(var i = 0, len = gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDCopperObjects2.length ;i < len;++i) {
+    gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDCopperObjects2[i].setPosition(468,371);
+}
+}}
+
+}
+
+
+{
+
+/* Reuse gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDCorkObjects1 */
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDDiamondObjects1.createFrom(runtimeScene.getObjects("Diamond"));
+
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.condition0IsTrue_0.val = false;
+{
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.condition0IsTrue_0.val = gdjs.evtTools.object.hitBoxesCollisionTest(gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.mapOfGDgdjs_46Lesson_95324_9532_9545_9532Conductors_9532_9538_9532InsulatorsCode_46GDCorkObjects1Objects, gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.mapOfGDgdjs_46Lesson_95324_9532_9545_9532Conductors_9532_9538_9532InsulatorsCode_46GDDiamondObjects1Objects, false, runtimeScene, false);
+}if (gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.condition0IsTrue_0.val) {
+/* Reuse gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDDiamondObjects1 */
+{for(var i = 0, len = gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDDiamondObjects1.length ;i < len;++i) {
+    gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDDiamondObjects1[i].setPosition(700,263);
+}
+}}
+
+}
+
+
+};gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.eventsList11 = function(runtimeScene) {
+
+{
+
+
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.eventsList10(runtimeScene);
+}
+
+
+};gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.mapOfGDgdjs_46Lesson_95324_9532_9545_9532Conductors_9532_9538_9532InsulatorsCode_46GDGlassObjects1Objects = Hashtable.newFrom({"Glass": gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDGlassObjects1});gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.mapOfGDgdjs_46Lesson_95324_9532_9545_9532Conductors_9532_9538_9532InsulatorsCode_46GDLandingZoneObjects1Objects = Hashtable.newFrom({"LandingZone": gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDLandingZoneObjects1});gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.mapOfGDgdjs_46Lesson_95324_9532_9545_9532Conductors_9532_9538_9532InsulatorsCode_46GDGlassObjects2Objects = Hashtable.newFrom({"Glass": gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDGlassObjects2});gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.mapOfGDgdjs_46Lesson_95324_9532_9545_9532Conductors_9532_9538_9532InsulatorsCode_46GDDiamondObjects2Objects = Hashtable.newFrom({"Diamond": gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDDiamondObjects2});gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.mapOfGDgdjs_46Lesson_95324_9532_9545_9532Conductors_9532_9538_9532InsulatorsCode_46GDGlassObjects2Objects = Hashtable.newFrom({"Glass": gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDGlassObjects2});gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.mapOfGDgdjs_46Lesson_95324_9532_9545_9532Conductors_9532_9538_9532InsulatorsCode_46GDPlasticObjects2Objects = Hashtable.newFrom({"Plastic": gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDPlasticObjects2});gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.mapOfGDgdjs_46Lesson_95324_9532_9545_9532Conductors_9532_9538_9532InsulatorsCode_46GDGlassObjects2Objects = Hashtable.newFrom({"Glass": gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDGlassObjects2});gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.mapOfGDgdjs_46Lesson_95324_9532_9545_9532Conductors_9532_9538_9532InsulatorsCode_46GDAluminumObjects2Objects = Hashtable.newFrom({"Aluminum": gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDAluminumObjects2});gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.mapOfGDgdjs_46Lesson_95324_9532_9545_9532Conductors_9532_9538_9532InsulatorsCode_46GDGlassObjects2Objects = Hashtable.newFrom({"Glass": gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDGlassObjects2});gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.mapOfGDgdjs_46Lesson_95324_9532_9545_9532Conductors_9532_9538_9532InsulatorsCode_46GDCopperObjects2Objects = Hashtable.newFrom({"Copper": gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDCopperObjects2});gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.mapOfGDgdjs_46Lesson_95324_9532_9545_9532Conductors_9532_9538_9532InsulatorsCode_46GDGlassObjects2Objects = Hashtable.newFrom({"Glass": gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDGlassObjects2});gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.mapOfGDgdjs_46Lesson_95324_9532_9545_9532Conductors_9532_9538_9532InsulatorsCode_46GDCorkObjects2Objects = Hashtable.newFrom({"Cork": gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDCorkObjects2});gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.mapOfGDgdjs_46Lesson_95324_9532_9545_9532Conductors_9532_9538_9532InsulatorsCode_46GDGlassObjects2Objects = Hashtable.newFrom({"Glass": gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDGlassObjects2});gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.mapOfGDgdjs_46Lesson_95324_9532_9545_9532Conductors_9532_9538_9532InsulatorsCode_46GDGoldObjects2Objects = Hashtable.newFrom({"Gold": gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDGoldObjects2});gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.mapOfGDgdjs_46Lesson_95324_9532_9545_9532Conductors_9532_9538_9532InsulatorsCode_46GDGlassObjects1Objects = Hashtable.newFrom({"Glass": gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDGlassObjects1});gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.mapOfGDgdjs_46Lesson_95324_9532_9545_9532Conductors_9532_9538_9532InsulatorsCode_46GDBrassObjects1Objects = Hashtable.newFrom({"Brass": gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDBrassObjects1});gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.eventsList12 = function(runtimeScene) {
+
+{
+
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDDiamondObjects2.createFrom(runtimeScene.getObjects("Diamond"));
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDGlassObjects2.createFrom(gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDGlassObjects1);
+
+
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.condition0IsTrue_0.val = false;
+{
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.condition0IsTrue_0.val = gdjs.evtTools.object.hitBoxesCollisionTest(gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.mapOfGDgdjs_46Lesson_95324_9532_9545_9532Conductors_9532_9538_9532InsulatorsCode_46GDGlassObjects2Objects, gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.mapOfGDgdjs_46Lesson_95324_9532_9545_9532Conductors_9532_9538_9532InsulatorsCode_46GDDiamondObjects2Objects, false, runtimeScene, false);
+}if (gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.condition0IsTrue_0.val) {
+/* Reuse gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDDiamondObjects2 */
+{for(var i = 0, len = gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDDiamondObjects2.length ;i < len;++i) {
+    gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDDiamondObjects2[i].setPosition(700,263);
+}
+}}
+
+}
+
+
+{
+
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDGlassObjects2.createFrom(gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDGlassObjects1);
+
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDPlasticObjects2.createFrom(runtimeScene.getObjects("Plastic"));
+
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.condition0IsTrue_0.val = false;
+{
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.condition0IsTrue_0.val = gdjs.evtTools.object.hitBoxesCollisionTest(gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.mapOfGDgdjs_46Lesson_95324_9532_9545_9532Conductors_9532_9538_9532InsulatorsCode_46GDGlassObjects2Objects, gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.mapOfGDgdjs_46Lesson_95324_9532_9545_9532Conductors_9532_9538_9532InsulatorsCode_46GDPlasticObjects2Objects, false, runtimeScene, false);
+}if (gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.condition0IsTrue_0.val) {
+/* Reuse gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDPlasticObjects2 */
+{for(var i = 0, len = gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDPlasticObjects2.length ;i < len;++i) {
+    gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDPlasticObjects2[i].setPosition(707,343);
+}
+}}
+
+}
+
+
+{
+
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDAluminumObjects2.createFrom(runtimeScene.getObjects("Aluminum"));
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDGlassObjects2.createFrom(gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDGlassObjects1);
+
+
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.condition0IsTrue_0.val = false;
+{
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.condition0IsTrue_0.val = gdjs.evtTools.object.hitBoxesCollisionTest(gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.mapOfGDgdjs_46Lesson_95324_9532_9545_9532Conductors_9532_9538_9532InsulatorsCode_46GDGlassObjects2Objects, gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.mapOfGDgdjs_46Lesson_95324_9532_9545_9532Conductors_9532_9538_9532InsulatorsCode_46GDAluminumObjects2Objects, false, runtimeScene, false);
+}if (gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.condition0IsTrue_0.val) {
+/* Reuse gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDAluminumObjects2 */
+{for(var i = 0, len = gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDAluminumObjects2.length ;i < len;++i) {
+    gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDAluminumObjects2[i].setPosition(333,359);
+}
+}}
+
+}
+
+
+{
+
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDCopperObjects2.createFrom(runtimeScene.getObjects("Copper"));
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDGlassObjects2.createFrom(gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDGlassObjects1);
+
+
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.condition0IsTrue_0.val = false;
+{
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.condition0IsTrue_0.val = gdjs.evtTools.object.hitBoxesCollisionTest(gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.mapOfGDgdjs_46Lesson_95324_9532_9545_9532Conductors_9532_9538_9532InsulatorsCode_46GDGlassObjects2Objects, gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.mapOfGDgdjs_46Lesson_95324_9532_9545_9532Conductors_9532_9538_9532InsulatorsCode_46GDCopperObjects2Objects, false, runtimeScene, false);
+}if (gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.condition0IsTrue_0.val) {
+/* Reuse gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDCopperObjects2 */
+{for(var i = 0, len = gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDCopperObjects2.length ;i < len;++i) {
+    gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDCopperObjects2[i].setPosition(468,371);
+}
+}}
+
+}
+
+
+{
+
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDCorkObjects2.createFrom(runtimeScene.getObjects("Cork"));
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDGlassObjects2.createFrom(gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDGlassObjects1);
+
+
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.condition0IsTrue_0.val = false;
+{
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.condition0IsTrue_0.val = gdjs.evtTools.object.hitBoxesCollisionTest(gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.mapOfGDgdjs_46Lesson_95324_9532_9545_9532Conductors_9532_9538_9532InsulatorsCode_46GDGlassObjects2Objects, gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.mapOfGDgdjs_46Lesson_95324_9532_9545_9532Conductors_9532_9538_9532InsulatorsCode_46GDCorkObjects2Objects, false, runtimeScene, false);
+}if (gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.condition0IsTrue_0.val) {
+/* Reuse gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDCorkObjects2 */
+{for(var i = 0, len = gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDCorkObjects2.length ;i < len;++i) {
+    gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDCorkObjects2[i].setPosition(490,279);
+}
+}}
+
+}
+
+
+{
+
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDGlassObjects2.createFrom(gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDGlassObjects1);
+
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDGoldObjects2.createFrom(runtimeScene.getObjects("Gold"));
+
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.condition0IsTrue_0.val = false;
+{
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.condition0IsTrue_0.val = gdjs.evtTools.object.hitBoxesCollisionTest(gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.mapOfGDgdjs_46Lesson_95324_9532_9545_9532Conductors_9532_9538_9532InsulatorsCode_46GDGlassObjects2Objects, gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.mapOfGDgdjs_46Lesson_95324_9532_9545_9532Conductors_9532_9538_9532InsulatorsCode_46GDGoldObjects2Objects, false, runtimeScene, false);
+}if (gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.condition0IsTrue_0.val) {
+/* Reuse gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDGoldObjects2 */
+{for(var i = 0, len = gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDGoldObjects2.length ;i < len;++i) {
+    gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDGoldObjects2[i].setPosition(573,389);
+}
+}}
+
+}
+
+
+{
+
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDBrassObjects1.createFrom(runtimeScene.getObjects("Brass"));
+/* Reuse gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDGlassObjects1 */
+
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.condition0IsTrue_0.val = false;
+{
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.condition0IsTrue_0.val = gdjs.evtTools.object.hitBoxesCollisionTest(gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.mapOfGDgdjs_46Lesson_95324_9532_9545_9532Conductors_9532_9538_9532InsulatorsCode_46GDGlassObjects1Objects, gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.mapOfGDgdjs_46Lesson_95324_9532_9545_9532Conductors_9532_9538_9532InsulatorsCode_46GDBrassObjects1Objects, false, runtimeScene, false);
+}if (gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.condition0IsTrue_0.val) {
+/* Reuse gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDBrassObjects1 */
+{for(var i = 0, len = gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDBrassObjects1.length ;i < len;++i) {
+    gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDBrassObjects1[i].setPosition(586,303);
+}
+}}
+
+}
+
+
+};gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.eventsList13 = function(runtimeScene) {
+
+{
+
+
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.eventsList12(runtimeScene);
+}
+
+
+};gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.mapOfGDgdjs_46Lesson_95324_9532_9545_9532Conductors_9532_9538_9532InsulatorsCode_46GDBrassObjects1Objects = Hashtable.newFrom({"Brass": gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDBrassObjects1});gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.mapOfGDgdjs_46Lesson_95324_9532_9545_9532Conductors_9532_9538_9532InsulatorsCode_46GDLandingZoneObjects1Objects = Hashtable.newFrom({"LandingZone": gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDLandingZoneObjects1});gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.mapOfGDgdjs_46Lesson_95324_9532_9545_9532Conductors_9532_9538_9532InsulatorsCode_46GDBrassObjects2Objects = Hashtable.newFrom({"Brass": gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDBrassObjects2});gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.mapOfGDgdjs_46Lesson_95324_9532_9545_9532Conductors_9532_9538_9532InsulatorsCode_46GDPlasticObjects2Objects = Hashtable.newFrom({"Plastic": gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDPlasticObjects2});gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.mapOfGDgdjs_46Lesson_95324_9532_9545_9532Conductors_9532_9538_9532InsulatorsCode_46GDBrassObjects2Objects = Hashtable.newFrom({"Brass": gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDBrassObjects2});gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.mapOfGDgdjs_46Lesson_95324_9532_9545_9532Conductors_9532_9538_9532InsulatorsCode_46GDGoldObjects2Objects = Hashtable.newFrom({"Gold": gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDGoldObjects2});gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.mapOfGDgdjs_46Lesson_95324_9532_9545_9532Conductors_9532_9538_9532InsulatorsCode_46GDBrassObjects2Objects = Hashtable.newFrom({"Brass": gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDBrassObjects2});gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.mapOfGDgdjs_46Lesson_95324_9532_9545_9532Conductors_9532_9538_9532InsulatorsCode_46GDDiamondObjects2Objects = Hashtable.newFrom({"Diamond": gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDDiamondObjects2});gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.mapOfGDgdjs_46Lesson_95324_9532_9545_9532Conductors_9532_9538_9532InsulatorsCode_46GDBrassObjects2Objects = Hashtable.newFrom({"Brass": gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDBrassObjects2});gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.mapOfGDgdjs_46Lesson_95324_9532_9545_9532Conductors_9532_9538_9532InsulatorsCode_46GDAluminumObjects2Objects = Hashtable.newFrom({"Aluminum": gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDAluminumObjects2});gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.mapOfGDgdjs_46Lesson_95324_9532_9545_9532Conductors_9532_9538_9532InsulatorsCode_46GDBrassObjects2Objects = Hashtable.newFrom({"Brass": gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDBrassObjects2});gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.mapOfGDgdjs_46Lesson_95324_9532_9545_9532Conductors_9532_9538_9532InsulatorsCode_46GDCopperObjects2Objects = Hashtable.newFrom({"Copper": gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDCopperObjects2});gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.mapOfGDgdjs_46Lesson_95324_9532_9545_9532Conductors_9532_9538_9532InsulatorsCode_46GDBrassObjects2Objects = Hashtable.newFrom({"Brass": gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDBrassObjects2});gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.mapOfGDgdjs_46Lesson_95324_9532_9545_9532Conductors_9532_9538_9532InsulatorsCode_46GDGlassObjects2Objects = Hashtable.newFrom({"Glass": gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDGlassObjects2});gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.mapOfGDgdjs_46Lesson_95324_9532_9545_9532Conductors_9532_9538_9532InsulatorsCode_46GDBrassObjects1Objects = Hashtable.newFrom({"Brass": gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDBrassObjects1});gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.mapOfGDgdjs_46Lesson_95324_9532_9545_9532Conductors_9532_9538_9532InsulatorsCode_46GDCorkObjects1Objects = Hashtable.newFrom({"Cork": gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDCorkObjects1});gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.eventsList14 = function(runtimeScene) {
+
+{
+
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDBrassObjects2.createFrom(gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDBrassObjects1);
+
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDPlasticObjects2.createFrom(runtimeScene.getObjects("Plastic"));
+
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.condition0IsTrue_0.val = false;
+{
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.condition0IsTrue_0.val = gdjs.evtTools.object.hitBoxesCollisionTest(gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.mapOfGDgdjs_46Lesson_95324_9532_9545_9532Conductors_9532_9538_9532InsulatorsCode_46GDBrassObjects2Objects, gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.mapOfGDgdjs_46Lesson_95324_9532_9545_9532Conductors_9532_9538_9532InsulatorsCode_46GDPlasticObjects2Objects, false, runtimeScene, false);
+}if (gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.condition0IsTrue_0.val) {
+/* Reuse gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDPlasticObjects2 */
+{for(var i = 0, len = gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDPlasticObjects2.length ;i < len;++i) {
+    gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDPlasticObjects2[i].setPosition(707,343);
+}
+}}
+
+}
+
+
+{
+
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDBrassObjects2.createFrom(gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDBrassObjects1);
+
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDGoldObjects2.createFrom(runtimeScene.getObjects("Gold"));
+
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.condition0IsTrue_0.val = false;
+{
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.condition0IsTrue_0.val = gdjs.evtTools.object.hitBoxesCollisionTest(gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.mapOfGDgdjs_46Lesson_95324_9532_9545_9532Conductors_9532_9538_9532InsulatorsCode_46GDBrassObjects2Objects, gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.mapOfGDgdjs_46Lesson_95324_9532_9545_9532Conductors_9532_9538_9532InsulatorsCode_46GDGoldObjects2Objects, false, runtimeScene, false);
+}if (gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.condition0IsTrue_0.val) {
+/* Reuse gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDGoldObjects2 */
+{for(var i = 0, len = gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDGoldObjects2.length ;i < len;++i) {
+    gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDGoldObjects2[i].setPosition(573,389);
+}
+}}
+
+}
+
+
+{
+
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDBrassObjects2.createFrom(gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDBrassObjects1);
+
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDDiamondObjects2.createFrom(runtimeScene.getObjects("Diamond"));
+
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.condition0IsTrue_0.val = false;
+{
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.condition0IsTrue_0.val = gdjs.evtTools.object.hitBoxesCollisionTest(gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.mapOfGDgdjs_46Lesson_95324_9532_9545_9532Conductors_9532_9538_9532InsulatorsCode_46GDBrassObjects2Objects, gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.mapOfGDgdjs_46Lesson_95324_9532_9545_9532Conductors_9532_9538_9532InsulatorsCode_46GDDiamondObjects2Objects, false, runtimeScene, false);
+}if (gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.condition0IsTrue_0.val) {
+/* Reuse gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDDiamondObjects2 */
+{for(var i = 0, len = gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDDiamondObjects2.length ;i < len;++i) {
+    gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDDiamondObjects2[i].setPosition(700,263);
+}
+}}
+
+}
+
+
+{
+
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDAluminumObjects2.createFrom(runtimeScene.getObjects("Aluminum"));
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDBrassObjects2.createFrom(gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDBrassObjects1);
+
+
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.condition0IsTrue_0.val = false;
+{
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.condition0IsTrue_0.val = gdjs.evtTools.object.hitBoxesCollisionTest(gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.mapOfGDgdjs_46Lesson_95324_9532_9545_9532Conductors_9532_9538_9532InsulatorsCode_46GDBrassObjects2Objects, gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.mapOfGDgdjs_46Lesson_95324_9532_9545_9532Conductors_9532_9538_9532InsulatorsCode_46GDAluminumObjects2Objects, false, runtimeScene, false);
+}if (gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.condition0IsTrue_0.val) {
+/* Reuse gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDAluminumObjects2 */
+{for(var i = 0, len = gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDAluminumObjects2.length ;i < len;++i) {
+    gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDAluminumObjects2[i].setPosition(333,359);
+}
+}}
+
+}
+
+
+{
+
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDBrassObjects2.createFrom(gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDBrassObjects1);
+
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDCopperObjects2.createFrom(runtimeScene.getObjects("Copper"));
+
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.condition0IsTrue_0.val = false;
+{
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.condition0IsTrue_0.val = gdjs.evtTools.object.hitBoxesCollisionTest(gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.mapOfGDgdjs_46Lesson_95324_9532_9545_9532Conductors_9532_9538_9532InsulatorsCode_46GDBrassObjects2Objects, gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.mapOfGDgdjs_46Lesson_95324_9532_9545_9532Conductors_9532_9538_9532InsulatorsCode_46GDCopperObjects2Objects, false, runtimeScene, false);
+}if (gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.condition0IsTrue_0.val) {
+/* Reuse gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDCopperObjects2 */
+{for(var i = 0, len = gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDCopperObjects2.length ;i < len;++i) {
+    gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDCopperObjects2[i].setPosition(468,371);
+}
+}}
+
+}
+
+
+{
+
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDBrassObjects2.createFrom(gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDBrassObjects1);
+
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDGlassObjects2.createFrom(runtimeScene.getObjects("Glass"));
+
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.condition0IsTrue_0.val = false;
+{
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.condition0IsTrue_0.val = gdjs.evtTools.object.hitBoxesCollisionTest(gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.mapOfGDgdjs_46Lesson_95324_9532_9545_9532Conductors_9532_9538_9532InsulatorsCode_46GDBrassObjects2Objects, gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.mapOfGDgdjs_46Lesson_95324_9532_9545_9532Conductors_9532_9538_9532InsulatorsCode_46GDGlassObjects2Objects, false, runtimeScene, false);
+}if (gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.condition0IsTrue_0.val) {
+/* Reuse gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDGlassObjects2 */
+{for(var i = 0, len = gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDGlassObjects2.length ;i < len;++i) {
+    gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDGlassObjects2[i].setPosition(373,279);
+}
+}}
+
+}
+
+
+{
+
+/* Reuse gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDBrassObjects1 */
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDCorkObjects1.createFrom(runtimeScene.getObjects("Cork"));
+
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.condition0IsTrue_0.val = false;
+{
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.condition0IsTrue_0.val = gdjs.evtTools.object.hitBoxesCollisionTest(gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.mapOfGDgdjs_46Lesson_95324_9532_9545_9532Conductors_9532_9538_9532InsulatorsCode_46GDBrassObjects1Objects, gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.mapOfGDgdjs_46Lesson_95324_9532_9545_9532Conductors_9532_9538_9532InsulatorsCode_46GDCorkObjects1Objects, false, runtimeScene, false);
+}if (gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.condition0IsTrue_0.val) {
+/* Reuse gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDCorkObjects1 */
+{for(var i = 0, len = gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDCorkObjects1.length ;i < len;++i) {
+    gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDCorkObjects1[i].setPosition(490,279);
+}
+}}
+
+}
+
+
+};gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.eventsList15 = function(runtimeScene) {
+
+{
+
+
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.eventsList14(runtimeScene);
+}
+
+
+};gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.mapOfGDgdjs_46Lesson_95324_9532_9545_9532Conductors_9532_9538_9532InsulatorsCode_46GDCopperObjects1Objects = Hashtable.newFrom({"Copper": gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDCopperObjects1});gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.mapOfGDgdjs_46Lesson_95324_9532_9545_9532Conductors_9532_9538_9532InsulatorsCode_46GDConductorBoxObjects1Objects = Hashtable.newFrom({"ConductorBox": gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDConductorBoxObjects1});gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.mapOfGDgdjs_46Lesson_95324_9532_9545_9532Conductors_9532_9538_9532InsulatorsCode_46GDCopperObjects1Objects = Hashtable.newFrom({"Copper": gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDCopperObjects1});gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.mapOfGDgdjs_46Lesson_95324_9532_9545_9532Conductors_9532_9538_9532InsulatorsCode_46GDCopperObjects1Objects = Hashtable.newFrom({"Copper": gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDCopperObjects1});gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.mapOfGDgdjs_46Lesson_95324_9532_9545_9532Conductors_9532_9538_9532InsulatorsCode_46GDInsulatorBoxObjects1Objects = Hashtable.newFrom({"InsulatorBox": gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDInsulatorBoxObjects1});gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.mapOfGDgdjs_46Lesson_95324_9532_9545_9532Conductors_9532_9538_9532InsulatorsCode_46GDCopperObjects1Objects = Hashtable.newFrom({"Copper": gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDCopperObjects1});gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.mapOfGDgdjs_46Lesson_95324_9532_9545_9532Conductors_9532_9538_9532InsulatorsCode_46GDAluminumObjects1Objects = Hashtable.newFrom({"Aluminum": gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDAluminumObjects1});gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.mapOfGDgdjs_46Lesson_95324_9532_9545_9532Conductors_9532_9538_9532InsulatorsCode_46GDConductorBoxObjects1Objects = Hashtable.newFrom({"ConductorBox": gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDConductorBoxObjects1});gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.mapOfGDgdjs_46Lesson_95324_9532_9545_9532Conductors_9532_9538_9532InsulatorsCode_46GDAluminumObjects1Objects = Hashtable.newFrom({"Aluminum": gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDAluminumObjects1});gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.mapOfGDgdjs_46Lesson_95324_9532_9545_9532Conductors_9532_9538_9532InsulatorsCode_46GDAluminumObjects1Objects = Hashtable.newFrom({"Aluminum": gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDAluminumObjects1});gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.mapOfGDgdjs_46Lesson_95324_9532_9545_9532Conductors_9532_9538_9532InsulatorsCode_46GDInsulatorBoxObjects1Objects = Hashtable.newFrom({"InsulatorBox": gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDInsulatorBoxObjects1});gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.mapOfGDgdjs_46Lesson_95324_9532_9545_9532Conductors_9532_9538_9532InsulatorsCode_46GDAluminumObjects1Objects = Hashtable.newFrom({"Aluminum": gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDAluminumObjects1});gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.mapOfGDgdjs_46Lesson_95324_9532_9545_9532Conductors_9532_9538_9532InsulatorsCode_46GDBrassObjects1Objects = Hashtable.newFrom({"Brass": gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDBrassObjects1});gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.mapOfGDgdjs_46Lesson_95324_9532_9545_9532Conductors_9532_9538_9532InsulatorsCode_46GDConductorBoxObjects1Objects = Hashtable.newFrom({"ConductorBox": gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDConductorBoxObjects1});gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.mapOfGDgdjs_46Lesson_95324_9532_9545_9532Conductors_9532_9538_9532InsulatorsCode_46GDBrassObjects1Objects = Hashtable.newFrom({"Brass": gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDBrassObjects1});gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.mapOfGDgdjs_46Lesson_95324_9532_9545_9532Conductors_9532_9538_9532InsulatorsCode_46GDBrassObjects1Objects = Hashtable.newFrom({"Brass": gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDBrassObjects1});gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.mapOfGDgdjs_46Lesson_95324_9532_9545_9532Conductors_9532_9538_9532InsulatorsCode_46GDInsulatorBoxObjects1Objects = Hashtable.newFrom({"InsulatorBox": gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDInsulatorBoxObjects1});gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.mapOfGDgdjs_46Lesson_95324_9532_9545_9532Conductors_9532_9538_9532InsulatorsCode_46GDBrassObjects1Objects = Hashtable.newFrom({"Brass": gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDBrassObjects1});gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.mapOfGDgdjs_46Lesson_95324_9532_9545_9532Conductors_9532_9538_9532InsulatorsCode_46GDGoldObjects1Objects = Hashtable.newFrom({"Gold": gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDGoldObjects1});gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.mapOfGDgdjs_46Lesson_95324_9532_9545_9532Conductors_9532_9538_9532InsulatorsCode_46GDConductorBoxObjects1Objects = Hashtable.newFrom({"ConductorBox": gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDConductorBoxObjects1});gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.mapOfGDgdjs_46Lesson_95324_9532_9545_9532Conductors_9532_9538_9532InsulatorsCode_46GDGoldObjects1Objects = Hashtable.newFrom({"Gold": gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDGoldObjects1});gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.mapOfGDgdjs_46Lesson_95324_9532_9545_9532Conductors_9532_9538_9532InsulatorsCode_46GDGoldObjects1Objects = Hashtable.newFrom({"Gold": gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDGoldObjects1});gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.mapOfGDgdjs_46Lesson_95324_9532_9545_9532Conductors_9532_9538_9532InsulatorsCode_46GDInsulatorBoxObjects1Objects = Hashtable.newFrom({"InsulatorBox": gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDInsulatorBoxObjects1});gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.mapOfGDgdjs_46Lesson_95324_9532_9545_9532Conductors_9532_9538_9532InsulatorsCode_46GDGoldObjects1Objects = Hashtable.newFrom({"Gold": gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDGoldObjects1});gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.mapOfGDgdjs_46Lesson_95324_9532_9545_9532Conductors_9532_9538_9532InsulatorsCode_46GDDiamondObjects1Objects = Hashtable.newFrom({"Diamond": gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDDiamondObjects1});gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.mapOfGDgdjs_46Lesson_95324_9532_9545_9532Conductors_9532_9538_9532InsulatorsCode_46GDConductorBoxObjects1Objects = Hashtable.newFrom({"ConductorBox": gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDConductorBoxObjects1});gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.mapOfGDgdjs_46Lesson_95324_9532_9545_9532Conductors_9532_9538_9532InsulatorsCode_46GDDiamondObjects1Objects = Hashtable.newFrom({"Diamond": gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDDiamondObjects1});gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.mapOfGDgdjs_46Lesson_95324_9532_9545_9532Conductors_9532_9538_9532InsulatorsCode_46GDDiamondObjects1Objects = Hashtable.newFrom({"Diamond": gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDDiamondObjects1});gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.mapOfGDgdjs_46Lesson_95324_9532_9545_9532Conductors_9532_9538_9532InsulatorsCode_46GDInsulatorBoxObjects1Objects = Hashtable.newFrom({"InsulatorBox": gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDInsulatorBoxObjects1});gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.mapOfGDgdjs_46Lesson_95324_9532_9545_9532Conductors_9532_9538_9532InsulatorsCode_46GDDiamondObjects1Objects = Hashtable.newFrom({"Diamond": gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDDiamondObjects1});gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.mapOfGDgdjs_46Lesson_95324_9532_9545_9532Conductors_9532_9538_9532InsulatorsCode_46GDPlasticObjects1Objects = Hashtable.newFrom({"Plastic": gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDPlasticObjects1});gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.mapOfGDgdjs_46Lesson_95324_9532_9545_9532Conductors_9532_9538_9532InsulatorsCode_46GDConductorBoxObjects1Objects = Hashtable.newFrom({"ConductorBox": gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDConductorBoxObjects1});gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.mapOfGDgdjs_46Lesson_95324_9532_9545_9532Conductors_9532_9538_9532InsulatorsCode_46GDPlasticObjects1Objects = Hashtable.newFrom({"Plastic": gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDPlasticObjects1});gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.mapOfGDgdjs_46Lesson_95324_9532_9545_9532Conductors_9532_9538_9532InsulatorsCode_46GDPlasticObjects1Objects = Hashtable.newFrom({"Plastic": gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDPlasticObjects1});gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.mapOfGDgdjs_46Lesson_95324_9532_9545_9532Conductors_9532_9538_9532InsulatorsCode_46GDInsulatorBoxObjects1Objects = Hashtable.newFrom({"InsulatorBox": gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDInsulatorBoxObjects1});gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.mapOfGDgdjs_46Lesson_95324_9532_9545_9532Conductors_9532_9538_9532InsulatorsCode_46GDPlasticObjects1Objects = Hashtable.newFrom({"Plastic": gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDPlasticObjects1});gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.mapOfGDgdjs_46Lesson_95324_9532_9545_9532Conductors_9532_9538_9532InsulatorsCode_46GDCorkObjects1Objects = Hashtable.newFrom({"Cork": gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDCorkObjects1});gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.mapOfGDgdjs_46Lesson_95324_9532_9545_9532Conductors_9532_9538_9532InsulatorsCode_46GDConductorBoxObjects1Objects = Hashtable.newFrom({"ConductorBox": gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDConductorBoxObjects1});gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.mapOfGDgdjs_46Lesson_95324_9532_9545_9532Conductors_9532_9538_9532InsulatorsCode_46GDCorkObjects1Objects = Hashtable.newFrom({"Cork": gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDCorkObjects1});gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.mapOfGDgdjs_46Lesson_95324_9532_9545_9532Conductors_9532_9538_9532InsulatorsCode_46GDCorkObjects1Objects = Hashtable.newFrom({"Cork": gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDCorkObjects1});gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.mapOfGDgdjs_46Lesson_95324_9532_9545_9532Conductors_9532_9538_9532InsulatorsCode_46GDInsulatorBoxObjects1Objects = Hashtable.newFrom({"InsulatorBox": gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDInsulatorBoxObjects1});gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.mapOfGDgdjs_46Lesson_95324_9532_9545_9532Conductors_9532_9538_9532InsulatorsCode_46GDCorkObjects1Objects = Hashtable.newFrom({"Cork": gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDCorkObjects1});gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.mapOfGDgdjs_46Lesson_95324_9532_9545_9532Conductors_9532_9538_9532InsulatorsCode_46GDGlassObjects1Objects = Hashtable.newFrom({"Glass": gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDGlassObjects1});gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.mapOfGDgdjs_46Lesson_95324_9532_9545_9532Conductors_9532_9538_9532InsulatorsCode_46GDConductorBoxObjects1Objects = Hashtable.newFrom({"ConductorBox": gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDConductorBoxObjects1});gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.mapOfGDgdjs_46Lesson_95324_9532_9545_9532Conductors_9532_9538_9532InsulatorsCode_46GDGlassObjects1Objects = Hashtable.newFrom({"Glass": gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDGlassObjects1});gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.mapOfGDgdjs_46Lesson_95324_9532_9545_9532Conductors_9532_9538_9532InsulatorsCode_46GDGlassObjects1Objects = Hashtable.newFrom({"Glass": gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDGlassObjects1});gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.mapOfGDgdjs_46Lesson_95324_9532_9545_9532Conductors_9532_9538_9532InsulatorsCode_46GDInsulatorBoxObjects1Objects = Hashtable.newFrom({"InsulatorBox": gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDInsulatorBoxObjects1});gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.mapOfGDgdjs_46Lesson_95324_9532_9545_9532Conductors_9532_9538_9532InsulatorsCode_46GDGlassObjects1Objects = Hashtable.newFrom({"Glass": gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDGlassObjects1});gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.eventsList16 = function(runtimeScene) {
+
+{
+
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDLandingZoneObjects1.createFrom(runtimeScene.getObjects("LandingZone"));
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDneutralizeObjects1.createFrom(runtimeScene.getObjects("neutralize"));
+
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.condition0IsTrue_0.val = false;
+{
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.condition0IsTrue_0.val = gdjs.evtTools.object.hitBoxesCollisionTest(gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.mapOfGDgdjs_46Lesson_95324_9532_9545_9532Conductors_9532_9538_9532InsulatorsCode_46GDneutralizeObjects1Objects, gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.mapOfGDgdjs_46Lesson_95324_9532_9545_9532Conductors_9532_9538_9532InsulatorsCode_46GDLandingZoneObjects1Objects, false, runtimeScene, false);
+}if (gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.condition0IsTrue_0.val) {
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDLightbulbObjects1.createFrom(runtimeScene.getObjects("Lightbulb"));
+{for(var i = 0, len = gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDLightbulbObjects1.length ;i < len;++i) {
+    gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDLightbulbObjects1[i].setAnimation(0);
+}
+}}
+
+}
+
+
+{
+
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDBackObjects1.createFrom(runtimeScene.getObjects("Back"));
+
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.condition0IsTrue_0.val = false;
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.condition1IsTrue_0.val = false;
+{
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.condition0IsTrue_0.val = gdjs.evtTools.input.cursorOnObject(gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.mapOfGDgdjs_46Lesson_95324_9532_9545_9532Conductors_9532_9538_9532InsulatorsCode_46GDBackObjects1Objects, runtimeScene, true, false);
+}if ( gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.condition0IsTrue_0.val ) {
+{
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.condition1IsTrue_0.val = gdjs.evtTools.input.isMouseButtonReleased(runtimeScene, "Left");
+}}
+if (gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.condition1IsTrue_0.val) {
+{gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "Lesson 4 Part 2 - Activity Instructions", false);
+}}
+
+}
+
+
+{
+
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDAllLessonsObjects1.createFrom(runtimeScene.getObjects("AllLessons"));
+
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.condition0IsTrue_0.val = false;
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.condition1IsTrue_0.val = false;
+{
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.condition0IsTrue_0.val = gdjs.evtTools.input.cursorOnObject(gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.mapOfGDgdjs_46Lesson_95324_9532_9545_9532Conductors_9532_9538_9532InsulatorsCode_46GDAllLessonsObjects1Objects, runtimeScene, true, false);
+}if ( gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.condition0IsTrue_0.val ) {
+{
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.condition1IsTrue_0.val = gdjs.evtTools.input.isMouseButtonReleased(runtimeScene, "Left");
+}}
+if (gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.condition1IsTrue_0.val) {
+{gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "All Lessons", false);
+}}
+
+}
+
+
+{
+
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDNextLessonObjects1.createFrom(runtimeScene.getObjects("NextLesson"));
+
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.condition0IsTrue_0.val = false;
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.condition1IsTrue_0.val = false;
+{
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.condition0IsTrue_0.val = gdjs.evtTools.input.cursorOnObject(gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.mapOfGDgdjs_46Lesson_95324_9532_9545_9532Conductors_9532_9538_9532InsulatorsCode_46GDNextLessonObjects1Objects, runtimeScene, true, false);
+}if ( gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.condition0IsTrue_0.val ) {
+{
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.condition1IsTrue_0.val = gdjs.evtTools.input.isMouseButtonReleased(runtimeScene, "Left");
+}}
+if (gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.condition1IsTrue_0.val) {
+{gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "Lesson 5 - Circuits", false);
+}}
+
+}
+
+
+{
+
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDCopperObjects1.createFrom(runtimeScene.getObjects("Copper"));
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDLandingZoneObjects1.createFrom(runtimeScene.getObjects("LandingZone"));
+
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.condition0IsTrue_0.val = false;
+{
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.condition0IsTrue_0.val = gdjs.evtTools.object.hitBoxesCollisionTest(gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.mapOfGDgdjs_46Lesson_95324_9532_9545_9532Conductors_9532_9538_9532InsulatorsCode_46GDCopperObjects1Objects, gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.mapOfGDgdjs_46Lesson_95324_9532_9545_9532Conductors_9532_9538_9532InsulatorsCode_46GDLandingZoneObjects1Objects, false, runtimeScene, false);
+}if (gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.condition0IsTrue_0.val) {
+/* Reuse gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDCopperObjects1 */
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDLightbulbObjects1.createFrom(runtimeScene.getObjects("Lightbulb"));
+{for(var i = 0, len = gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDCopperObjects1.length ;i < len;++i) {
+    gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDCopperObjects1[i].setPosition(215,234);
+}
+}{for(var i = 0, len = gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDLightbulbObjects1.length ;i < len;++i) {
+    gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDLightbulbObjects1[i].setAnimation(1);
+}
+}
+{ //Subevents
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.eventsList1(runtimeScene);} //End of subevents
+}
+
+}
+
+
+{
+
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDAluminumObjects1.createFrom(runtimeScene.getObjects("Aluminum"));
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDLandingZoneObjects1.createFrom(runtimeScene.getObjects("LandingZone"));
+
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.condition0IsTrue_0.val = false;
+{
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.condition0IsTrue_0.val = gdjs.evtTools.object.hitBoxesCollisionTest(gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.mapOfGDgdjs_46Lesson_95324_9532_9545_9532Conductors_9532_9538_9532InsulatorsCode_46GDAluminumObjects1Objects, gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.mapOfGDgdjs_46Lesson_95324_9532_9545_9532Conductors_9532_9538_9532InsulatorsCode_46GDLandingZoneObjects1Objects, false, runtimeScene, false);
+}if (gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.condition0IsTrue_0.val) {
+/* Reuse gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDAluminumObjects1 */
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDLightbulbObjects1.createFrom(runtimeScene.getObjects("Lightbulb"));
+{for(var i = 0, len = gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDAluminumObjects1.length ;i < len;++i) {
+    gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDAluminumObjects1[i].setPosition(220,234);
+}
+}{for(var i = 0, len = gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDLightbulbObjects1.length ;i < len;++i) {
+    gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDLightbulbObjects1[i].setAnimation(1);
+}
+}
+{ //Subevents
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.eventsList3(runtimeScene);} //End of subevents
+}
+
+}
+
+
+{
+
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDGoldObjects1.createFrom(runtimeScene.getObjects("Gold"));
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDLandingZoneObjects1.createFrom(runtimeScene.getObjects("LandingZone"));
+
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.condition0IsTrue_0.val = false;
+{
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.condition0IsTrue_0.val = gdjs.evtTools.object.hitBoxesCollisionTest(gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.mapOfGDgdjs_46Lesson_95324_9532_9545_9532Conductors_9532_9538_9532InsulatorsCode_46GDGoldObjects1Objects, gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.mapOfGDgdjs_46Lesson_95324_9532_9545_9532Conductors_9532_9538_9532InsulatorsCode_46GDLandingZoneObjects1Objects, false, runtimeScene, false);
+}if (gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.condition0IsTrue_0.val) {
+/* Reuse gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDGoldObjects1 */
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDLightbulbObjects1.createFrom(runtimeScene.getObjects("Lightbulb"));
+{for(var i = 0, len = gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDGoldObjects1.length ;i < len;++i) {
+    gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDGoldObjects1[i].setPosition(206,242);
+}
+}{for(var i = 0, len = gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDLightbulbObjects1.length ;i < len;++i) {
+    gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDLightbulbObjects1[i].setAnimation(1);
+}
+}
+{ //Subevents
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.eventsList5(runtimeScene);} //End of subevents
+}
+
+}
+
+
+{
+
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDDiamondObjects1.createFrom(runtimeScene.getObjects("Diamond"));
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDLandingZoneObjects1.createFrom(runtimeScene.getObjects("LandingZone"));
+
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.condition0IsTrue_0.val = false;
+{
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.condition0IsTrue_0.val = gdjs.evtTools.object.hitBoxesCollisionTest(gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.mapOfGDgdjs_46Lesson_95324_9532_9545_9532Conductors_9532_9538_9532InsulatorsCode_46GDDiamondObjects1Objects, gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.mapOfGDgdjs_46Lesson_95324_9532_9545_9532Conductors_9532_9538_9532InsulatorsCode_46GDLandingZoneObjects1Objects, false, runtimeScene, false);
+}if (gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.condition0IsTrue_0.val) {
+/* Reuse gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDDiamondObjects1 */
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDLightbulbObjects1.createFrom(runtimeScene.getObjects("Lightbulb"));
+{for(var i = 0, len = gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDDiamondObjects1.length ;i < len;++i) {
+    gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDDiamondObjects1[i].setPosition(207,225);
+}
+}{for(var i = 0, len = gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDLightbulbObjects1.length ;i < len;++i) {
+    gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDLightbulbObjects1[i].setAnimation(0);
+}
+}
+{ //Subevents
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.eventsList7(runtimeScene);} //End of subevents
+}
+
+}
+
+
+{
+
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDLandingZoneObjects1.createFrom(runtimeScene.getObjects("LandingZone"));
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDPlasticObjects1.createFrom(runtimeScene.getObjects("Plastic"));
+
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.condition0IsTrue_0.val = false;
+{
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.condition0IsTrue_0.val = gdjs.evtTools.object.hitBoxesCollisionTest(gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.mapOfGDgdjs_46Lesson_95324_9532_9545_9532Conductors_9532_9538_9532InsulatorsCode_46GDPlasticObjects1Objects, gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.mapOfGDgdjs_46Lesson_95324_9532_9545_9532Conductors_9532_9538_9532InsulatorsCode_46GDLandingZoneObjects1Objects, false, runtimeScene, false);
+}if (gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.condition0IsTrue_0.val) {
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDLightbulbObjects1.createFrom(runtimeScene.getObjects("Lightbulb"));
+/* Reuse gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDPlasticObjects1 */
+{for(var i = 0, len = gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDPlasticObjects1.length ;i < len;++i) {
+    gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDPlasticObjects1[i].setPosition(227,230);
+}
+}{for(var i = 0, len = gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDLightbulbObjects1.length ;i < len;++i) {
+    gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDLightbulbObjects1[i].setAnimation(0);
+}
+}
+{ //Subevents
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.eventsList9(runtimeScene);} //End of subevents
+}
+
+}
+
+
+{
+
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDCorkObjects1.createFrom(runtimeScene.getObjects("Cork"));
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDLandingZoneObjects1.createFrom(runtimeScene.getObjects("LandingZone"));
+
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.condition0IsTrue_0.val = false;
+{
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.condition0IsTrue_0.val = gdjs.evtTools.object.hitBoxesCollisionTest(gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.mapOfGDgdjs_46Lesson_95324_9532_9545_9532Conductors_9532_9538_9532InsulatorsCode_46GDCorkObjects1Objects, gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.mapOfGDgdjs_46Lesson_95324_9532_9545_9532Conductors_9532_9538_9532InsulatorsCode_46GDLandingZoneObjects1Objects, false, runtimeScene, false);
+}if (gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.condition0IsTrue_0.val) {
+/* Reuse gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDCorkObjects1 */
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDLightbulbObjects1.createFrom(runtimeScene.getObjects("Lightbulb"));
+{for(var i = 0, len = gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDCorkObjects1.length ;i < len;++i) {
+    gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDCorkObjects1[i].setPosition(213,234);
+}
+}{for(var i = 0, len = gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDLightbulbObjects1.length ;i < len;++i) {
+    gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDLightbulbObjects1[i].setAnimation(0);
+}
+}
+{ //Subevents
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.eventsList11(runtimeScene);} //End of subevents
+}
+
+}
+
+
+{
+
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDGlassObjects1.createFrom(runtimeScene.getObjects("Glass"));
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDLandingZoneObjects1.createFrom(runtimeScene.getObjects("LandingZone"));
+
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.condition0IsTrue_0.val = false;
+{
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.condition0IsTrue_0.val = gdjs.evtTools.object.hitBoxesCollisionTest(gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.mapOfGDgdjs_46Lesson_95324_9532_9545_9532Conductors_9532_9538_9532InsulatorsCode_46GDGlassObjects1Objects, gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.mapOfGDgdjs_46Lesson_95324_9532_9545_9532Conductors_9532_9538_9532InsulatorsCode_46GDLandingZoneObjects1Objects, false, runtimeScene, false);
+}if (gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.condition0IsTrue_0.val) {
+/* Reuse gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDGlassObjects1 */
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDLightbulbObjects1.createFrom(runtimeScene.getObjects("Lightbulb"));
+{for(var i = 0, len = gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDGlassObjects1.length ;i < len;++i) {
+    gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDGlassObjects1[i].setPosition(205,226);
+}
+}{for(var i = 0, len = gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDLightbulbObjects1.length ;i < len;++i) {
+    gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDLightbulbObjects1[i].setAnimation(0);
+}
+}
+{ //Subevents
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.eventsList13(runtimeScene);} //End of subevents
+}
+
+}
+
+
+{
+
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDBrassObjects1.createFrom(runtimeScene.getObjects("Brass"));
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDLandingZoneObjects1.createFrom(runtimeScene.getObjects("LandingZone"));
+
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.condition0IsTrue_0.val = false;
+{
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.condition0IsTrue_0.val = gdjs.evtTools.object.hitBoxesCollisionTest(gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.mapOfGDgdjs_46Lesson_95324_9532_9545_9532Conductors_9532_9538_9532InsulatorsCode_46GDBrassObjects1Objects, gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.mapOfGDgdjs_46Lesson_95324_9532_9545_9532Conductors_9532_9538_9532InsulatorsCode_46GDLandingZoneObjects1Objects, false, runtimeScene, false);
+}if (gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.condition0IsTrue_0.val) {
+/* Reuse gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDBrassObjects1 */
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDLightbulbObjects1.createFrom(runtimeScene.getObjects("Lightbulb"));
+{for(var i = 0, len = gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDBrassObjects1.length ;i < len;++i) {
+    gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDBrassObjects1[i].setPosition(207,243);
+}
+}{for(var i = 0, len = gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDLightbulbObjects1.length ;i < len;++i) {
+    gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDLightbulbObjects1[i].setAnimation(1);
+}
+}
+{ //Subevents
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.eventsList15(runtimeScene);} //End of subevents
+}
+
+}
+
+
+{
+
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDConductorBoxObjects1.createFrom(runtimeScene.getObjects("ConductorBox"));
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDCopperObjects1.createFrom(runtimeScene.getObjects("Copper"));
+
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.condition0IsTrue_0.val = false;
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.condition1IsTrue_0.val = false;
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.condition2IsTrue_0.val = false;
+{
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.condition0IsTrue_0.val = gdjs.evtTools.object.hitBoxesCollisionTest(gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.mapOfGDgdjs_46Lesson_95324_9532_9545_9532Conductors_9532_9538_9532InsulatorsCode_46GDCopperObjects1Objects, gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.mapOfGDgdjs_46Lesson_95324_9532_9545_9532Conductors_9532_9538_9532InsulatorsCode_46GDConductorBoxObjects1Objects, false, runtimeScene, false);
+}if ( gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.condition0IsTrue_0.val ) {
+{
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.condition1IsTrue_0.val = gdjs.evtTools.input.cursorOnObject(gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.mapOfGDgdjs_46Lesson_95324_9532_9545_9532Conductors_9532_9538_9532InsulatorsCode_46GDCopperObjects1Objects, runtimeScene, true, false);
+}if ( gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.condition1IsTrue_0.val ) {
+{
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.condition2IsTrue_0.val = gdjs.evtTools.input.isMouseButtonReleased(runtimeScene, "Left");
+}}
+}
+if (gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.condition2IsTrue_0.val) {
+/* Reuse gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDCopperObjects1 */
+{for(var i = 0, len = gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDCopperObjects1.length ;i < len;++i) {
+    gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDCopperObjects1[i].setPosition(675,121);
+}
+}}
+
+}
+
+
+{
+
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDCopperObjects1.createFrom(runtimeScene.getObjects("Copper"));
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDInsulatorBoxObjects1.createFrom(runtimeScene.getObjects("InsulatorBox"));
+
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.condition0IsTrue_0.val = false;
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.condition1IsTrue_0.val = false;
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.condition2IsTrue_0.val = false;
+{
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.condition0IsTrue_0.val = gdjs.evtTools.object.hitBoxesCollisionTest(gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.mapOfGDgdjs_46Lesson_95324_9532_9545_9532Conductors_9532_9538_9532InsulatorsCode_46GDCopperObjects1Objects, gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.mapOfGDgdjs_46Lesson_95324_9532_9545_9532Conductors_9532_9538_9532InsulatorsCode_46GDInsulatorBoxObjects1Objects, false, runtimeScene, false);
+}if ( gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.condition0IsTrue_0.val ) {
+{
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.condition1IsTrue_0.val = gdjs.evtTools.input.cursorOnObject(gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.mapOfGDgdjs_46Lesson_95324_9532_9545_9532Conductors_9532_9538_9532InsulatorsCode_46GDCopperObjects1Objects, runtimeScene, true, false);
+}if ( gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.condition1IsTrue_0.val ) {
+{
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.condition2IsTrue_0.val = gdjs.evtTools.input.isMouseButtonReleased(runtimeScene, "Left");
+}}
+}
+if (gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.condition2IsTrue_0.val) {
+/* Reuse gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDCopperObjects1 */
+{for(var i = 0, len = gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDCopperObjects1.length ;i < len;++i) {
+    gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDCopperObjects1[i].setPosition(468,371);
+}
+}}
+
+}
+
+
+{
+
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDAluminumObjects1.createFrom(runtimeScene.getObjects("Aluminum"));
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDConductorBoxObjects1.createFrom(runtimeScene.getObjects("ConductorBox"));
+
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.condition0IsTrue_0.val = false;
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.condition1IsTrue_0.val = false;
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.condition2IsTrue_0.val = false;
+{
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.condition0IsTrue_0.val = gdjs.evtTools.object.hitBoxesCollisionTest(gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.mapOfGDgdjs_46Lesson_95324_9532_9545_9532Conductors_9532_9538_9532InsulatorsCode_46GDAluminumObjects1Objects, gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.mapOfGDgdjs_46Lesson_95324_9532_9545_9532Conductors_9532_9538_9532InsulatorsCode_46GDConductorBoxObjects1Objects, false, runtimeScene, false);
+}if ( gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.condition0IsTrue_0.val ) {
+{
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.condition1IsTrue_0.val = gdjs.evtTools.input.cursorOnObject(gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.mapOfGDgdjs_46Lesson_95324_9532_9545_9532Conductors_9532_9538_9532InsulatorsCode_46GDAluminumObjects1Objects, runtimeScene, true, false);
+}if ( gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.condition1IsTrue_0.val ) {
+{
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.condition2IsTrue_0.val = gdjs.evtTools.input.isMouseButtonReleased(runtimeScene, "Left");
+}}
+}
+if (gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.condition2IsTrue_0.val) {
+/* Reuse gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDAluminumObjects1 */
+{for(var i = 0, len = gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDAluminumObjects1.length ;i < len;++i) {
+    gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDAluminumObjects1[i].setPosition(605,195);
+}
+}}
+
+}
+
+
+{
+
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDAluminumObjects1.createFrom(runtimeScene.getObjects("Aluminum"));
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDInsulatorBoxObjects1.createFrom(runtimeScene.getObjects("InsulatorBox"));
+
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.condition0IsTrue_0.val = false;
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.condition1IsTrue_0.val = false;
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.condition2IsTrue_0.val = false;
+{
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.condition0IsTrue_0.val = gdjs.evtTools.object.hitBoxesCollisionTest(gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.mapOfGDgdjs_46Lesson_95324_9532_9545_9532Conductors_9532_9538_9532InsulatorsCode_46GDAluminumObjects1Objects, gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.mapOfGDgdjs_46Lesson_95324_9532_9545_9532Conductors_9532_9538_9532InsulatorsCode_46GDInsulatorBoxObjects1Objects, false, runtimeScene, false);
+}if ( gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.condition0IsTrue_0.val ) {
+{
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.condition1IsTrue_0.val = gdjs.evtTools.input.cursorOnObject(gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.mapOfGDgdjs_46Lesson_95324_9532_9545_9532Conductors_9532_9538_9532InsulatorsCode_46GDAluminumObjects1Objects, runtimeScene, true, false);
+}if ( gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.condition1IsTrue_0.val ) {
+{
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.condition2IsTrue_0.val = gdjs.evtTools.input.isMouseButtonReleased(runtimeScene, "Left");
+}}
+}
+if (gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.condition2IsTrue_0.val) {
+/* Reuse gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDAluminumObjects1 */
+{for(var i = 0, len = gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDAluminumObjects1.length ;i < len;++i) {
+    gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDAluminumObjects1[i].setPosition(333,359);
+}
+}}
+
+}
+
+
+{
+
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDBrassObjects1.createFrom(runtimeScene.getObjects("Brass"));
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDConductorBoxObjects1.createFrom(runtimeScene.getObjects("ConductorBox"));
+
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.condition0IsTrue_0.val = false;
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.condition1IsTrue_0.val = false;
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.condition2IsTrue_0.val = false;
+{
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.condition0IsTrue_0.val = gdjs.evtTools.object.hitBoxesCollisionTest(gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.mapOfGDgdjs_46Lesson_95324_9532_9545_9532Conductors_9532_9538_9532InsulatorsCode_46GDBrassObjects1Objects, gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.mapOfGDgdjs_46Lesson_95324_9532_9545_9532Conductors_9532_9538_9532InsulatorsCode_46GDConductorBoxObjects1Objects, false, runtimeScene, false);
+}if ( gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.condition0IsTrue_0.val ) {
+{
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.condition1IsTrue_0.val = gdjs.evtTools.input.cursorOnObject(gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.mapOfGDgdjs_46Lesson_95324_9532_9545_9532Conductors_9532_9538_9532InsulatorsCode_46GDBrassObjects1Objects, runtimeScene, true, false);
+}if ( gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.condition1IsTrue_0.val ) {
+{
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.condition2IsTrue_0.val = gdjs.evtTools.input.isMouseButtonReleased(runtimeScene, "Left");
+}}
+}
+if (gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.condition2IsTrue_0.val) {
+/* Reuse gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDBrassObjects1 */
+{for(var i = 0, len = gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDBrassObjects1.length ;i < len;++i) {
+    gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDBrassObjects1[i].setPosition(595,125);
+}
+}}
+
+}
+
+
+{
+
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDBrassObjects1.createFrom(runtimeScene.getObjects("Brass"));
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDInsulatorBoxObjects1.createFrom(runtimeScene.getObjects("InsulatorBox"));
+
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.condition0IsTrue_0.val = false;
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.condition1IsTrue_0.val = false;
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.condition2IsTrue_0.val = false;
+{
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.condition0IsTrue_0.val = gdjs.evtTools.object.hitBoxesCollisionTest(gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.mapOfGDgdjs_46Lesson_95324_9532_9545_9532Conductors_9532_9538_9532InsulatorsCode_46GDBrassObjects1Objects, gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.mapOfGDgdjs_46Lesson_95324_9532_9545_9532Conductors_9532_9538_9532InsulatorsCode_46GDInsulatorBoxObjects1Objects, false, runtimeScene, false);
+}if ( gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.condition0IsTrue_0.val ) {
+{
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.condition1IsTrue_0.val = gdjs.evtTools.input.cursorOnObject(gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.mapOfGDgdjs_46Lesson_95324_9532_9545_9532Conductors_9532_9538_9532InsulatorsCode_46GDBrassObjects1Objects, runtimeScene, true, false);
+}if ( gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.condition1IsTrue_0.val ) {
+{
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.condition2IsTrue_0.val = gdjs.evtTools.input.isMouseButtonReleased(runtimeScene, "Left");
+}}
+}
+if (gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.condition2IsTrue_0.val) {
+/* Reuse gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDBrassObjects1 */
+{for(var i = 0, len = gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDBrassObjects1.length ;i < len;++i) {
+    gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDBrassObjects1[i].setPosition(586,303);
+}
+}}
+
+}
+
+
+{
+
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDConductorBoxObjects1.createFrom(runtimeScene.getObjects("ConductorBox"));
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDGoldObjects1.createFrom(runtimeScene.getObjects("Gold"));
+
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.condition0IsTrue_0.val = false;
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.condition1IsTrue_0.val = false;
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.condition2IsTrue_0.val = false;
+{
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.condition0IsTrue_0.val = gdjs.evtTools.object.hitBoxesCollisionTest(gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.mapOfGDgdjs_46Lesson_95324_9532_9545_9532Conductors_9532_9538_9532InsulatorsCode_46GDGoldObjects1Objects, gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.mapOfGDgdjs_46Lesson_95324_9532_9545_9532Conductors_9532_9538_9532InsulatorsCode_46GDConductorBoxObjects1Objects, false, runtimeScene, false);
+}if ( gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.condition0IsTrue_0.val ) {
+{
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.condition1IsTrue_0.val = gdjs.evtTools.input.cursorOnObject(gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.mapOfGDgdjs_46Lesson_95324_9532_9545_9532Conductors_9532_9538_9532InsulatorsCode_46GDGoldObjects1Objects, runtimeScene, true, false);
+}if ( gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.condition1IsTrue_0.val ) {
+{
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.condition2IsTrue_0.val = gdjs.evtTools.input.isMouseButtonReleased(runtimeScene, "Left");
+}}
+}
+if (gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.condition2IsTrue_0.val) {
+/* Reuse gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDGoldObjects1 */
+{for(var i = 0, len = gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDGoldObjects1.length ;i < len;++i) {
+    gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDGoldObjects1[i].setPosition(664,223);
+}
+}}
+
+}
+
+
+{
+
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDGoldObjects1.createFrom(runtimeScene.getObjects("Gold"));
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDInsulatorBoxObjects1.createFrom(runtimeScene.getObjects("InsulatorBox"));
+
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.condition0IsTrue_0.val = false;
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.condition1IsTrue_0.val = false;
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.condition2IsTrue_0.val = false;
+{
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.condition0IsTrue_0.val = gdjs.evtTools.object.hitBoxesCollisionTest(gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.mapOfGDgdjs_46Lesson_95324_9532_9545_9532Conductors_9532_9538_9532InsulatorsCode_46GDGoldObjects1Objects, gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.mapOfGDgdjs_46Lesson_95324_9532_9545_9532Conductors_9532_9538_9532InsulatorsCode_46GDInsulatorBoxObjects1Objects, false, runtimeScene, false);
+}if ( gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.condition0IsTrue_0.val ) {
+{
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.condition1IsTrue_0.val = gdjs.evtTools.input.cursorOnObject(gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.mapOfGDgdjs_46Lesson_95324_9532_9545_9532Conductors_9532_9538_9532InsulatorsCode_46GDGoldObjects1Objects, runtimeScene, true, false);
+}if ( gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.condition1IsTrue_0.val ) {
+{
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.condition2IsTrue_0.val = gdjs.evtTools.input.isMouseButtonReleased(runtimeScene, "Left");
+}}
+}
+if (gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.condition2IsTrue_0.val) {
+/* Reuse gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDGoldObjects1 */
+{for(var i = 0, len = gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDGoldObjects1.length ;i < len;++i) {
+    gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDGoldObjects1[i].setPosition(573,389);
+}
+}}
+
+}
+
+
+{
+
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDConductorBoxObjects1.createFrom(runtimeScene.getObjects("ConductorBox"));
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDDiamondObjects1.createFrom(runtimeScene.getObjects("Diamond"));
+
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.condition0IsTrue_0.val = false;
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.condition1IsTrue_0.val = false;
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.condition2IsTrue_0.val = false;
+{
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.condition0IsTrue_0.val = gdjs.evtTools.object.hitBoxesCollisionTest(gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.mapOfGDgdjs_46Lesson_95324_9532_9545_9532Conductors_9532_9538_9532InsulatorsCode_46GDDiamondObjects1Objects, gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.mapOfGDgdjs_46Lesson_95324_9532_9545_9532Conductors_9532_9538_9532InsulatorsCode_46GDConductorBoxObjects1Objects, false, runtimeScene, false);
+}if ( gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.condition0IsTrue_0.val ) {
+{
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.condition1IsTrue_0.val = gdjs.evtTools.input.cursorOnObject(gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.mapOfGDgdjs_46Lesson_95324_9532_9545_9532Conductors_9532_9538_9532InsulatorsCode_46GDDiamondObjects1Objects, runtimeScene, true, false);
+}if ( gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.condition1IsTrue_0.val ) {
+{
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.condition2IsTrue_0.val = gdjs.evtTools.input.isMouseButtonReleased(runtimeScene, "Left");
+}}
+}
+if (gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.condition2IsTrue_0.val) {
+/* Reuse gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDDiamondObjects1 */
+{for(var i = 0, len = gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDDiamondObjects1.length ;i < len;++i) {
+    gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDDiamondObjects1[i].setPosition(700,263);
+}
+}}
+
+}
+
+
+{
+
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDDiamondObjects1.createFrom(runtimeScene.getObjects("Diamond"));
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDInsulatorBoxObjects1.createFrom(runtimeScene.getObjects("InsulatorBox"));
+
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.condition0IsTrue_0.val = false;
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.condition1IsTrue_0.val = false;
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.condition2IsTrue_0.val = false;
+{
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.condition0IsTrue_0.val = gdjs.evtTools.object.hitBoxesCollisionTest(gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.mapOfGDgdjs_46Lesson_95324_9532_9545_9532Conductors_9532_9538_9532InsulatorsCode_46GDDiamondObjects1Objects, gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.mapOfGDgdjs_46Lesson_95324_9532_9545_9532Conductors_9532_9538_9532InsulatorsCode_46GDInsulatorBoxObjects1Objects, false, runtimeScene, false);
+}if ( gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.condition0IsTrue_0.val ) {
+{
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.condition1IsTrue_0.val = gdjs.evtTools.input.cursorOnObject(gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.mapOfGDgdjs_46Lesson_95324_9532_9545_9532Conductors_9532_9538_9532InsulatorsCode_46GDDiamondObjects1Objects, runtimeScene, true, false);
+}if ( gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.condition1IsTrue_0.val ) {
+{
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.condition2IsTrue_0.val = gdjs.evtTools.input.isMouseButtonReleased(runtimeScene, "Left");
+}}
+}
+if (gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.condition2IsTrue_0.val) {
+/* Reuse gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDDiamondObjects1 */
+{for(var i = 0, len = gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDDiamondObjects1.length ;i < len;++i) {
+    gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDDiamondObjects1[i].setPosition(474,112);
+}
+}}
+
+}
+
+
+{
+
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDConductorBoxObjects1.createFrom(runtimeScene.getObjects("ConductorBox"));
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDPlasticObjects1.createFrom(runtimeScene.getObjects("Plastic"));
+
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.condition0IsTrue_0.val = false;
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.condition1IsTrue_0.val = false;
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.condition2IsTrue_0.val = false;
+{
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.condition0IsTrue_0.val = gdjs.evtTools.object.hitBoxesCollisionTest(gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.mapOfGDgdjs_46Lesson_95324_9532_9545_9532Conductors_9532_9538_9532InsulatorsCode_46GDPlasticObjects1Objects, gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.mapOfGDgdjs_46Lesson_95324_9532_9545_9532Conductors_9532_9538_9532InsulatorsCode_46GDConductorBoxObjects1Objects, false, runtimeScene, false);
+}if ( gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.condition0IsTrue_0.val ) {
+{
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.condition1IsTrue_0.val = gdjs.evtTools.input.cursorOnObject(gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.mapOfGDgdjs_46Lesson_95324_9532_9545_9532Conductors_9532_9538_9532InsulatorsCode_46GDPlasticObjects1Objects, runtimeScene, true, false);
+}if ( gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.condition1IsTrue_0.val ) {
+{
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.condition2IsTrue_0.val = gdjs.evtTools.input.isMouseButtonReleased(runtimeScene, "Left");
+}}
+}
+if (gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.condition2IsTrue_0.val) {
+/* Reuse gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDPlasticObjects1 */
+{for(var i = 0, len = gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDPlasticObjects1.length ;i < len;++i) {
+    gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDPlasticObjects1[i].setPosition(707,343);
+}
+}}
+
+}
+
+
+{
+
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDInsulatorBoxObjects1.createFrom(runtimeScene.getObjects("InsulatorBox"));
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDPlasticObjects1.createFrom(runtimeScene.getObjects("Plastic"));
+
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.condition0IsTrue_0.val = false;
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.condition1IsTrue_0.val = false;
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.condition2IsTrue_0.val = false;
+{
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.condition0IsTrue_0.val = gdjs.evtTools.object.hitBoxesCollisionTest(gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.mapOfGDgdjs_46Lesson_95324_9532_9545_9532Conductors_9532_9538_9532InsulatorsCode_46GDPlasticObjects1Objects, gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.mapOfGDgdjs_46Lesson_95324_9532_9545_9532Conductors_9532_9538_9532InsulatorsCode_46GDInsulatorBoxObjects1Objects, false, runtimeScene, false);
+}if ( gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.condition0IsTrue_0.val ) {
+{
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.condition1IsTrue_0.val = gdjs.evtTools.input.cursorOnObject(gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.mapOfGDgdjs_46Lesson_95324_9532_9545_9532Conductors_9532_9538_9532InsulatorsCode_46GDPlasticObjects1Objects, runtimeScene, true, false);
+}if ( gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.condition1IsTrue_0.val ) {
+{
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.condition2IsTrue_0.val = gdjs.evtTools.input.isMouseButtonReleased(runtimeScene, "Left");
+}}
+}
+if (gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.condition2IsTrue_0.val) {
+/* Reuse gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDPlasticObjects1 */
+{for(var i = 0, len = gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDPlasticObjects1.length ;i < len;++i) {
+    gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDPlasticObjects1[i].setPosition(418,107);
+}
+}}
+
+}
+
+
+{
+
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDConductorBoxObjects1.createFrom(runtimeScene.getObjects("ConductorBox"));
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDCorkObjects1.createFrom(runtimeScene.getObjects("Cork"));
+
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.condition0IsTrue_0.val = false;
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.condition1IsTrue_0.val = false;
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.condition2IsTrue_0.val = false;
+{
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.condition0IsTrue_0.val = gdjs.evtTools.object.hitBoxesCollisionTest(gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.mapOfGDgdjs_46Lesson_95324_9532_9545_9532Conductors_9532_9538_9532InsulatorsCode_46GDCorkObjects1Objects, gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.mapOfGDgdjs_46Lesson_95324_9532_9545_9532Conductors_9532_9538_9532InsulatorsCode_46GDConductorBoxObjects1Objects, false, runtimeScene, false);
+}if ( gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.condition0IsTrue_0.val ) {
+{
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.condition1IsTrue_0.val = gdjs.evtTools.input.cursorOnObject(gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.mapOfGDgdjs_46Lesson_95324_9532_9545_9532Conductors_9532_9538_9532InsulatorsCode_46GDCorkObjects1Objects, runtimeScene, true, false);
+}if ( gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.condition1IsTrue_0.val ) {
+{
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.condition2IsTrue_0.val = gdjs.evtTools.input.isMouseButtonReleased(runtimeScene, "Left");
+}}
+}
+if (gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.condition2IsTrue_0.val) {
+/* Reuse gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDCorkObjects1 */
+{for(var i = 0, len = gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDCorkObjects1.length ;i < len;++i) {
+    gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDCorkObjects1[i].setPosition(490,279);
+}
+}}
+
+}
+
+
+{
+
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDCorkObjects1.createFrom(runtimeScene.getObjects("Cork"));
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDInsulatorBoxObjects1.createFrom(runtimeScene.getObjects("InsulatorBox"));
+
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.condition0IsTrue_0.val = false;
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.condition1IsTrue_0.val = false;
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.condition2IsTrue_0.val = false;
+{
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.condition0IsTrue_0.val = gdjs.evtTools.object.hitBoxesCollisionTest(gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.mapOfGDgdjs_46Lesson_95324_9532_9545_9532Conductors_9532_9538_9532InsulatorsCode_46GDCorkObjects1Objects, gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.mapOfGDgdjs_46Lesson_95324_9532_9545_9532Conductors_9532_9538_9532InsulatorsCode_46GDInsulatorBoxObjects1Objects, false, runtimeScene, false);
+}if ( gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.condition0IsTrue_0.val ) {
+{
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.condition1IsTrue_0.val = gdjs.evtTools.input.cursorOnObject(gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.mapOfGDgdjs_46Lesson_95324_9532_9545_9532Conductors_9532_9538_9532InsulatorsCode_46GDCorkObjects1Objects, runtimeScene, true, false);
+}if ( gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.condition1IsTrue_0.val ) {
+{
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.condition2IsTrue_0.val = gdjs.evtTools.input.isMouseButtonReleased(runtimeScene, "Left");
+}}
+}
+if (gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.condition2IsTrue_0.val) {
+/* Reuse gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDCorkObjects1 */
+{for(var i = 0, len = gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDCorkObjects1.length ;i < len;++i) {
+    gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDCorkObjects1[i].setPosition(478,201);
+}
+}}
+
+}
+
+
+{
+
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDConductorBoxObjects1.createFrom(runtimeScene.getObjects("ConductorBox"));
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDGlassObjects1.createFrom(runtimeScene.getObjects("Glass"));
+
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.condition0IsTrue_0.val = false;
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.condition1IsTrue_0.val = false;
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.condition2IsTrue_0.val = false;
+{
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.condition0IsTrue_0.val = gdjs.evtTools.object.hitBoxesCollisionTest(gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.mapOfGDgdjs_46Lesson_95324_9532_9545_9532Conductors_9532_9538_9532InsulatorsCode_46GDGlassObjects1Objects, gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.mapOfGDgdjs_46Lesson_95324_9532_9545_9532Conductors_9532_9538_9532InsulatorsCode_46GDConductorBoxObjects1Objects, false, runtimeScene, false);
+}if ( gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.condition0IsTrue_0.val ) {
+{
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.condition1IsTrue_0.val = gdjs.evtTools.input.cursorOnObject(gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.mapOfGDgdjs_46Lesson_95324_9532_9545_9532Conductors_9532_9538_9532InsulatorsCode_46GDGlassObjects1Objects, runtimeScene, true, false);
+}if ( gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.condition1IsTrue_0.val ) {
+{
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.condition2IsTrue_0.val = gdjs.evtTools.input.isMouseButtonReleased(runtimeScene, "Left");
+}}
+}
+if (gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.condition2IsTrue_0.val) {
+/* Reuse gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDGlassObjects1 */
+{for(var i = 0, len = gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDGlassObjects1.length ;i < len;++i) {
+    gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDGlassObjects1[i].setPosition(373,279);
+}
+}}
+
+}
+
+
+{
+
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDGlassObjects1.createFrom(runtimeScene.getObjects("Glass"));
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDInsulatorBoxObjects1.createFrom(runtimeScene.getObjects("InsulatorBox"));
+
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.condition0IsTrue_0.val = false;
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.condition1IsTrue_0.val = false;
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.condition2IsTrue_0.val = false;
+{
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.condition0IsTrue_0.val = gdjs.evtTools.object.hitBoxesCollisionTest(gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.mapOfGDgdjs_46Lesson_95324_9532_9545_9532Conductors_9532_9538_9532InsulatorsCode_46GDGlassObjects1Objects, gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.mapOfGDgdjs_46Lesson_95324_9532_9545_9532Conductors_9532_9538_9532InsulatorsCode_46GDInsulatorBoxObjects1Objects, false, runtimeScene, false);
+}if ( gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.condition0IsTrue_0.val ) {
+{
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.condition1IsTrue_0.val = gdjs.evtTools.input.cursorOnObject(gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.mapOfGDgdjs_46Lesson_95324_9532_9545_9532Conductors_9532_9538_9532InsulatorsCode_46GDGlassObjects1Objects, runtimeScene, true, false);
+}if ( gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.condition1IsTrue_0.val ) {
+{
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.condition2IsTrue_0.val = gdjs.evtTools.input.isMouseButtonReleased(runtimeScene, "Left");
+}}
+}
+if (gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.condition2IsTrue_0.val) {
+/* Reuse gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDGlassObjects1 */
+{for(var i = 0, len = gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDGlassObjects1.length ;i < len;++i) {
+    gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDGlassObjects1[i].setPosition(394,200);
+}
+}}
+
+}
+
+
+};
+
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.func = function(runtimeScene) {
+runtimeScene.getOnceTriggers().startNewFrame();
+
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDGridObjects1.length = 0;
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDGridObjects2.length = 0;
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDGridObjects3.length = 0;
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDLine2Objects1.length = 0;
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDLine2Objects2.length = 0;
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDLine2Objects3.length = 0;
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDLine3Objects1.length = 0;
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDLine3Objects2.length = 0;
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDLine3Objects3.length = 0;
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDLine4Objects1.length = 0;
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDLine4Objects2.length = 0;
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDLine4Objects3.length = 0;
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDLine5Objects1.length = 0;
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDLine5Objects2.length = 0;
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDLine5Objects3.length = 0;
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDLine6Objects1.length = 0;
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDLine6Objects2.length = 0;
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDLine6Objects3.length = 0;
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDLine7Objects1.length = 0;
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDLine7Objects2.length = 0;
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDLine7Objects3.length = 0;
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDLine8Objects1.length = 0;
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDLine8Objects2.length = 0;
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDLine8Objects3.length = 0;
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDLine9Objects1.length = 0;
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDLine9Objects2.length = 0;
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDLine9Objects3.length = 0;
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDLine10Objects1.length = 0;
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDLine10Objects2.length = 0;
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDLine10Objects3.length = 0;
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDLine11Objects1.length = 0;
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDLine11Objects2.length = 0;
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDLine11Objects3.length = 0;
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDLine12Objects1.length = 0;
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDLine12Objects2.length = 0;
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDLine12Objects3.length = 0;
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDLine13Objects1.length = 0;
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDLine13Objects2.length = 0;
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDLine13Objects3.length = 0;
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDLine14Objects1.length = 0;
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDLine14Objects2.length = 0;
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDLine14Objects3.length = 0;
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDLine15Objects1.length = 0;
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDLine15Objects2.length = 0;
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDLine15Objects3.length = 0;
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDLine16Objects1.length = 0;
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDLine16Objects2.length = 0;
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDLine16Objects3.length = 0;
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDLine17Objects1.length = 0;
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDLine17Objects2.length = 0;
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDLine17Objects3.length = 0;
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDLine18Objects1.length = 0;
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDLine18Objects2.length = 0;
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDLine18Objects3.length = 0;
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDLine19Objects1.length = 0;
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDLine19Objects2.length = 0;
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDLine19Objects3.length = 0;
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDLine20Objects1.length = 0;
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDLine20Objects2.length = 0;
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDLine20Objects3.length = 0;
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDLine21Objects1.length = 0;
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDLine21Objects2.length = 0;
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDLine21Objects3.length = 0;
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDLine22Objects1.length = 0;
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDLine22Objects2.length = 0;
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDLine22Objects3.length = 0;
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDLine23Objects1.length = 0;
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDLine23Objects2.length = 0;
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDLine23Objects3.length = 0;
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDLine24Objects1.length = 0;
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDLine24Objects2.length = 0;
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDLine24Objects3.length = 0;
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDLine25Objects1.length = 0;
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDLine25Objects2.length = 0;
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDLine25Objects3.length = 0;
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDLine26Objects1.length = 0;
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDLine26Objects2.length = 0;
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDLine26Objects3.length = 0;
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDLine27Objects1.length = 0;
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDLine27Objects2.length = 0;
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDLine27Objects3.length = 0;
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDLine28Objects1.length = 0;
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDLine28Objects2.length = 0;
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDLine28Objects3.length = 0;
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDLine29Objects1.length = 0;
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDLine29Objects2.length = 0;
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDLine29Objects3.length = 0;
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDLine30Objects1.length = 0;
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDLine30Objects2.length = 0;
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDLine30Objects3.length = 0;
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDLineObjects1.length = 0;
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDLineObjects2.length = 0;
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDLineObjects3.length = 0;
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDV_95Line2Objects1.length = 0;
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDV_95Line2Objects2.length = 0;
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDV_95Line2Objects3.length = 0;
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDV_95Line3Objects1.length = 0;
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDV_95Line3Objects2.length = 0;
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDV_95Line3Objects3.length = 0;
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDV_95Line4Objects1.length = 0;
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDV_95Line4Objects2.length = 0;
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDV_95Line4Objects3.length = 0;
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDV_95Line5Objects1.length = 0;
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDV_95Line5Objects2.length = 0;
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDV_95Line5Objects3.length = 0;
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDV_95Line6Objects1.length = 0;
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDV_95Line6Objects2.length = 0;
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDV_95Line6Objects3.length = 0;
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDV_95Line7Objects1.length = 0;
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDV_95Line7Objects2.length = 0;
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDV_95Line7Objects3.length = 0;
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDV_95Line8Objects1.length = 0;
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDV_95Line8Objects2.length = 0;
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDV_95Line8Objects3.length = 0;
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDV_95Line9Objects1.length = 0;
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDV_95Line9Objects2.length = 0;
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDV_95Line9Objects3.length = 0;
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDV_95Line10Objects1.length = 0;
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDV_95Line10Objects2.length = 0;
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDV_95Line10Objects3.length = 0;
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDV_95Line11Objects1.length = 0;
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDV_95Line11Objects2.length = 0;
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDV_95Line11Objects3.length = 0;
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDV_95Line12Objects1.length = 0;
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDV_95Line12Objects2.length = 0;
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDV_95Line12Objects3.length = 0;
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDV_95Line13Objects1.length = 0;
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDV_95Line13Objects2.length = 0;
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDV_95Line13Objects3.length = 0;
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDV_95Line14Objects1.length = 0;
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDV_95Line14Objects2.length = 0;
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDV_95Line14Objects3.length = 0;
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDV_95Line15Objects1.length = 0;
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDV_95Line15Objects2.length = 0;
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDV_95Line15Objects3.length = 0;
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDV_95Line16Objects1.length = 0;
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDV_95Line16Objects2.length = 0;
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDV_95Line16Objects3.length = 0;
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDV_95Line17Objects1.length = 0;
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDV_95Line17Objects2.length = 0;
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDV_95Line17Objects3.length = 0;
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDV_95Line18Objects1.length = 0;
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDV_95Line18Objects2.length = 0;
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDV_95Line18Objects3.length = 0;
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDV_95Line19Objects1.length = 0;
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDV_95Line19Objects2.length = 0;
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDV_95Line19Objects3.length = 0;
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDV_95Line20Objects1.length = 0;
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDV_95Line20Objects2.length = 0;
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDV_95Line20Objects3.length = 0;
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDV_95Line21Objects1.length = 0;
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDV_95Line21Objects2.length = 0;
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDV_95Line21Objects3.length = 0;
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDV_95Line22Objects1.length = 0;
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDV_95Line22Objects2.length = 0;
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDV_95Line22Objects3.length = 0;
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDV_95Line23Objects1.length = 0;
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDV_95Line23Objects2.length = 0;
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDV_95Line23Objects3.length = 0;
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDV_95Line24Objects1.length = 0;
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDV_95Line24Objects2.length = 0;
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDV_95Line24Objects3.length = 0;
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDV_95Line25Objects1.length = 0;
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDV_95Line25Objects2.length = 0;
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDV_95Line25Objects3.length = 0;
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDV_95Line26Objects1.length = 0;
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDV_95Line26Objects2.length = 0;
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDV_95Line26Objects3.length = 0;
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDV_95Line27Objects1.length = 0;
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDV_95Line27Objects2.length = 0;
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDV_95Line27Objects3.length = 0;
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDV_95Line28Objects1.length = 0;
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDV_95Line28Objects2.length = 0;
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDV_95Line28Objects3.length = 0;
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDV_95Line29Objects1.length = 0;
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDV_95Line29Objects2.length = 0;
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDV_95Line29Objects3.length = 0;
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDV_95Line30Objects1.length = 0;
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDV_95Line30Objects2.length = 0;
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDV_95Line30Objects3.length = 0;
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDV_95LineObjects1.length = 0;
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDV_95LineObjects2.length = 0;
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDV_95LineObjects3.length = 0;
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDLightbulbObjects1.length = 0;
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDLightbulbObjects2.length = 0;
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDLightbulbObjects3.length = 0;
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDBatteryObjects1.length = 0;
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDBatteryObjects2.length = 0;
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDBatteryObjects3.length = 0;
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDWireObjects1.length = 0;
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDWireObjects2.length = 0;
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDWireObjects3.length = 0;
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDLessonsTitleObjects1.length = 0;
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDLessonsTitleObjects2.length = 0;
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDLessonsTitleObjects3.length = 0;
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDBackgroundObjects1.length = 0;
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDBackgroundObjects2.length = 0;
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDBackgroundObjects3.length = 0;
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDBlockObjects1.length = 0;
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDBlockObjects2.length = 0;
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDBlockObjects3.length = 0;
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDBackObjects1.length = 0;
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDBackObjects2.length = 0;
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDBackObjects3.length = 0;
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDNextLessonObjects1.length = 0;
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDNextLessonObjects2.length = 0;
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDNextLessonObjects3.length = 0;
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDAllLessonsObjects1.length = 0;
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDAllLessonsObjects2.length = 0;
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDAllLessonsObjects3.length = 0;
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDTagObjects1.length = 0;
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDTagObjects2.length = 0;
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDTagObjects3.length = 0;
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDWireBoxObjects1.length = 0;
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDWireBoxObjects2.length = 0;
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDWireBoxObjects3.length = 0;
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDSwitchObjects1.length = 0;
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDSwitchObjects2.length = 0;
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDSwitchObjects3.length = 0;
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDrandomObjects1.length = 0;
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDrandomObjects2.length = 0;
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDrandomObjects3.length = 0;
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDResistor2Objects1.length = 0;
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDResistor2Objects2.length = 0;
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDResistor2Objects3.length = 0;
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDResistorObjects1.length = 0;
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDResistorObjects2.length = 0;
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDResistorObjects3.length = 0;
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDHintObjects1.length = 0;
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDHintObjects2.length = 0;
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDHintObjects3.length = 0;
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDResistorsTitleObjects1.length = 0;
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDResistorsTitleObjects2.length = 0;
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDResistorsTitleObjects3.length = 0;
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDWiresTitleObjects1.length = 0;
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDWiresTitleObjects2.length = 0;
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDWiresTitleObjects3.length = 0;
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDLightbulbTitleObjects1.length = 0;
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDLightbulbTitleObjects2.length = 0;
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDLightbulbTitleObjects3.length = 0;
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDSwitchTitleObjects1.length = 0;
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDSwitchTitleObjects2.length = 0;
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDSwitchTitleObjects3.length = 0;
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDBatteryTitleObjects1.length = 0;
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDBatteryTitleObjects2.length = 0;
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDBatteryTitleObjects3.length = 0;
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDConductorBoxObjects1.length = 0;
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDConductorBoxObjects2.length = 0;
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDConductorBoxObjects3.length = 0;
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDInsulatorBoxObjects1.length = 0;
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDInsulatorBoxObjects2.length = 0;
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDInsulatorBoxObjects3.length = 0;
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDCopperObjects1.length = 0;
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDCopperObjects2.length = 0;
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDCopperObjects3.length = 0;
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDAluminumObjects1.length = 0;
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDAluminumObjects2.length = 0;
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDAluminumObjects3.length = 0;
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDBrassObjects1.length = 0;
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDBrassObjects2.length = 0;
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDBrassObjects3.length = 0;
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDGoldObjects1.length = 0;
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDGoldObjects2.length = 0;
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDGoldObjects3.length = 0;
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDDiamondObjects1.length = 0;
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDDiamondObjects2.length = 0;
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDDiamondObjects3.length = 0;
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDPlasticObjects1.length = 0;
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDPlasticObjects2.length = 0;
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDPlasticObjects3.length = 0;
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDCorkObjects1.length = 0;
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDCorkObjects2.length = 0;
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDCorkObjects3.length = 0;
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDGlassObjects1.length = 0;
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDGlassObjects2.length = 0;
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDGlassObjects3.length = 0;
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDConductorTitleObjects1.length = 0;
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDConductorTitleObjects2.length = 0;
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDConductorTitleObjects3.length = 0;
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDInsulatorTitleObjects1.length = 0;
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDInsulatorTitleObjects2.length = 0;
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDInsulatorTitleObjects3.length = 0;
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDCopperPennyObjects1.length = 0;
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDCopperPennyObjects2.length = 0;
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDCopperPennyObjects3.length = 0;
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDAluminumCanObjects1.length = 0;
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDAluminumCanObjects2.length = 0;
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDAluminumCanObjects3.length = 0;
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDBrassKeyObjects1.length = 0;
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDBrassKeyObjects2.length = 0;
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDBrassKeyObjects3.length = 0;
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDDiamondTitleObjects1.length = 0;
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDDiamondTitleObjects2.length = 0;
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDDiamondTitleObjects3.length = 0;
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDWaterBottleObjects1.length = 0;
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDWaterBottleObjects2.length = 0;
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDWaterBottleObjects3.length = 0;
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDGoldBarObjects1.length = 0;
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDGoldBarObjects2.length = 0;
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDGoldBarObjects3.length = 0;
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDCorkTitleObjects1.length = 0;
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDCorkTitleObjects2.length = 0;
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDCorkTitleObjects3.length = 0;
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDGlassCupObjects1.length = 0;
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDGlassCupObjects2.length = 0;
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDGlassCupObjects3.length = 0;
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDLandingZoneObjects1.length = 0;
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDLandingZoneObjects2.length = 0;
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDLandingZoneObjects3.length = 0;
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDneutralizeObjects1.length = 0;
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDneutralizeObjects2.length = 0;
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.GDneutralizeObjects3.length = 0;
+
+gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode.eventsList16(runtimeScene);
+return;
+
+}
+
+gdjs['Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode'] = gdjs.Lesson_324_32_45_32Conductors_32_38_32InsulatorsCode;

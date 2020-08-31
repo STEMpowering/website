@@ -1,0 +1,125 @@
+gdjs.Lesson_324_32Part_322_32_45_32Activity_32InstructionsCode = {};
+gdjs.Lesson_324_32Part_322_32_45_32Activity_32InstructionsCode.GDBackgroundObjects1= [];
+gdjs.Lesson_324_32Part_322_32_45_32Activity_32InstructionsCode.GDBackgroundObjects2= [];
+gdjs.Lesson_324_32Part_322_32_45_32Activity_32InstructionsCode.GDTitleObjects1= [];
+gdjs.Lesson_324_32Part_322_32_45_32Activity_32InstructionsCode.GDTitleObjects2= [];
+gdjs.Lesson_324_32Part_322_32_45_32Activity_32InstructionsCode.GDPictureObjects1= [];
+gdjs.Lesson_324_32Part_322_32_45_32Activity_32InstructionsCode.GDPictureObjects2= [];
+gdjs.Lesson_324_32Part_322_32_45_32Activity_32InstructionsCode.GDBackObjects1= [];
+gdjs.Lesson_324_32Part_322_32_45_32Activity_32InstructionsCode.GDBackObjects2= [];
+gdjs.Lesson_324_32Part_322_32_45_32Activity_32InstructionsCode.GDNextObjects1= [];
+gdjs.Lesson_324_32Part_322_32_45_32Activity_32InstructionsCode.GDNextObjects2= [];
+gdjs.Lesson_324_32Part_322_32_45_32Activity_32InstructionsCode.GDText1Objects1= [];
+gdjs.Lesson_324_32Part_322_32_45_32Activity_32InstructionsCode.GDText1Objects2= [];
+gdjs.Lesson_324_32Part_322_32_45_32Activity_32InstructionsCode.GDWoodenPostObjects1= [];
+gdjs.Lesson_324_32Part_322_32_45_32Activity_32InstructionsCode.GDWoodenPostObjects2= [];
+gdjs.Lesson_324_32Part_322_32_45_32Activity_32InstructionsCode.GDRubberTireObjects1= [];
+gdjs.Lesson_324_32Part_322_32_45_32Activity_32InstructionsCode.GDRubberTireObjects2= [];
+gdjs.Lesson_324_32Part_322_32_45_32Activity_32InstructionsCode.GDGlassCupObjects1= [];
+gdjs.Lesson_324_32Part_322_32_45_32Activity_32InstructionsCode.GDGlassCupObjects2= [];
+gdjs.Lesson_324_32Part_322_32_45_32Activity_32InstructionsCode.GDDiamondObjects1= [];
+gdjs.Lesson_324_32Part_322_32_45_32Activity_32InstructionsCode.GDDiamondObjects2= [];
+gdjs.Lesson_324_32Part_322_32_45_32Activity_32InstructionsCode.GDGlassCupTitleObjects1= [];
+gdjs.Lesson_324_32Part_322_32_45_32Activity_32InstructionsCode.GDGlassCupTitleObjects2= [];
+gdjs.Lesson_324_32Part_322_32_45_32Activity_32InstructionsCode.GDRubberTireTitleObjects1= [];
+gdjs.Lesson_324_32Part_322_32_45_32Activity_32InstructionsCode.GDRubberTireTitleObjects2= [];
+gdjs.Lesson_324_32Part_322_32_45_32Activity_32InstructionsCode.GDDiamondTitleObjects1= [];
+gdjs.Lesson_324_32Part_322_32_45_32Activity_32InstructionsCode.GDDiamondTitleObjects2= [];
+gdjs.Lesson_324_32Part_322_32_45_32Activity_32InstructionsCode.GDWoodenPostTitleObjects1= [];
+gdjs.Lesson_324_32Part_322_32_45_32Activity_32InstructionsCode.GDWoodenPostTitleObjects2= [];
+
+gdjs.Lesson_324_32Part_322_32_45_32Activity_32InstructionsCode.conditionTrue_0 = {val:false};
+gdjs.Lesson_324_32Part_322_32_45_32Activity_32InstructionsCode.condition0IsTrue_0 = {val:false};
+gdjs.Lesson_324_32Part_322_32_45_32Activity_32InstructionsCode.condition1IsTrue_0 = {val:false};
+gdjs.Lesson_324_32Part_322_32_45_32Activity_32InstructionsCode.condition2IsTrue_0 = {val:false};
+
+
+gdjs.Lesson_324_32Part_322_32_45_32Activity_32InstructionsCode.mapOfGDgdjs_46Lesson_95324_9532Part_95322_9532_9545_9532Activity_9532InstructionsCode_46GDBackObjects1Objects = Hashtable.newFrom({"Back": gdjs.Lesson_324_32Part_322_32_45_32Activity_32InstructionsCode.GDBackObjects1});gdjs.Lesson_324_32Part_322_32_45_32Activity_32InstructionsCode.mapOfGDgdjs_46Lesson_95324_9532Part_95322_9532_9545_9532Activity_9532InstructionsCode_46GDNextObjects1Objects = Hashtable.newFrom({"Next": gdjs.Lesson_324_32Part_322_32_45_32Activity_32InstructionsCode.GDNextObjects1});gdjs.Lesson_324_32Part_322_32_45_32Activity_32InstructionsCode.eventsList0 = function(runtimeScene) {
+
+{
+
+gdjs.Lesson_324_32Part_322_32_45_32Activity_32InstructionsCode.GDBackObjects1.createFrom(runtimeScene.getObjects("Back"));
+
+gdjs.Lesson_324_32Part_322_32_45_32Activity_32InstructionsCode.condition0IsTrue_0.val = false;
+gdjs.Lesson_324_32Part_322_32_45_32Activity_32InstructionsCode.condition1IsTrue_0.val = false;
+{
+gdjs.Lesson_324_32Part_322_32_45_32Activity_32InstructionsCode.condition0IsTrue_0.val = gdjs.evtTools.input.cursorOnObject(gdjs.Lesson_324_32Part_322_32_45_32Activity_32InstructionsCode.mapOfGDgdjs_46Lesson_95324_9532Part_95322_9532_9545_9532Activity_9532InstructionsCode_46GDBackObjects1Objects, runtimeScene, true, false);
+}if ( gdjs.Lesson_324_32Part_322_32_45_32Activity_32InstructionsCode.condition0IsTrue_0.val ) {
+{
+gdjs.Lesson_324_32Part_322_32_45_32Activity_32InstructionsCode.condition1IsTrue_0.val = gdjs.evtTools.input.isMouseButtonReleased(runtimeScene, "Left");
+}}
+if (gdjs.Lesson_324_32Part_322_32_45_32Activity_32InstructionsCode.condition1IsTrue_0.val) {
+{gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "Lesson 4 Part 2 - Insulators", false);
+}}
+
+}
+
+
+{
+
+gdjs.Lesson_324_32Part_322_32_45_32Activity_32InstructionsCode.GDNextObjects1.createFrom(runtimeScene.getObjects("Next"));
+
+gdjs.Lesson_324_32Part_322_32_45_32Activity_32InstructionsCode.condition0IsTrue_0.val = false;
+gdjs.Lesson_324_32Part_322_32_45_32Activity_32InstructionsCode.condition1IsTrue_0.val = false;
+{
+gdjs.Lesson_324_32Part_322_32_45_32Activity_32InstructionsCode.condition0IsTrue_0.val = gdjs.evtTools.input.cursorOnObject(gdjs.Lesson_324_32Part_322_32_45_32Activity_32InstructionsCode.mapOfGDgdjs_46Lesson_95324_9532Part_95322_9532_9545_9532Activity_9532InstructionsCode_46GDNextObjects1Objects, runtimeScene, true, false);
+}if ( gdjs.Lesson_324_32Part_322_32_45_32Activity_32InstructionsCode.condition0IsTrue_0.val ) {
+{
+gdjs.Lesson_324_32Part_322_32_45_32Activity_32InstructionsCode.condition1IsTrue_0.val = gdjs.evtTools.input.isMouseButtonReleased(runtimeScene, "Left");
+}}
+if (gdjs.Lesson_324_32Part_322_32_45_32Activity_32InstructionsCode.condition1IsTrue_0.val) {
+{gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "Lesson 4 - Conductors & Insulators", false);
+}}
+
+}
+
+
+{
+
+
+{
+}
+
+}
+
+
+};
+
+gdjs.Lesson_324_32Part_322_32_45_32Activity_32InstructionsCode.func = function(runtimeScene) {
+runtimeScene.getOnceTriggers().startNewFrame();
+
+gdjs.Lesson_324_32Part_322_32_45_32Activity_32InstructionsCode.GDBackgroundObjects1.length = 0;
+gdjs.Lesson_324_32Part_322_32_45_32Activity_32InstructionsCode.GDBackgroundObjects2.length = 0;
+gdjs.Lesson_324_32Part_322_32_45_32Activity_32InstructionsCode.GDTitleObjects1.length = 0;
+gdjs.Lesson_324_32Part_322_32_45_32Activity_32InstructionsCode.GDTitleObjects2.length = 0;
+gdjs.Lesson_324_32Part_322_32_45_32Activity_32InstructionsCode.GDPictureObjects1.length = 0;
+gdjs.Lesson_324_32Part_322_32_45_32Activity_32InstructionsCode.GDPictureObjects2.length = 0;
+gdjs.Lesson_324_32Part_322_32_45_32Activity_32InstructionsCode.GDBackObjects1.length = 0;
+gdjs.Lesson_324_32Part_322_32_45_32Activity_32InstructionsCode.GDBackObjects2.length = 0;
+gdjs.Lesson_324_32Part_322_32_45_32Activity_32InstructionsCode.GDNextObjects1.length = 0;
+gdjs.Lesson_324_32Part_322_32_45_32Activity_32InstructionsCode.GDNextObjects2.length = 0;
+gdjs.Lesson_324_32Part_322_32_45_32Activity_32InstructionsCode.GDText1Objects1.length = 0;
+gdjs.Lesson_324_32Part_322_32_45_32Activity_32InstructionsCode.GDText1Objects2.length = 0;
+gdjs.Lesson_324_32Part_322_32_45_32Activity_32InstructionsCode.GDWoodenPostObjects1.length = 0;
+gdjs.Lesson_324_32Part_322_32_45_32Activity_32InstructionsCode.GDWoodenPostObjects2.length = 0;
+gdjs.Lesson_324_32Part_322_32_45_32Activity_32InstructionsCode.GDRubberTireObjects1.length = 0;
+gdjs.Lesson_324_32Part_322_32_45_32Activity_32InstructionsCode.GDRubberTireObjects2.length = 0;
+gdjs.Lesson_324_32Part_322_32_45_32Activity_32InstructionsCode.GDGlassCupObjects1.length = 0;
+gdjs.Lesson_324_32Part_322_32_45_32Activity_32InstructionsCode.GDGlassCupObjects2.length = 0;
+gdjs.Lesson_324_32Part_322_32_45_32Activity_32InstructionsCode.GDDiamondObjects1.length = 0;
+gdjs.Lesson_324_32Part_322_32_45_32Activity_32InstructionsCode.GDDiamondObjects2.length = 0;
+gdjs.Lesson_324_32Part_322_32_45_32Activity_32InstructionsCode.GDGlassCupTitleObjects1.length = 0;
+gdjs.Lesson_324_32Part_322_32_45_32Activity_32InstructionsCode.GDGlassCupTitleObjects2.length = 0;
+gdjs.Lesson_324_32Part_322_32_45_32Activity_32InstructionsCode.GDRubberTireTitleObjects1.length = 0;
+gdjs.Lesson_324_32Part_322_32_45_32Activity_32InstructionsCode.GDRubberTireTitleObjects2.length = 0;
+gdjs.Lesson_324_32Part_322_32_45_32Activity_32InstructionsCode.GDDiamondTitleObjects1.length = 0;
+gdjs.Lesson_324_32Part_322_32_45_32Activity_32InstructionsCode.GDDiamondTitleObjects2.length = 0;
+gdjs.Lesson_324_32Part_322_32_45_32Activity_32InstructionsCode.GDWoodenPostTitleObjects1.length = 0;
+gdjs.Lesson_324_32Part_322_32_45_32Activity_32InstructionsCode.GDWoodenPostTitleObjects2.length = 0;
+
+gdjs.Lesson_324_32Part_322_32_45_32Activity_32InstructionsCode.eventsList0(runtimeScene);
+return;
+
+}
+
+gdjs['Lesson_324_32Part_322_32_45_32Activity_32InstructionsCode'] = gdjs.Lesson_324_32Part_322_32_45_32Activity_32InstructionsCode;
