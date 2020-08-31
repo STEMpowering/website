@@ -7,6 +7,8 @@ Also there's an email recording system for when users want to download experimen
 Emails are stored on a database, and can only be viewed with the statistics credentials.
 These credentials are hashed here, so good luck reading these emails ;).
 
+There's a games page where we post all of our games aimed at increasing STEM engagement.
+
 Based on the Verti template, info below.
 
 ## Original Website Template Info
