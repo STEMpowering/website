@@ -2,7 +2,7 @@ document.addEventListener('DOMContentLoaded', function() {
   var calendarE = document.getElementById('calendar');
 
   var calendar = new FullCalendar.Calendar( calendarE, {
-    initialDate: '2020-08-01',
+    initialDate: '2020-09-01',
     editable: false,
     selectable: true,
     businessHours: true,
@@ -46,7 +46,7 @@ document.addEventListener('DOMContentLoaded', function() {
       },
       {
         title: 'Black Holes, At Home!',
-        backgroundColor: '#aaaaaa',
+        backgroundColor: '#c800ff',
         url: '#exp20-09',
         start: '2020-09-14',
         end: '2020-09-19' // set this to be the day immediately after you want the event to occupy
