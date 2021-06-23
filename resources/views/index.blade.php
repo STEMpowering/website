@@ -7,14 +7,14 @@
     <div class="container d-flex h-100">
       <div class="row justify-content-center align-self-center" data-aos="fade-up">
         <div class="col-lg-6 intro-info order-lg-first order-last" data-aos="zoom-in" data-aos-delay="100">
-          <h2>Rapid Solutions<br>for Your <span>Business!</span></h2>
+          <h2>Welcome To<br><span>STEM Powering</span></h2>
           <div>
             <a href="#about" class="btn-get-started scrollto">Get Started</a>
           </div>
         </div>
 
         <div class="col-lg-6 intro-img order-lg-last order-first" data-aos="zoom-out" data-aos-delay="200">
-          <img src="assets/img/intro-img.svg" alt="" class="img-fluid">
+          <img src="assets/img/circlegif.gif" alt="" class="img-fluid">
         </div>
       </div>
 
@@ -38,7 +38,7 @@
           <div class="col-lg-7 col-md-6">
             <div class="about-content" data-aos="fade-left" data-aos-delay="100">
               <h2>About Us</h2>
-              <h3>Odio sed id eos et laboriosam consequatur eos earum soluta.</h3>
+              <h3>Empowering Youth through STEM Education</h3>
               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
               <p>Aut dolor id. Sint aliquam consequatur ex ex labore. Et quis qui dolor nulla dolores neque. Aspernatur consectetur omnis numquam quaerat. Sed fugiat nisi. Officiis veniam molestiae. Et vel ut quidem alias veritatis repudiandae ut fugit. Est ut eligendi aspernatur nulla voluptates veniam iusto vel quisquam. Fugit ut maxime incidunt accusantium totam repellendus eum error. Et repudiandae eum iste qui et ut ab alias.</p>
               <ul>
@@ -330,11 +330,12 @@
             </div>
           </div>
 
+     
           <div class="col-lg-4 col-md-6 portfolio-item filter-web" data-wow-delay="0.1s">
             <div class="portfolio-wrap">
               <img src="assets/img/portfolio/web2.jpg" class="img-fluid" alt="">
               <div class="portfolio-info">
-                <h4><a href="portfolio-details.html">Web 2</a></h4>
+                <h4><a href="portfolio-details.html">$feature->name</a></h4>
                 <p>Web</p>
                 <div>
                   <a href="assets/img/portfolio/web2.jpg" class="link-preview portfolio-lightbox" data-gallery="portfolioGallery" title="Web 2"><i class="bi bi-plus"></i></a>
