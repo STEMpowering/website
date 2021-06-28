@@ -7,9 +7,12 @@
     <div class="container d-flex h-100">
       <div class="row justify-content-center align-self-center" data-aos="fade-up">
         <div class="col-lg-6 intro-info order-lg-first order-last" data-aos="zoom-in" data-aos-delay="100">
-          <h2>Welcome To<br><span>STEM Powering</span></h2>
-          <div>
-            <a href="#about" class="btn-get-started scrollto">Get Started</a>
+          <h2>Welcome To<br> <!--<span>STEM Powering</span></h2> -->
+
+          <div class = "stemlogo" >
+
+            <!--<a href="#about" class="btn-get-started scrollto">Get Started</a> -->
+            <img src="assets/img/logo2.png" alt="" >
           </div>
         </div>
 
@@ -31,7 +34,7 @@
 
           <div class="col-lg-5 col-md-6">
             <div class="about-img" data-aos="fade-right" data-aos-delay="100">
-              <img src="assets/img/about-img.jpg" alt="">
+              <img src="assets/img/splitphoto.jpg" alt="">
             </div>
           </div>
 
@@ -39,8 +42,8 @@
             <div class="about-content" data-aos="fade-left" data-aos-delay="100">
               <h2>About Us</h2>
               <h3>Empowering Youth through STEM Education</h3>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-              <p>Aut dolor id. Sint aliquam consequatur ex ex labore. Et quis qui dolor nulla dolores neque. Aspernatur consectetur omnis numquam quaerat. Sed fugiat nisi. Officiis veniam molestiae. Et vel ut quidem alias veritatis repudiandae ut fugit. Est ut eligendi aspernatur nulla voluptates veniam iusto vel quisquam. Fugit ut maxime incidunt accusantium totam repellendus eum error. Et repudiandae eum iste qui et ut ab alias.</p>
+              <p>STEM Powering is a not-for-profit youth organization supported by STEM-educated volunteers who would like to inspire and empower youth by sharing their knowledge and skills. Our primary objective is to empower youth through STEM education by providing barrier-free access so we can increase participation and enhance opportunities for youth. Together, we can create a knowledge economy and build a better tomorrow.</p>
+              <p></p>
               <ul>
                 <li><i class="bi bi-check-circle"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat.</li>
                 <li><i class="bi bi-check-circle"></i> Duis aute irure dolor in reprehenderit in voluptate velit.</li>
@@ -58,8 +61,8 @@
       <div class="container" data-aos="fade-up">
 
         <header class="section-header">
-          <h3>Services</h3>
-          <p>Laudem latine persequeris id sed, ex fabulas delectus quo. No vel partiendo abhorreant vituperatoribus.</p>
+          <h3>Opportunities</h3>
+          <p>Here is how you can be apart of STEM Powering</p>
         </header>
 
         <div class="row">
@@ -67,45 +70,45 @@
           <div class="col-md-6 col-lg-4 wow bounceInUp" data-aos="zoom-in" data-aos-delay="100">
             <div class="box">
               <div class="icon" style="background: #fceef3;"><i class="bi bi-briefcase" style="color: #ff689b;"></i></div>
-              <h4 class="title"><a href="">Lorem Ipsum</a></h4>
-              <p class="description">Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident</p>
+              <h4 class="title"><a href="">STEM Ambassador</a></h4>
+              <p class="description">A program that creates youth leaders by training them with the sufficient STEM skills. These youth go on to carry out STEM education programs in their communities.</p>
             </div>
           </div>
           <div class="col-md-6 col-lg-4" data-aos="zoom-in" data-aos-delay="200">
             <div class="box">
               <div class="icon" style="background: #fff0da;"><i class="bi bi-card-checklist" style="color: #e98e06;"></i></div>
-              <h4 class="title"><a href="">Dolor Sitema</a></h4>
-              <p class="description">Minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat tarad limino ata</p>
+              <h4 class="title"><a href="">Volunteer</a></h4>
+              <p class="description">If you are STEM-educated and would like to volunteer to share your knowledge and skills to empower youth, we will provide you with useful resources and connections to make that happen.</p>
             </div>
           </div>
 
           <div class="col-md-6 col-lg-4" data-aos="zoom-in" data-aos-delay="300">
             <div class="box">
               <div class="icon" style="background: #e6fdfc;"><i class="bi bi-bar-chart" style="color: #3fcdc7;"></i></div>
-              <h4 class="title"><a href="">Sed ut perspiciatis</a></h4>
-              <p class="description">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur</p>
+              <h4 class="title"><a href="">Hack-a-thons</a></h4>
+              <p class="description">Take part in our virtual Hackathons, a design/programming competition intended to enrich participants with new problems and skills. </p>
             </div>
           </div>
           <div class="col-md-6 col-lg-4 wow" data-aos="zoom-in" data-aos-delay="100">
             <div class="box">
               <div class="icon" style="background: #eafde7;"><i class="bi bi-binoculars" style="color:#41cf2e;"></i></div>
-              <h4 class="title"><a href="">Magni Dolores</a></h4>
-              <p class="description">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+              <h4 class="title"><a href="">Experiments</a></h4>
+              <p class="description">Join our Summer Program and receive access to ALL experiments, workshops, and online mentorships.</p>
             </div>
           </div>
 
           <div class="col-md-6 col-lg-4" data-aos="zoom-in" data-aos-delay="200"">
         <div class=" box">
             <div class="icon" style="background: #e1eeff;"><i class="bi bi-brightness-high" style="color: #2282ff;"></i></div>
-            <h4 class="title"><a href="">Nemo Enim</a></h4>
-            <p class="description">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque</p>
+            <h4 class="title"><a href="">Sponsorship</a></h4>
+            <p class="description">STEM Powering is a non-profit organization so any donations are graciously appreciated and used to fund future experiments and youth opportunities.</p>
           </div>
         </div>
         <div class="col-md-6 col-lg-4" data-aos="zoom-in" data-aos-delay="300">
           <div class="box">
             <div class="icon" style="background: #ecebff;"><i class="bi bi-calendar4-week" style="color: #8660fe;"></i></div>
-            <h4 class="title"><a href="">Eiusmod Tempor</a></h4>
-            <p class="description">Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi</p>
+            <h4 class="title"><a href="">Newsletter</a></h4>
+            <p class="description">Follow our social media to stay informed about new experiments, workshops and STEM news. </p>
           </div>
         </div>
 
@@ -127,7 +130,7 @@
 
           <div class="col-lg-6" data-aos="zoom-in" data-aos-delay="100">
             <div class="why-us-img">
-              <img src="assets/img/why-us.jpg" alt="" class="img-fluid">
+              <img src="assets/img/kidswithrobots.jpg" alt="" class="img-fluid">
             </div>
           </div>
 
