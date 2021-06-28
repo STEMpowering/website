@@ -45,11 +45,14 @@
               <p>STEM Powering is a not-for-profit youth organization supported by STEM-educated volunteers who would like to inspire and empower youth by sharing their knowledge and skills. Our primary objective is to empower youth through STEM education by providing barrier-free access so we can increase participation and enhance opportunities for youth. Together, we can create a knowledge economy and build a better tomorrow.</p>
               <p></p>
               <ul>
-                <li><i class="bi bi-check-circle"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat.</li>
-                <li><i class="bi bi-check-circle"></i> Duis aute irure dolor in reprehenderit in voluptate velit.</li>
-                <li><i class="bi bi-check-circle"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate trideta storacalaperda mastiro dolore eu fugiat nulla pariatur.</li>
+                <li><i class="bi bi-check-circle"></i> Join now and get access to up to 2 STEM Learning experiments a week</li>
+                <li><i class="bi bi-check-circle"></i> Attend workshops and virtual collaboration sessions</li>
+                <li><i class="bi bi-check-circle"></i> Become a part of our weekly online video game nights</li>
               </ul>
             </div>
+            <div class="col-md-2 intro-img order-lg-last order-first" data-aos="zoom-out" data-aos-delay="200">
+          <img src="assets/img/pink.png" alt="" class="img-fluid">
+        </div>
           </div>
         </div>
       </div>
@@ -174,23 +177,23 @@
         <div class="row counters" data-aos="fade-up" data-aos-delay="100">
 
           <div class="col-lg-3 col-6 text-center">
-            <span data-purecounter-start="0" data-purecounter-end="232" data-purecounter-duration="1" class="purecounter"></span>
-            <p>Clients</p>
+            <span data-purecounter-start="0" data-purecounter-end="17" data-purecounter-duration="1" class="purecounter"></span>
+            <p>Summer Experiments</p>
           </div>
 
           <div class="col-lg-3 col-6 text-center">
-            <span data-purecounter-start="0" data-purecounter-end="421" data-purecounter-duration="1" class="purecounter"></span>
-            <p>Projects</p>
+            <span data-purecounter-start="0" data-purecounter-end="9" data-purecounter-duration="1" class="purecounter"></span>
+            <p>Group Workshops</p>
           </div>
 
           <div class="col-lg-3 col-6 text-center">
-            <span data-purecounter-start="0" data-purecounter-end="1453" data-purecounter-duration="1" class="purecounter"></span>
-            <p>Hours Of Support</p>
+            <span data-purecounter-start="0" data-purecounter-end="2" data-purecounter-duration="1" class="purecounter"></span>
+            <p>Hack-A-Thons</p>
           </div>
 
           <div class="col-lg-3 col-6 text-center">
-            <span data-purecounter-start="0" data-purecounter-end="48" data-purecounter-duration="1" class="purecounter"></span>
-            <p>Hard Workers</p>
+            <span data-purecounter-start="0" data-purecounter-end="9" data-purecounter-duration="1" class="purecounter"></span>
+            <p>STEM Leaders</p>
           </div>
 
         </div>
@@ -203,11 +206,11 @@
       <div class="container" data-aos="zoom-out">
         <div class="row">
           <div class="col-lg-9 text-center text-lg-start">
-            <h3 class="cta-title">Call To Action</h3>
-            <p class="cta-text"> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            <h3 class="cta-title">Join Now</h3>
+            <p class="cta-text"> Get access to up to 2 STEM learning experiments a week, attend workshops and virtual collaboration sessions, and become a part of our weekly online video game nights</p>
           </div>
           <div class="col-lg-3 cta-btn-container text-center">
-            <a class="cta-btn align-middle" href="#">Call To Action</a>
+            <a class="cta-btn align-middle" href="#">Sign-Up</a>
           </div>
         </div>
 
