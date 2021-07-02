@@ -21,6 +21,10 @@ Route::get('/donate', function () {
     return view('donate');
 });
 
+Route::get('/programs', function () {
+    return view('programs');
+});
+
 Route::get('/contact', function () {
     return view('contact');
 });

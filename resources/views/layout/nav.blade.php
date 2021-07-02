@@ -4,14 +4,14 @@
 
       <!-- <h1 class="logo me-auto"><a href="index.html">Rapid</a></h1> -->
       <!-- Uncomment below if you prefer to use an image logo -->
-      <a href="index.html" class=""><img src="/logo/logo.png" alt="" width=80></a>
+      <a href="/#hero" class=""><img src="/logo/logo.png" alt="" width=80></a>
 
       <nav id="navbar" class="navbar order-last order-lg-0">
         <ul>
           <li><a class="nav-link scrollto active" href="/#hero">Home</a></li>
           <li><a class="nav-link scrollto" href="/donate">Donate</a></li>
           <li><a class="nav-link scrollto" href="/#services">Services</a></li>
-          <li><a class="nav-link scrollto " href="#portfolio">Portfolio</a></li>
+          <li><a class="nav-link scrollto " href="/programs">Programs</a></li>
           <li><a class="nav-link scrollto" href="#team">Team</a></li>
           <li class="dropdown"><a href="#"><span>Drop Down</span> <i class="bi bi-chevron-down"></i></a>
             <ul>
