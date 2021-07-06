@@ -260,7 +260,8 @@
     </section><!-- End Features Section -->
 
     <!-- ======= Portfolio Section ======= -->
-    <section id="portfolio" class="portfolio section-bg">
+    <!--
+    <section id="programs" class="portfolio section-bg">
       <div class="container" data-aos="fade-up">
 
         <header class="section-header">
@@ -411,7 +412,7 @@
 
       </div>
     </section><!-- End Portfolio Section -->
-
+-->
     <!-- ======= Testimonials Section ======= -->
     <section id="testimonials" class="testimonials">
       <div class="container" data-aos="zoom-in">

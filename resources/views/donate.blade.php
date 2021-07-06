@@ -18,8 +18,16 @@
   <li>Provide volunteer opportunities for students to take what they learn and implement it in their own community to continue breaking barriers against STEM education.</li>
   <li>STEM Powering advocacy work that focuses on removing barriers to create structural change and encourage more underrepresented communities to learn STEM.</li>
 </ul> 
+<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+													<input type="hidden" name="cmd" value="_s-xclick">
+													<input type="hidden" name="hosted_button_id" value="62ZSGNK7NUF8Q">
+													<input type="image" src="https://www.sonyalooney.com/wp-content/uploads/paypal-donate-button-300x116.png" border="0" name="submit" title="PayPal - The safer, easier way to pay online!" alt="Donate with PayPal button">
+													<img alt="" border="0" src="https://www.paypal.com/en_CA/i/scr/pixel.gif" width="1" height="1">
+												</form>
             </p>
           </div>
+
+        
         </div>
         </div>
 @stop

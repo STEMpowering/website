@@ -4,7 +4,7 @@
 
       <!-- <h1 class="logo me-auto"><a href="index.html">Rapid</a></h1> -->
       <!-- Uncomment below if you prefer to use an image logo -->
-      <a href="index.html" class=""><img src="/logo/logo.png" alt="" width=80></a>
+      <a href="/#hero" class=""><img src="/logo/logo.png" alt="" width=80></a>
 
       <nav id="navbar" class="navbar order-last order-lg-0">
         <ul>
