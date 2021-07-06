@@ -207,7 +207,7 @@
             <p class="cta-text"> Get access to up to 2 STEM learning experiments a week, attend workshops and virtual collaboration sessions, and become a part of our weekly online video game nights</p>
           </div>
           <div class="col-lg-3 cta-btn-container text-center">
-            <a class="cta-btn align-middle" href="#">Sign-Up</a>
+            <a class="cta-btn align-middle" href="/programs">Sign-Up</a>
           </div>
         </div>
 
