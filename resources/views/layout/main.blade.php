@@ -15,6 +15,10 @@
  <main id="main" style="margin-top: 110px !important">
     @yield('container')
 </main>
+
+
+
+
  @endif
 
  @include('layout.foot');

@@ -42,11 +42,11 @@
                 <div class="footer-links">
                   <h4>Contact Us</h4>
                   <p>
-                    A108 Adam Street <br>
-                    New York, NY 535022<br>
-                    United States <br>
-                    <strong>Phone:</strong> +1 5589 55488 55<br>
-                    <strong>Email:</strong> info@example.com<br>
+                  221 – 2300 Lawrence Ave. E <br>
+                  Toronto, ON M1P 2R2<br>
+                    Canada <br>
+                    <strong>Phone:</strong> (416)-628-8575<br>
+                    <strong>Email:</strong> info@stempowering.ca<br>
                   </p>
                 </div>
 
