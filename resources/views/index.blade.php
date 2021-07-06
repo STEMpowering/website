@@ -125,8 +125,8 @@
       <div class="container-fluid" data-aos="fade-up">
 
         <header class="section-header">
-          <h3>Why choose us?</h3>
-          <p>Laudem latine persequeris id sed, ex fabulas delectus quo. No vel partiendo abhorreant vituperatoribus.</p>
+          <h3>What problems are we tackling?</h3>
+          <p></p>
         </header>
 
         <div class="row">
@@ -139,30 +139,27 @@
 
           <div class="col-lg-6">
             <div class="why-us-content">
-              <p>Molestiae omnis numquam corrupti omnis itaque. Voluptatum quidem impedit. Odio dolorum exercitationem est error omnis repudiandae ad dolorum sit.</p>
+              <p>The Scarborough youth community is often deprived of access and opportunities for enhanced STEM education. We plan to change that! </p>
               <p>
-                Explicabo repellendus quia labore. Non optio quo ea ut ratione et quaerat. Porro facilis deleniti porro consequatur
-                et temporibus. Labore est odio.
-
-                Odio omnis saepe qui. Veniam eaque ipsum. Ea quia voluptatum quis explicabo sed nihil repellat..
+              The gender gap in STEM fields is also a growing concern. Our mission is to increase participation in STEM fields by providing equal opportunities, the inclusion of all communities, reduce the gender gap and enhance skill sets.
               </p>
 
               <div class="features clearfix" data-aos="fade-up" data-aos-delay="100">
                 <i class="bi bi-bookmarks" style="color: #f058dc;"></i>
-                <h4>Corporis dolorem</h4>
-                <p>Commodi quia voluptatum. Est cupiditate voluptas quaerat officiis ex alias dignissimos et ipsum. Soluta at enim modi ut incidunt dolor et.</p>
+                <h4>Workshops</h4>
+                <p>Join our youth friendly workshops with professionals in STEM fields and learn all about their careers.</p>
               </div>
 
               <div class="features clearfix" data-aos="fade-up" data-aos-delay="200">
                 <i class="bi bi-box-seam" style="color: #ffb774;"></i>
-                <h4>Eum ut aspernatur</h4>
-                <p>Molestias eius rerum iusto voluptas et ab cupiditate aut enim. Assumenda animi occaecati. Quo dolore fuga quasi autem aliquid ipsum odit. Perferendis doloremque iure nulla aut.</p>
+                <h4>Virtual Science Fair</h4>
+                <p>Show off your skills in an awesome science fair with other bright students! </p>
               </div>
 
               <div class="features clearfix" data-aos="fade-up" data-aos-delay="300">
                 <i class="bi bi-card-checklist" style="color: #589af1;"></i>
-                <h4>Voluptates dolores</h4>
-                <p>Voluptates nihil et quis omnis et eaque omnis sint aut. Ducimus dolorum aspernatur. Totam dolores ut enim ullam voluptas distinctio aut.</p>
+                <h4>Get Ahead</h4>
+                <p>At STEM Powering, we believe that learning something new should be a fun and engaging experience. Building an interest in the sciences at a young age has been proven to carry on through adolescents.</p>
               </div>
 
             </div>
@@ -217,7 +214,8 @@
       </div>
     </section><!--  End Call To Action Section -->
 
-    <!-- ======= Features Section ======= -->
+
+    <!-- ======= Features Section ======= 
     <section id="features" class="features">
       <div class="container" data-aos="fade-up">
 
@@ -257,6 +255,7 @@
         </div>
 
       </div>
+      
     </section><!-- End Features Section -->
 
     <!-- ======= Portfolio Section ======= -->
@@ -411,9 +410,11 @@
         </div>
 
       </div>
+      -->
     </section><!-- End Portfolio Section -->
--->
+
     <!-- ======= Testimonials Section ======= -->
+    <!--
     <section id="testimonials" class="testimonials">
       <div class="container" data-aos="zoom-in">
 
@@ -436,8 +437,9 @@
                       Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus. Accusantium quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper.
                     </p>
                   </div>
+                  -->
                 </div><!-- End testimonial item -->
-
+<!--
                 <div class="swiper-slide">
                   <div class="testimonial-item">
                     <img src="assets/img/testimonial-2.jpg" class="testimonial-img" alt="">
@@ -447,8 +449,9 @@
                       Export tempor illum tamen malis malis eram quae irure esse labore quem cillum quid cillum eram malis quorum velit fore eram velit sunt aliqua noster fugiat irure amet legam anim culpa.
                     </p>
                   </div>
-                </div><!-- End testimonial item -->
-
+                  -->
+                </div>
+<!--
                 <div class="swiper-slide">
                   <div class="testimonial-item">
                     <img src="assets/img/testimonial-3.jpg" class="testimonial-img" alt="">
@@ -458,7 +461,7 @@
                       Enim nisi quem export duis labore cillum quae magna enim sint quorum nulla quem veniam duis minim tempor labore quem eram duis noster aute amet eram fore quis sint minim.
                     </p>
                   </div>
-                </div><!-- End testimonial item -->
+                </div>
 
                 <div class="swiper-slide">
                   <div class="testimonial-item">
@@ -469,7 +472,7 @@
                       Fugiat enim eram quae cillum dolore dolor amet nulla culpa multos export minim fugiat minim velit minim dolor enim duis veniam ipsum anim magna sunt elit fore quem dolore labore illum veniam.
                     </p>
                   </div>
-                </div><!-- End testimonial item -->
+                </div>
 
               </div>
               <div class="swiper-pagination"></div>
@@ -478,9 +481,9 @@
         </div>
 
       </div>
-    </section><!-- End Testimonials Section -->
+    </section>
 
-    <!-- ======= Team Section ======= -->
+    
     <section id="team" class="team section-bg">
       <div class="container" data-aos="fade-up">
         <div class="section-header">
@@ -565,9 +568,9 @@
         </div>
 
       </div>
-    </section><!-- End Team Section -->
+    </section>
 
-    <!-- ======= Clients Section ======= -->
+    
     <section id="clients" class="clients">
       <div class="container" data-aos="zoom-in">
 
@@ -590,9 +593,9 @@
         </div>
 
       </div>
-    </section><!-- End Clients Section -->
+    </section>
 
-    <!-- ======= Pricing Section ======= -->
+    
     <section id="pricing" class="pricing section-bg wow fadeInUp">
 
       <div class="container" data-aos="fade-up">
@@ -604,7 +607,7 @@
 
         <div class="row flex-items-xs-middle flex-items-xs-center">
 
-          <!-- Basic Plan  -->
+          
           <div class="col-xs-12 col-lg-4" data-aos="fade-up" data-aos-delay="100">
             <div class="card">
               <div class="card-header">
@@ -625,7 +628,7 @@
             </div>
           </div>
 
-          <!-- Regular Plan  -->
+         
           <div class="col-xs-12 col-lg-4" data-aos="fade-up" data-aos-delay="200">
             <div class="card">
               <div class="card-header">
@@ -646,7 +649,7 @@
             </div>
           </div>
 
-          <!-- Premium Plan  -->
+          
           <div class="col-xs-12 col-lg-4" data-aos="fade-up" data-aos-delay="300">
             <div class="card">
               <div class="card-header">
@@ -670,9 +673,9 @@
         </div>
       </div>
 
-    </section><!-- End Pricing Section -->
+    </section>
 
-    <!-- ======= F.A.Q Section ======= -->
+    
     <section id="faq" class="faq">
       <div class="container" data-aos="fade-up">
         <header class="section-header">
@@ -739,8 +742,8 @@
         </ul>
 
       </div>
-    </section><!-- End F.A.Q Section -->
-
+    </section>
+-->
   </main><!-- End #main -->
 
     @endsection
